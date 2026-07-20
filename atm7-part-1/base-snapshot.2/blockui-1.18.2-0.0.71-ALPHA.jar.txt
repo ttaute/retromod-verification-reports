@@ -1,0 +1,66 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     blockui-1.18.2-0.0.71-ALPHA.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:06:06
+Result:  FAILED
+
+Found 49 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.ldtteam.blockui.Alignment; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.blockui.views.BOWindow$WindowRenderType; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_7333_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.isCopy() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.isCut() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.isSelectAll() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.isPaste() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getProfiler() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.setIdentity() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.resources.Identifier.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Style.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92733_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92811_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92750_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureManager.bindForSetup() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureManager.getTexture() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+  ✗ net.minecraft.SharedConstants.filterText() not found in MC 26.1.2
+  ✗ net.minecraft.SharedConstants.isAllowedChatCharacter() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.m_114470_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.m_114412_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.setRenderShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getGameTime() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_6540_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_142591_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_6679_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.AbstractTexture.getId() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.AbstractTexture.releaseId() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.MissingTextureAtlasSprite.getTexture() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.f_131282_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Style.<init> with 10 params not found in MC 26.1.2
+  ✗ net.minecraft.resources.Identifier.<init> with 1 params not found in MC 26.1.2
+

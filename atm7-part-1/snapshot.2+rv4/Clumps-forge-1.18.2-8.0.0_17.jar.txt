@@ -1,0 +1,12 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Clumps-forge-1.18.2-8.0.0+17.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:41:47
+Result:  FAILED
+
+Found 1 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+

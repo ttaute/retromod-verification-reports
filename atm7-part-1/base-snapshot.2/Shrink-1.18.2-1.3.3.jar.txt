@@ -1,0 +1,62 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Shrink-1.18.2-1.3.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:31
+Result:  FAILED
+
+Found 45 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.network.chat.TextComponent not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.m_41497_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.m_41487_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_142049_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21120_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6047_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_20185_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_20186_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_20189_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_7500_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5661_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.m_93133_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseScrolled() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.InventoryScreen.m_98850_() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.m_142159_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_5776_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_6263_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_7106_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.absMoveTo() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.util.Mth.m_14169_() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSource.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.level.Level.f_46441_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.f_46443_ not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvents.f_11852_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.f_19853_ not found in MC 26.1.2
+  ✗ net.minecraft.core.particles.ParticleTypes.f_123760_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+

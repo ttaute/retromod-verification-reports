@@ -1,0 +1,117 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     AE2-Things-1.0.7.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:23:03
+Result:  FAILED
+
+Found 100 issue(s):
+
+── Missing Classes ──
+  ✗ appeng.api.storage.StorageCells not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEItems not found in MC 26.1.2
+  ✗ appeng.api.upgrades.Upgrades not found in MC 26.1.2
+  ✗ appeng.block.AEBaseEntityBlock not found in MC 26.1.2
+  ✗ appeng.util.InteractionUtil not found in MC 26.1.2
+  ✗ appeng.menu.locator.MenuLocators not found in MC 26.1.2
+  ✗ appeng.menu.MenuOpener not found in MC 26.1.2
+  ✗ appeng.util.inv.filter.IAEItemFilter not found in MC 26.1.2
+  ✗ appeng.core.definitions.ItemDefinition not found in MC 26.1.2
+  ✗ appeng.util.inv.AppEngInternalInventory not found in MC 26.1.2
+  ✗ appeng.blockentity.misc.InscriberRecipes not found in MC 26.1.2
+  ✗ appeng.recipes.handlers.InscriberRecipe not found in MC 26.1.2
+  ✗ appeng.blockentity.grid.AENetworkPowerBlockEntity not found in MC 26.1.2
+  ✗ appeng.api.networking.ticking.IGridTickable not found in MC 26.1.2
+  ✗ appeng.api.upgrades.IUpgradeableObject not found in MC 26.1.2
+  ✗ appeng.util.inv.CombinedInternalInventory not found in MC 26.1.2
+  ✗ appeng.api.inventories.InternalInventory not found in MC 26.1.2
+  ✗ appeng.api.upgrades.UpgradeInventories not found in MC 26.1.2
+  ✗ appeng.api.networking.IManagedGridNode not found in MC 26.1.2
+  ✗ appeng.util.inv.FilteredInternalInventory not found in MC 26.1.2
+  ✗ appeng.api.inventories.ISegmentedInventory not found in MC 26.1.2
+  ✗ appeng.api.upgrades.IUpgradeInventory not found in MC 26.1.2
+  ✗ appeng.api.networking.ticking.TickingRequest not found in MC 26.1.2
+  ✗ appeng.core.settings.TickRates not found in MC 26.1.2
+  ✗ appeng.recipes.handlers.InscriberProcessType not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEItemKey not found in MC 26.1.2
+  ✗ appeng.api.networking.IGrid not found in MC 26.1.2
+  ✗ appeng.api.networking.storage.IStorageService not found in MC 26.1.2
+  ✗ appeng.api.config.Actionable not found in MC 26.1.2
+  ✗ appeng.me.helpers.MachineSource not found in MC 26.1.2
+  ✗ appeng.api.storage.MEStorage not found in MC 26.1.2
+  ✗ appeng.api.networking.ticking.TickRateModulation not found in MC 26.1.2
+  ✗ appeng.api.config.PowerMultiplier not found in MC 26.1.2
+  ✗ appeng.api.networking.energy.IEnergyService not found in MC 26.1.2
+  ✗ appeng.api.networking.energy.IEnergySource not found in MC 26.1.2
+  ✗ appeng.api.networking.ticking.ITickManager not found in MC 26.1.2
+  ✗ appeng.items.misc.CrystalSeedItem not found in MC 26.1.2
+  ✗ appeng.api.implementations.items.IGrowableCrystal not found in MC 26.1.2
+  ✗ appeng.client.gui.style.StyleManager not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ appeng.core.AppEng not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+  ✗ appeng.menu.implementations.UpgradeableMenu not found in MC 26.1.2
+  ✗ appeng.menu.interfaces.IProgressProvider not found in MC 26.1.2
+  ✗ appeng.menu.slot.RestrictedInputSlot not found in MC 26.1.2
+  ✗ appeng.menu.slot.RestrictedInputSlot$PlacableItemType not found in MC 26.1.2
+  ✗ appeng.menu.SlotSemantics not found in MC 26.1.2
+  ✗ appeng.menu.slot.OutputSlot not found in MC 26.1.2
+  ✗ appeng.menu.implementations.MenuTypeBuilder not found in MC 26.1.2
+  ✗ appeng.client.gui.implementations.UpgradeableScreen not found in MC 26.1.2
+  ✗ appeng.client.gui.widgets.ProgressBar not found in MC 26.1.2
+  ✗ appeng.client.gui.style.ScreenStyle not found in MC 26.1.2
+  ✗ appeng.client.gui.widgets.ProgressBar$Direction not found in MC 26.1.2
+  ✗ appeng.client.gui.WidgetContainer not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.ICellGuiHandler not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKeyType not found in MC 26.1.2
+  ✗ appeng.menu.me.common.MEStorageMenu not found in MC 26.1.2
+  ✗ appeng.menu.slot.AppEngSlot not found in MC 26.1.2
+  ✗ appeng.menu.AEBaseMenu not found in MC 26.1.2
+  ✗ appeng.api.client.StorageCellModels not found in MC 26.1.2
+  ✗ appeng.hooks.AEToolItem not found in MC 26.1.2
+  ✗ appeng.items.contents.CellConfig not found in MC 26.1.2
+  ✗ appeng.api.config.FuzzyMode not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.StorageCell not found in MC 26.1.2
+  ✗ appeng.api.stacks.KeyCounter not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.CellState not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.ICellHandler not found in MC 26.1.2
+  ✗ appeng.core.localization.Tooltips not found in MC 26.1.2
+  ✗ appeng.api.config.IncludeExclude not found in MC 26.1.2
+  ✗ appeng.core.localization.GuiText not found in MC 26.1.2
+  ✗ appeng.util.prioritylist.IPartitionList not found in MC 26.1.2
+  ✗ appeng.util.prioritylist.IPartitionList$Builder not found in MC 26.1.2
+  ✗ appeng.util.ConfigInventory not found in MC 26.1.2
+  ✗ appeng.util.prioritylist.FuzzyPriorityList not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKey not found in MC 26.1.2
+  ✗ appeng.core.AELog not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.ISaveProvider not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.ICellWorkbenchItem not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.IBasicCellItem not found in MC 26.1.2
+  ✗ appeng.me.cells.BasicCellHandler not found in MC 26.1.2
+  ✗ appeng.me.cells.BasicCellInventory not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.putUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getUUID() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemColors() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.SavedDataStorage.computeIfAbsent() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_ENTITY_TYPE_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+

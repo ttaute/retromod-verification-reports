@@ -1,0 +1,25 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     parry-2.3.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:19
+Result:  FAILED
+
+Found 10 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.getUseDuration() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantment.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.is() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getEntityWorld() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.entity.projectile.hurtingprojectile.AbstractHurtingProjectile.xPower not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.projectile.hurtingprojectile.AbstractHurtingProjectile.yPower not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.projectile.hurtingprojectile.AbstractHurtingProjectile.zPower not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122903_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122904_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.item.enchantment.Enchantment.<init> with 3 params not found in MC 26.1.2
+

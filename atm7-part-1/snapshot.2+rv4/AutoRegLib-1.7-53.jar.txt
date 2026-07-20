@@ -1,0 +1,19 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     AutoRegLib-1.7-53.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:27:09
+Result:  FAILED
+
+Found 8 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemColors() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+

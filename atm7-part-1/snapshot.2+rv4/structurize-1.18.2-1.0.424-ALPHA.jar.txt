@@ -1,0 +1,210 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     structurize-1.18.2-1.0.424-ALPHA.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:19:58
+Result:  FAILED
+
+Found 193 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.ldtteam.structurize.api.util.Shape; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.structurize.blueprints.v1.DataVersion; not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.views.BOWindow not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.ButtonHandler not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.Button not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.views.OverlayView not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.Loader not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.Text not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.views.DropDownList$DataProvider not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.Pane not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.views.DropDownList not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.ButtonImage not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.Image not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.views.ScrollingList$DataProvider not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.ItemIcon not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.views.ScrollingList not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.TextField not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.Color not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.EntityIcon not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.ToggleButton not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.views.View not found in MC 26.1.2
+  ✗ net.minecraft.commands.synchronization.ArgumentSerializer not found in MC 26.1.2
+  ✗ net.minecraft.commands.synchronization.ArgumentTypes not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.structurize.management.linksession.ChannelsEnum; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.structurize.placement.AbstractBlueprintIterator$Result; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.structurize.placement.BlockPlacementResult$Result; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.structurize.placement.handlers.placement.IPlacementHandler$ActionProcessingResult; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.structurize.placement.handlers.placement.PlacementError$PlacementErrorType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.structurize.placement.StructurePlacer$Operation; not found in MC 26.1.2
+  ✗ com.ldtteam.domumornamentum.block.IMateriallyTexturedBlock not found in MC 26.1.2
+  ✗ com.ldtteam.domumornamentum.entity.block.IMateriallyTexturedBlockEntity not found in MC 26.1.2
+  ✗ com.ldtteam.domumornamentum.block.IMateriallyTexturedBlockComponent not found in MC 26.1.2
+  ✗ com.ldtteam.domumornamentum.client.model.data.MaterialTextureData not found in MC 26.1.2
+  ✗ com.ldtteam.domumornamentum.block.IModBlocks not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.structurize.update.UpdateMode; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.structurize.util.TickedWorldOperation$OperationType; not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.UiRenderMacros not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.putUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.hasUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getUUID() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNearest() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.loadStatic() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.serializeNBT() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getDescriptionId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getContainerItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getPickedResult() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getArmorSlots() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getHandSlots() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.deserializeNBT() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.serializeNBT() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.setNoRepair() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.structureFeatureManager() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readBlockState() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.writeBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtIo.readCompressed() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.LevelData.getGameRules() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getMaxLocalRawBrightness() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.m_46863_() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.effects() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getBiome() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getProfiler() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getGameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getProfiler() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getAttributes() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.dimension.DimensionType.ultraWarm() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.LevelChunk.getLightEmission() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.chunkBufferLayers() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entitySolid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityCutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entitySmoothCutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.endPortal() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.endGateway() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.armorGlint() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.armorEntityGlint() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.glint() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.glintDirect() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.glintTranslucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityGlint() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityGlintDirect() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.waterMask() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.lines() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.tripwire() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.setupRenderState() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.clearRenderState() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.GameRenderer.getRenderDistance() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.fog.FogRenderer.setupNoFog() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlas.setBlurMipmap() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlas.restoreLastBlurMipmap() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.distanceToSqr() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.cameraOrientation() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.SkullBlockEntity.m_155733_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.solidBlockSheet() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.bedSheet() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.shulkerBoxSheet() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.signSheet() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.chestSheet() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.bannerSheet() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.translucentCullBlockSheet() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.shieldSheet() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.setSampler() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.apply() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BucketItem.getFluid() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.getStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ChunkMap.m_140427_() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.fail() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.SavedDataStorage.computeIfAbsent() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.LevelRenderer.getLightColor() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.FlowerPotBlock.getContent() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getOrCreateNoiseChunk() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.SurfaceRules$Context.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.NoiseGeneratorSettings.f_188871_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.NoiseGeneratorSettings.f_64441_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.NoiseGeneratorSettings.f_64440_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.CropBlock.getCloneItemStack() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.LiquidBlock.getFluid() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.LiquidBlockContainer.canPlaceLiquid() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BucketPickup.pickupBlock() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.withLuck() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.withParameter() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.withOptionalParameter() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.Beardifier.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118405_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118408_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix.NOTE_BLOCK_MAP not found in MC 26.1.2
+  ✗ net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix.FLOWER_POT_MAP not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gameevent.GameEventDispatcher.f_157829_ not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.fog.FogRenderer$FogMode.FOG_TERRAIN not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher.camera not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher.level not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.MODEL_VIEW_MATRIX not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.PROJECTION_MATRIX not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.COLOR_MODULATOR not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.FOG_START not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.FOG_END not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.FOG_COLOR not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.TEXTURE_MATRIX not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.GAME_TIME not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.CHUNK_OFFSET not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.f_188605_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.f_209104_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelBakery.WATER_OVERLAY not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.level.Level.<init> with 7 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.SurfaceRules$Context.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.Beardifier.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.<init> with 8 params not found in MC 26.1.2
+

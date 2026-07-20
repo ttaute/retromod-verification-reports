@@ -1,0 +1,215 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     MysticalAgriculture-1.18.2-5.1.5.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:48:06
+Result:  FAILED
+
+Found 198 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.blakebr0.mysticalagriculture.api.lib.LazyIngredient$Type; not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.mysticalagriculture.api.tinkering.AugmentType; not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.helper.ColorHelper not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.helper.BlockHelper not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.Tooltip not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.Localizable$LocalizableBuilder not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.block.BaseBlock not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.iface.IColored not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.block.BaseTileEntityBlock not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.inventory.BaseItemStackHandler not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.helper.StackHelper not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.VoxelShapeBuilder not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.Localizable not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.lib.Tooltips not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.Utils not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.block.BaseGlassBlock not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.client.model.RetextureableBlockModelWrapper not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.client.model.RetextureableItemModelWrapper not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.client.screen.BaseContainerScreen not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.iface.IToggleableSlot not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.client.ModRenderTypes not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.action.base.IRuntimeAction not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.item.IItemStack not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.helper.RecipeHelper not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.CraftTweakerAPI not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.ingredient.IIngredient not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.TooltipPosition not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IRegistrar not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.BlockAccessor not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.ITooltip not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.IIngredients not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ingredient.IGuiItemStackGroup not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawableAnimated$StartDirection not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawableAnimated not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.ISubtypeRegistration not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfoProvider not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeHitData not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfo not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ITheOneProbe not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.inventory.slot.BaseItemStackHandlerSlot not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.event.RegisterRecipesEvent not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.mysticalagriculture.crafting.ingredient.CropComponentIngredient$ComponentType; not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.crafting.ISpecialRecipe not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.crafting.recipe.ShapedNoMirrorRecipe not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.crafting.TagMapper not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.iface.IColored$BlockColors not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.iface.IColored$ItemBlockColors not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.network.BaseNetworkHandler not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.BaseBlockItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.block.BaseWallBlock not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.block.BaseStairsBlock not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.block.BaseSlabBlock not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.block.BaseOreBlock not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.BaseItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.BaseArmorItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.iface.IEnableable not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.helper.NBTHelper not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.BaseReusableItem not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.mysticalagriculture.item.SouliumDaggerItem$DaggerType; not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.tool.BaseSwordItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.tool.BaseAxeItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.tool.BaseBowItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.tool.BaseCrossbowItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.tool.BaseHoeItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.tool.BasePickaxeItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.tool.BaseShovelItem not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.mysticalagriculture.lib.ModArmorMaterial; not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.mysticalagriculture.lib.ModItemTier; not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.helper.ConfigHelper not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.network.message.Message not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.tileentity.BaseInventoryTileEntity not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.MultiblockPositions$Builder not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.MultiblockPositions not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.inventory.SidedItemStackHandlerWrapper not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.mysticalagriculture.util.FurnaceTier; not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.mysticalagriculture.util.ReprocessorTier; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.crafting.Recipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getGameRules() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46753_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60735_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hurt() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41658_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hasContainerItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getContainerItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.sweepAttack() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.toNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.toJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.stream() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.m_19344_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.AbstractFurnaceBlock.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.m_78982_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.CropBlock.m_7455_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.CropBlock.m_7719_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.CropBlock.isValidBonemealTarget() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.CropBlock.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.CropBlock.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.cuboid.ItemModelGenerator.generateBlockModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118413_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.bake() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.m_6787_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.byType() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.keyFromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.patternFromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.shrink() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.dissolvePattern() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.StackedContents.getStackingIndex() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapelessRecipe.getRemainingItems() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123916_() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.getBoolean() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.equipment.ArmorMaterial.m_7365_() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BonemealableBlock.isValidBonemealTarget() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BonemealableBlock.m_5491_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BonemealableBlock.m_7719_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity.getBurnDuration() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.FurnaceBlockEntity.isFuel() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest.m_7715_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Inventory.armor not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.JUMP not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.DIG_SLOWDOWN not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.maxUpStep not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.FALL not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.dispatch.BlockModelRotation.X0_Y0 not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122824_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122827_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122864_ not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.SHAPED_RECIPE not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_DOMOBLOOT not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.OreFeatures.f_195075_ not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.OreFeatures.f_195072_ not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.OreFeatures.f_195073_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+

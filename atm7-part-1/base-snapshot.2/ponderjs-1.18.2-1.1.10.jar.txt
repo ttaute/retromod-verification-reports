@@ -1,0 +1,78 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ponderjs-1.18.2-1.1.10.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:20
+Result:  FAILED
+
+Found 63 issue(s):
+
+── Missing Classes ──
+  ✗ com.simibubi.create.infrastructure.ponder.PonderIndex not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderTagRegistry not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderStoryBoardEntry not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuilder not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderStoryBoardEntry$PonderStoryBoard not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuilder$SpecialInstructions not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuilder$WorldInstructions not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.util.ConsoleJS not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderScene not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.element.EntityElement not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.util.UtilsJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.level.LevelJS not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuildingUtil not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuildingUtil$SelectionUtil not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuilder$OverlayInstructions not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.element.TextWindowElement$Builder not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderPalette not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.element.InputWindowElement not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.instruction.ShowInputInstruction not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderWorld not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.KubeJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.KubeJSCommon not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.utility.Color not found in MC 26.1.2
+  ✗ dev.latvian.mods.rhino.mod.util.color.Color not found in MC 26.1.2
+  ✗ dev.latvian.mods.rhino.mod.wrapper.ColorWrapper not found in MC 26.1.2
+  ✗ com.simibubi.create.content.kinetics.base.RotationIndicatorParticleData not found in MC 26.1.2
+  ✗ com.simibubi.create.Create not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.instruction.TickingInstruction not found in MC 26.1.2
+  ✗ com.simibubi.create.AllParticleTypes not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.event.EventJS not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderTag not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ItemStackJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ingredient.IngredientJS not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderTagRegistry$TagBuilder not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.script.BindingsEvent not found in MC 26.1.2
+  ✗ dev.latvian.mods.rhino.util.wrap.TypeWrappers not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.gui.AllIcons not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.script.ScriptType not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.KubeJSPlugin not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderLocalization not found in MC 26.1.2
+  ✗ dev.latvian.mods.rhino.BaseFunction not found in MC 26.1.2
+  ✗ dev.latvian.mods.rhino.NativeJavaObject not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.fluid.FluidStackJS not found in MC 26.1.2
+  ✗ dev.architectury.fluid.FluidStack not found in MC 26.1.2
+  ✗ com.simibubi.create.content.fluids.particle.FluidParticleData not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.Selection not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.block.predicate.BlockIDPredicate not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.KubeJSRegistries not found in MC 26.1.2
+  ✗ dev.architectury.registry.registries.Registrar not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.sounds.SimpleSoundInstance.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.Particle.setColor() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129792_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.resources.sounds.SimpleSoundInstance.<init> with 5 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

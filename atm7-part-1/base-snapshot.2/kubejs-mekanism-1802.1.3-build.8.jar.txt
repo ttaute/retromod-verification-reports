@@ -1,0 +1,48 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     kubejs-mekanism-1802.1.3-build.8.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:03
+Result:  FAILED
+
+Found 37 issue(s):
+
+── Missing Classes ──
+  ✗ dev.latvian.mods.kubejs.BuilderBase not found in MC 26.1.2
+  ✗ mekanism.api.chemical.ChemicalBuilder not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.Gas not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.attribute.GasAttributes$Radiation not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.attribute.GasAttributes$HeatedCoolant not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.attribute.GasAttributes$CooledCoolant not found in MC 26.1.2
+  ✗ mekanism.api.math.FloatingLong not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.attribute.GasAttributes$Fuel not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.GasBuilder not found in MC 26.1.2
+  ✗ mekanism.api.chemical.infuse.InfuseType not found in MC 26.1.2
+  ✗ mekanism.api.chemical.infuse.InfuseTypeBuilder not found in MC 26.1.2
+  ✗ mekanism.api.chemical.pigment.Pigment not found in MC 26.1.2
+  ✗ mekanism.api.chemical.pigment.PigmentBuilder not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.Slurry not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.SlurryBuilder not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.util.Tags not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.KubeJSPlugin not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.RegistryObjectBuilderTypes not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.recipe.RegisterRecipeHandlersEvent not found in MC 26.1.2
+  ✗ mekanism.api.MekanismAPI not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.util.UtilsJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.util.ListJS not found in MC 26.1.2
+  ✗ mekanism.api.recipes.ingredients.ChemicalStackIngredient$GasStackIngredient not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ingredient.IngredientJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ItemStackJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.recipe.RecipeExceptionJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.recipe.RecipeJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ingredient.IngredientStackJS not found in MC 26.1.2
+  ✗ mekanism.api.recipes.ingredients.creator.IngredientCreatorAccess not found in MC 26.1.2
+  ✗ mekanism.api.recipes.ingredients.ChemicalStackIngredient$InfusionStackIngredient not found in MC 26.1.2
+  ✗ dev.latvian.mods.rhino.mod.util.JsonUtils not found in MC 26.1.2
+  ✗ mekanism.api.recipes.ingredients.creator.IChemicalStackIngredientCreator not found in MC 26.1.2
+  ✗ mekanism.api.recipes.ingredients.ChemicalStackIngredient not found in MC 26.1.2
+  ✗ mekanism.api.SerializerHelper not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.util.MapJS not found in MC 26.1.2
+  ✗ mekanism.api.chemical.merged.BoxedChemicalStack not found in MC 26.1.2
+  ✗ mekanism.api.providers.IGasProvider not found in MC 26.1.2
+

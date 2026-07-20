@@ -1,0 +1,49 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     FpsReducer2-forge-1.18.2-2.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:49
+Result:  FAILED
+
+Found 32 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.client.Option not found in MC 26.1.2
+  ✗ [Lbre2el.fpsreducer.gui.screen.GuiConfigAdvanced$GuiPart; not found in MC 26.1.2
+  ✗ [Lbre2el.fpsreducer.gui.screen.GuiConfigScreen$GuiPart; not found in MC 26.1.2
+  ✗ net.minecraft.client.player.Input not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.User.getUuid() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.onPress() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.m_6303_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92744_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92763_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92756_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Checkbox.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Checkbox.onPress() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.AbstractSliderButton.onRelease() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.onPress() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.m_6303_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_96617_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseMoved() not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.m_92149_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ChatComponent.addMessage() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.f_131282_ not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.renderDebug not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Checkbox.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init> with 13 params not found in MC 26.1.2
+

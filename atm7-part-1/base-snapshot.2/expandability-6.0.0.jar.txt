@@ -1,0 +1,19 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     expandability-6.0.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:44
+Result:  FAILED
+
+Found 4 issue(s):
+
+── Missing Classes ──
+  ✗ [Lbe.florens.expandability.EventResult; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.entity.LivingEntity.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.getCommandSenderWorld() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.entity.LivingEntity.maxUpStep not found in MC 26.1.2
+

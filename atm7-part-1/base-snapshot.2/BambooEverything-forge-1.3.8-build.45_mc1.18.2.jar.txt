@@ -1,0 +1,47 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     BambooEverything-forge-1.3.8-build.45+mc1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:09
+Result:  FAILED
+
+Found 30 issue(s):
+
+── Missing Classes ──
+  ✗ dev.architectury.registry.registries.DeferredRegister not found in MC 26.1.2
+  ✗ dev.architectury.registry.registries.RegistrySupplier not found in MC 26.1.2
+  ✗ dev.architectury.registry.fuel.FuelRegistry not found in MC 26.1.2
+  ✗ dev.architectury.registry.CreativeTabRegistry not found in MC 26.1.2
+  ✗ dev.architectury.registry.client.level.entity.EntityRendererRegistry not found in MC 26.1.2
+  ✗ dev.architectury.registry.client.level.entity.EntityModelLayerRegistry not found in MC 26.1.2
+  ✗ dev.architectury.registry.client.rendering.RenderTypeRegistry not found in MC 26.1.2
+  ✗ dev.architectury.platform.forge.EventBuses not found in MC 26.1.2
+  ✗ dev.architectury.utils.Env not found in MC 26.1.2
+  ✗ dev.architectury.utils.EnvExecutor not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.dropsLike() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderer.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.pass() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.fail() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.StandingAndWallBlockItem.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.f_122901_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122903_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122904_ not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BoatItem.ENTITY_PREDICATE not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.item.StandingAndWallBlockItem.<init> with 3 params not found in MC 26.1.2
+

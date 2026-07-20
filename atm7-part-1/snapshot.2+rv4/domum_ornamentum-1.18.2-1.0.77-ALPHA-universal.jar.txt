@@ -1,0 +1,134 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     domum_ornamentum-1.18.2-1.0.77-ALPHA-universal.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:48:21
+Result:  FAILED
+
+Found 117 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.BrickType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.DoorType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.ExtraBlockType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.FancyDoorType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.FancyTrapdoorType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.PaperwallType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.PillarShapeType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.ShingleFaceType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.ShingleShapeType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.ShingleSlabShapeType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.ShingleWoodType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.TimberFrameType; not found in MC 26.1.2
+  ✗ [Lcom.ldtteam.domumornamentum.block.types.TrapdoorType; not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.models.block.BlockModelJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.blockstate.BlockstateVariantJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.blockstate.BlockstateModelJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.blockstate.BlockstateJson not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.models.item.ItemModelJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.lang.LangJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.recipes.RecipeIngredientKeyJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.recipes.RecipeIngredientJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.recipes.shapeless.ShapelessRecipeJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.recipes.RecipeResultJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.models.XYZIntListJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.models.XYZDoubleListJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.models.ModelDisplayPositionJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.models.ModelDisplayPositionsEnum not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.models.item.OverrideCaseJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.models.item.OverridePredicateJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.recipes.shaped.ShapedPatternJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.recipes.shaped.ShapedRecipeJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.blockstate.multipart.MultipartCaseJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.blockstate.multipart.MultipartWhenJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.loot_table.pool.entry.EntryJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.loot_table.pool.entry.EntryTypeEnum not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.loot_table.pool.PoolJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.loot_table.pool.conditions.survives_explosion.SurvivesExplosionConditionJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.loot_table.LootTableJson not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.loot_table.LootTableTypeEnum not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ingredient.IGuiItemStackGroup not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ingredient.IGuiIngredient not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.IIngredients not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawable not found in MC 26.1.2
+  ✗ mezz.jei.api.runtime.IIngredientManager not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.IIngredientRenderer not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.ISubtypeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.runtime.IJeiRuntime not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.subtypes.IIngredientSubtypeInterpreter not found in MC 26.1.2
+  ✗ com.ldtteam.datagenerators.IJsonSerializable not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.m_60590_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.use() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getOrCreateTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.serializeNBT() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.onCraftedBy() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118413_() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getMissingModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getSprite() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getTintIndex() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.isShade() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.pipe() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.UnbakedModel.bake() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.UnbakedModel.resolveParents() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ResultContainer.awardUsedRecipes() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.getRecipesFor() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.getAllRecipesFor() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.getOutputFolder() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataProvider.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.DyeItem.byColor() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.DyeItem.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.DoubleHighBlockItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.getOptionalParameter() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.RECIPE_TYPE not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelBakery.MISSING_MODEL_LOCATION not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,153 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     cookingforblockheads-forge-1.18.2-12.2.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:21:17
+Result:  FAILED
+
+Found 136 issue(s):
+
+── Missing Classes ──
+  ✗ net.blay09.mods.balm.api.container.ContainerUtils not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.BalmEvent not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.cookingforblockheads.api.RecipeStatus; not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.container.BalmContainerProvider not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.Balm not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.BalmHooks not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.DeferredObject not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.network.BalmNetworking not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.cookingforblockheads.block.FridgeBlock$FridgeModelType; not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.fluid.FluidTank not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.block.BalmBlocks not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.PotionUtils not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.BalmClient not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.BalmEvents not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.mixin.AbstractContainerScreenAccessor not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.ItemTooltipEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.RecipesUpdatedEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.energy.EnergyStorage not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.rendering.BalmModels not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.rendering.BalmRenderers not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.screen.BalmScreens not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.rendering.BalmTextures not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.BalmRegistries not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.UseBlockEvent not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeIngredientRole not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeSlotBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawableStatic not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeType not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGuiContainerHandler not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfoProvider not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeHitData not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfo not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ITheOneProbe not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.server.ServerStartedEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.server.ServerReloadFinishedEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.config.BalmConfig not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.config.BalmConfigData not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.LivingDamageEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.forge.provider.ForgeBalmProviders not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.menu.BalmMenuProvider not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.cookingforblockheads.item.ItemRecipeBook$RecipeBookEdition; not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.item.BalmItems not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.provider.ProviderUtils not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.RecipeHolder not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.menu.BalmMenus not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.container.DefaultContainer not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.sound.BalmSounds not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.cookingforblockheads.network.message.SyncedEffectMessage$Type; not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.cookingforblockheads.registry.FoodRecipeType; not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.block.entity.BalmBlockEntity not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.provider.BalmProvider not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.block.entity.CustomRenderBoundingBox not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.container.CombinedContainer not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.fluid.BalmFluidTankProvider not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.block.BalmBlockEntities not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.energy.BalmEnergyStorageProvider not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.container.SubContainer not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.hasCustomHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.onCraftedBy() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41726_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTooltipLines() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41746_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getFoodProperties() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.isEdible() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.m_7027_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.charTyped() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.m_6303_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92750_() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.Model.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.m_111047_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.render() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_6540_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_142591_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_6679_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.close() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129894_() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.success() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CraftingRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.addParticle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.canCraftInDimensions() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.ANVIL not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ClickAction.QUICK_MOVE not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ClickAction.PICKUP not found in MC 26.1.2
+  ✗ net.minecraft.world.item.TooltipFlag$Default.NORMAL not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.client.model.Model.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init> with 3 params not found in MC 26.1.2
+

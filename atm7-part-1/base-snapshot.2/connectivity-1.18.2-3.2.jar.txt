@@ -1,0 +1,36 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     connectivity-1.18.2-3.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:17
+Result:  FAILED
+
+Found 19 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.network.protocol.login.ServerboundCustomQueryPacket not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.common.ClientboundCustomPayloadPacket.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.login.ClientboundCustomQueryPacket.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.protocol.common.ClientboundCustomPayloadPacket.data not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.common.ClientboundCustomPayloadPacket.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.login.ClientboundCustomQueryPacket.<init> with 3 params not found in MC 26.1.2
+

@@ -1,0 +1,43 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Chimes-v2.0.1-1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:11:36
+Result:  FAILED
+
+Found 26 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.item.crafting.SimpleRecipeSerializer not found in MC 26.1.2
+  ✗ [Lcom.nick.chimes.blocks.Placement; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.Level.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.getBlockEntityData() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.getHighlightTip() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.getCloneItemStack() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.sprite.Material.buffer() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.ServerLevelData.getRainTime() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.DyeItem.getDyeColor() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.ParticleEngine.register() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40750_ not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvents.LEASH_KNOT_BREAK not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvents.LEASH_KNOT_PLACE not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init> with 1 params not found in MC 26.1.2
+

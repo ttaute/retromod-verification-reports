@@ -1,0 +1,42 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     nomowanderer-1.18.2_1.1.6.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:09:11
+Result:  FAILED
+
+Found 25 issue(s):
+
+── Missing Classes ──
+  ✗ [Lnomowanderer.compat.ExternalMods; not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypeMessage$Builder not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.resources.Identifier.isValidResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.pass() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.StandingAndWallBlockItem.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.StandingAndWallBlockItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.spawn() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.displayClientMessage() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_MISC not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.StandingAndWallBlockItem.<init> with 3 params not found in MC 26.1.2
+

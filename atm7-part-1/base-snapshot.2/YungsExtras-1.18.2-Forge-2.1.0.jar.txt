@@ -1,0 +1,22 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     YungsExtras-1.18.2-Forge-2.1.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 05:07:16
+Result:  FAILED
+
+Found 7 issue(s):
+
+── Missing Classes ──
+  ✗ com.yungnickyoung.minecraft.yungsapi.io.JSON not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.BlockStateRandomizer not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.levelgen.feature.Feature.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction$Plane.m_122560_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.f_194570_ not found in MC 26.1.2
+

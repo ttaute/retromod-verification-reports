@@ -1,0 +1,39 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     rhino-forge-1802.2.1-build.255.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:57:21
+Result:  FAILED
+
+Found 24 issue(s):
+
+── Missing Classes ──
+  ✗ [Ldev.latvian.mods.rhino.ast.FunctionNode$Form; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.rhino.ast.ParseProblem$Type; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.rhino.ES6Generator$State; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.rhino.MemberType; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.rhino.mod.util.RhinoProperties; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.rhino.NativeArrayIterator$ArrayIteratorType; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.rhino.NativeCollectionIterator$Type; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.rhino.ScriptableObject$SlotAccess; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.rhino.Token$CommentType; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.rhino.TopLevel$Builtins; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.rhino.TopLevel$NativeErrors; not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.unit.token.UnitSymbol; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.nbt.NumericTag.getAsDouble() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NumericTag.getAsNumber() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NumericTag.getAsInt() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NumericTag.getAsByte() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NumericTag.getAsLong() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtAccounter.m_6800_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.TagType.load() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.TagType.skip() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.TagType.parse() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.nbt.NbtAccounter.UNLIMITED not found in MC 26.1.2
+

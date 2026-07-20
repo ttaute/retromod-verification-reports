@@ -1,0 +1,46 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     kubejs-immersive-engineering-1802.2.1-build.35.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:03
+Result:  FAILED
+
+Found 35 issue(s):
+
+── Missing Classes ──
+  ✗ dev.latvian.mods.kubejs.player.PlayerEventJS not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.multiblocks.MultiblockHandler$MultiblockFormEvent not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.level.BlockContainerJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.level.LevelJS not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.multiblocks.MultiblockHandler$IMultiblock not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.KubeJSPlugin not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.common.util.RecipeSerializers not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.recipe.RegisterRecipeHandlersEvent not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.AlloyRecipe not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.BlastFurnaceRecipe not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.BlastFurnaceFuel not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.CokeOvenRecipe not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.ClocheRecipe not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.ClocheFertilizer not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.MetalPressRecipe not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.ArcFurnaceRecipe not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.CrusherRecipe not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.SawmillRecipe not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.SqueezerRecipe not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.MixerRecipe not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.script.ScriptType not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.util.ListJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ingredient.IngredientJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ItemStackJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.util.MapJS not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.ClocheRenderFunction$ClocheRenderReference not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.recipe.RecipeJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ingredient.IngredientStackJS not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.IngredientWithSize not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.IEApi not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.util.UtilsJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.fluid.FluidStackJS not found in MC 26.1.2
+  ✗ dev.architectury.hooks.fluid.forge.FluidStackHooksForge not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.crafting.FluidTagInput not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.ApiUtils not found in MC 26.1.2
+

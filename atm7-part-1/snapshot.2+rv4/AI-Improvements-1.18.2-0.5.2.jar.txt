@@ -1,0 +1,15 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     AI-Improvements-1.18.2-0.5.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:23:05
+Result:  FAILED
+
+Found 2 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.builtbroken.ai.improvements.modifier.filters.FilterResult; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+

@@ -1,0 +1,36 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     restrictions-1.18-4.0.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:16:56
+Result:  FAILED
+
+Found 21 issue(s):
+
+── Missing Classes ──
+  ✗ mcjty.lib.blocks.BaseBlock not found in MC 26.1.2
+  ✗ mcjty.lib.builder.BlockBuilder not found in MC 26.1.2
+  ✗ mcjty.lib.builder.InfoLine not found in MC 26.1.2
+  ✗ mcjty.lib.builder.TooltipBuilder not found in MC 26.1.2
+  ✗ mcjty.lib.tileentity.TickingTileEntity not found in MC 26.1.2
+  ✗ mcjty.lib.datagen.BaseBlockStateProvider not found in MC 26.1.2
+  ✗ mcjty.lib.datagen.BaseBlockTagsProvider not found in MC 26.1.2
+  ✗ mcjty.lib.datagen.BaseLootTableProvider not found in MC 26.1.2
+  ✗ mcjty.lib.datagen.BaseRecipeProvider not found in MC 26.1.2
+  ✗ mcjty.lib.tooltips.ITooltipSettings not found in MC 26.1.2
+  ✗ mcjty.lib.setup.DefaultModSetup not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getEquipmentSlot() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.renderToBuffer() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.setupAnim() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.item.Item.<init> with 3 params not found in MC 26.1.2
+

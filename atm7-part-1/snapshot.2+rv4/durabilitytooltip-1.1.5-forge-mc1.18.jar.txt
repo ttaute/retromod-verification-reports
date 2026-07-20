@@ -1,0 +1,24 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     durabilitytooltip-1.1.5-forge-mc1.18.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:51:06
+Result:  FAILED
+
+Found 9 issue(s):
+
+── Missing Classes ──
+  ✗ com.supermartijn642.configlib.api.ConfigBuilders not found in MC 26.1.2
+  ✗ com.supermartijn642.configlib.api.IConfigBuilder not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.durabilitytooltip.TooltipColorStyle; not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.durabilitytooltip.TooltipStyle; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

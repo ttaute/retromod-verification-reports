@@ -1,0 +1,58 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     DungeonCrawl-1.18.2-2.3.14.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:50:53
+Result:  FAILED
+
+Found 41 issue(s):
+
+── Missing Classes ──
+  ✗ [Lxiroc.dungeoncrawl.dungeon.DungeonLayerType; not found in MC 26.1.2
+  ✗ [Lxiroc.dungeoncrawl.dungeon.model.DungeonModelBlockType; not found in MC 26.1.2
+  ✗ [Lxiroc.dungeoncrawl.dungeon.Tile$Flag; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.core.DefaultedRegistry.getTag() not found in MC 26.1.2
+  ✗ net.minecraft.core.HolderSet$Named.m_203450_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BaseSpawner.setEntryId() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197355_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197357_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197358_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197360_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getNoiseBiome() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.m_183403_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context.f_192703_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context.f_192705_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context.f_192708_() not found in MC 26.1.2
+  ✗ net.minecraft.core.RegistryAccess.registry() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_7165_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.getInputStream() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtIo.readCompressed() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffect.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.getParamOrNull() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getTileData() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.setLootTable() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.getTileData() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.sendMessage() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.STRUCTURE_PIECE not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.LOOT_FUNCTION_TYPE not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.CONFIGURED_STRUCTURE_FEATURE_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

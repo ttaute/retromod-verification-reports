@@ -1,0 +1,36 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     potionsmaster-0.5.9-1.18.2-40.0.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:52:49
+Result:  FAILED
+
+Found 21 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.item.alchemy.PotionUtils not found in MC 26.1.2
+  ✗ [Lcom.thevortex.potionsmaster.render.util.xray.Render$Profile; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffect.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffect.applyEffectTick() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties$Builder.fast() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties$Builder.alwaysEat() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.Potion.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.create() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.GameRenderer.getRendertypeLinesShader() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getTags() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.LevelChunk.getMinBuildHeight() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.effect.MobEffects.DIG_SLOWDOWN not found in MC 26.1.2
+

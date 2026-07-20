@@ -1,0 +1,173 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     IntegratedTunnels-1.18.2-1.8.19.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:37:48
+Result:  FAILED
+
+Found 156 issue(s):
+
+── Missing Classes ──
+  ✗ org.cyclops.integrateddynamics.api.network.IPositionedAddonsNetworkIngredients not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.init.IRegistry not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.api.ingredient.capability.IngredientComponentCapabilityAttacherAdapter not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.modcompat.capabilities.DefaultCapabilityProvider not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.INetwork not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.capability.network.PositionedAddonsNetworkIngredientsHandlerConfig not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.api.ingredient.capability.IngredientComponentCapabilityAttacherManager not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.capability.ingredient.IngredientComponentCapabilities not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.config.extendedconfig.CapabilityConfig not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.CommonCapabilities not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.api.ingredient.IngredientComponent not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.AttachCapabilitiesEventNetwork not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.api.ingredient.storage.IIngredientComponentStorage not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.api.ingredient.storage.IIngredientComponentStorageWrapperHandler not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.BlockHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueObjectTypeBlock$ValueBlock not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.variable.IValue not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeBoolean$ValueBoolean not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.PartTarget not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.helper.PartHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.helper.PartHelpers$PartStateHolder not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.write.IPartStateWriter not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.EvaluationException not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.ingredient.collection.FilteredIngredientCollectionIterator not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.api.ingredient.IngredientComponentCategoryType not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.api.ingredient.IIngredientMatcher not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.Helpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.init.RegistryManager not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.inventory.PlayerInventoryIterator not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.ItemStackHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.network.PositionedAddonsNetworkIngredients not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.inventory.container.ContainerPartSettings not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.ValueNotifierHelpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.config.extendedconfig.GuiConfig not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.client.gui.ScreenFactorySafe not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.inventory.container.ContainerTypeData not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenPartSettings not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.client.gui.component.input.WidgetNumberField not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.inventory.IValueNotifier not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.L10NHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.IPartState not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.IPositionedAddonsNetwork not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.IPartType not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.PartPos not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.BlockEntityHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.helper.NetworkHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.write.PartStateWriterBase not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.IPartContainer not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.PartStateBase not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.GeneralConfig not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.network.PacketCodec not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.variable.IVariable not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.PartTypeBase not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.PartRenderPosition not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.write.PartTypeWriteBase not found in MC 26.1.2
+  ✗ [Lorg.cyclops.integratedtunnels.core.predicate.IngredientPredicate$EmptyBehaviour; not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.variable.IValueTypeListProxy not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueObjectTypeFluidStack$ValueFluidStack not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.helper.NbtHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueObjectTypeItemStack$ValueItemStack not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.ingredient.storage.IngredientStorageHelpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.ingredient.storage.InconsistentIngredientInsertionException not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.FluidHelpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.datastructure.DimPos not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.ingredient.IIngredientPositionsIndex not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.api.ingredient.storage.IIngredientComponentStorageSlotted not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.IntegratedDynamics not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.INetworkCraftingHandlerRegistry not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.config.extendedconfig.DummyConfig not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.tracking.Analytics not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.tracking.Versions not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.init.ModBaseVersionable not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.infobook.IInfoBookRegistry not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.infobook.OnTheDynamicsOfIntegrationBook not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.aspect.AspectRegistry not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.PartTypes not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.aspect.IAspect not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.init.ItemGroupMod not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.config.ConfigHandler not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.LoggerHelper not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.config.extendedconfig.ItemConfig not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.network.PartPosIteratorHandlerRoundRobin not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.IEnergyNetwork not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.aspect.property.IAspectProperties not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeInteger$ValueInteger not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.PartStateException not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeListProxyFactories not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeListProxyNBTFactory not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.variable.IValueTypeListProxyFactoryTypeRegistry not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeListProxyPositioned not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.persist.nbt.INBTProvider not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypes not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.persist.nbt.NBTClassType not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.operator.OperatorBase$IFunction not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.operator.PositionedOperator not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.variable.IValueType not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.logicprogrammer.IConfigRenderPattern not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.operator.OperatorBase$SafeVariablesGetter not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeLong$ValueLong not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.part.aspect.read.AspectReadBuilders$Network not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeList$ValueList not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.part.aspect.read.AspectReadBuilders not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.aspect.build.AspectBuilder not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeOperator$ValueOperator not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.operator.Operators not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.operator.PositionedOperator$Serializer not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.operator.IOperatorRegistry not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.aspect.build.IAspectWriteActivator not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.aspect.build.IAspectWriteDeactivator not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.IngredientComponents not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.PositionedAddonsNetworkIngredientsFilter not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.part.aspect.write.AspectWriteBuilders not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.aspect.property.AspectPropertyTypeInstance not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.part.aspect.property.AspectProperties not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.operator.IOperator not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeOperator not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeDouble$ValueDouble not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.aspect.property.IAspectPropertyTypeInstance not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.part.aspect.Aspects not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.aspect.IAspectRegistry not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.helper.EnergyHelpers not found in MC 26.1.2
+  ✗ org.cyclops.commoncapabilities.api.capability.itemhandler.ISlotlessItemHandler not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.part.IPartTypeRegistry not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.proxy.ClientProxyComponent not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.proxy.CommonProxyComponent not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.MinecraftHelpers not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.getAttributeModifiers() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41658_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.onUsingTick() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.onDestroyedByPlayer() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60724_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.use() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.LiquidBlock.getFluid() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getAttributes() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.onDestroyedByPlayer() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.dimension.DimensionType.m_63951_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.m_78977_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.m_78972_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.m_78984_() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.getResult() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.getObject() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity.saveToItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity.hasCustomName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.ShulkerBoxBlock.getColoredItemStack() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.m_142049_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.entity.player.Inventory.offhand not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.BLOCK_FORTUNE not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init> with 5 params not found in MC 26.1.2
+

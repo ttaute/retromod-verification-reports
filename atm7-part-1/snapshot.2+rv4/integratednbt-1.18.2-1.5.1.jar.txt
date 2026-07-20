@@ -1,0 +1,117 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     integratednbt-1.18.2-1.5.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:58:18
+Result:  FAILED
+
+Found 100 issue(s):
+
+── Missing Classes ──
+  ✗ org.cyclops.integrateddynamics.core.helper.CableHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.helper.NetworkHelpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.BlockEntityHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.blockentity.BlockEntityCableConnectableInventory not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.InventoryHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.item.VariableFacadeHandlerRegistry not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.operator.OperatorRegistry not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.expression.VariableAdapter not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.variable.IValue not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.variable.IVariable not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeNbt$ValueNbt not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.item.VariableFacadeBase not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.IPartNetwork not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.item.IVariableFacade not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.item.IVariableFacade$IValidator not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.datastructure.Wrapper not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypes not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.item.IVariableFacadeHandler not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.operator.IOperator not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.L10NHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.variable.IValueType not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeNbt not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.operator.IOperatorSerializer not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.evaluate.EvaluationException not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.helper.WrenchHelpers not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.capability.networkelementprovider.NetworkElementProviderSingleton not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.block.cable.ICable not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.datastructure.EnumFacingMap not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.IEventListenableNetworkElement not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.INetwork not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.INetworkElement not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.datastructure.DimPos not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.network.INetworkEventListener not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.capability.network.NetworkCarrierDefault not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.capability.path.PathElementTile not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.capability.variablecontainer.VariableContainerDefault not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.InventoryVariableEvaluator not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.network.event.VariableContentsUpdatedEvent not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.MinecraftHelpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.persist.nbt.NBTClassType not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.item.IVariableFacadeHandlerRegistry$IVariableFacadeFactory not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.IntegratedDynamics not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.init.RegistryManager not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.api.item.IVariableFacadeHandlerRegistry not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeOperator$ValueOperator not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeString$ValueString not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.item.ValueTypeVariableFacade not found in MC 26.1.2
+  ✗ [Lme.tepis.integratednbt.NBTExtractorOutputMode; not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeInteger$ValueInteger not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeLong$ValueLong not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeDouble$ValueDouble not found in MC 26.1.2
+  ✗ org.cyclops.integrateddynamics.core.evaluate.variable.ValueTypeList$ValueList not found in MC 26.1.2
+  ✗ [Lme.tepis.integratednbt.network.clientbound.NBTExtractorUpdateClientMessage$ErrorCode; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.onBlockExploded() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.onNeighborChange() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92744_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92857_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.extractTooltip() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getOrCreateTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.ListTag.getElementType() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readComponent() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeComponent() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.isAreaLoaded() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.blit() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.ByteTag.getAsByte() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.ByteTag.getAsInt() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.ShortTag.getAsShort() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.ShortTag.getAsInt() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.IntTag.getAsInt() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.LongTag.getAsLong() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.FloatTag.getAsFloat() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.FloatTag.getAsDouble() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.DoubleTag.getAsDouble() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+

@@ -1,0 +1,40 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     additionallanterns-1.1.1-forge-mc1.18.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:22:45
+Result:  FAILED
+
+Found 27 issue(s):
+
+── Missing Classes ──
+  ✗ com.supermartijn642.core.registry.RegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.GeneratorRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.CreativeItemGroup not found in MC 26.1.2
+  ✗ com.supermartijn642.core.CommonUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.ClientRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator$ModelBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$BlockStateBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$PartialBlockState not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$VariantBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LanguageGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LootTableGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LootTableGenerator$LootTableBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LootTableGenerator$LootPoolBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator$ShapedRecipeBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator$ShapelessRecipeBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator$TagBuilder not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.additionallanterns.LanternColor; not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.additionallanterns.LanternMaterial; not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.RegistrationHandler$Helper not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.BaseBlockItem not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.ItemProperties not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.DyeItem.getDyeColor() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+

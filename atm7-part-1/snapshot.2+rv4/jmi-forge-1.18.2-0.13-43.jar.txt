@@ -1,0 +1,77 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     jmi-forge-1.18.2-0.13-43.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:58:55
+Result:  FAILED
+
+Found 60 issue(s):
+
+── Missing Classes ──
+  ✗ journeymap.client.api.event.forge.FullscreenDisplayEvent$AddonButtonDisplayEvent not found in MC 26.1.2
+  ✗ journeymap.client.api.event.ClientEvent$Type not found in MC 26.1.2
+  ✗ journeymap.client.api.IClientPlugin not found in MC 26.1.2
+  ✗ journeymap.client.api.IClientAPI not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.Balm not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.BalmEvents not found in MC 26.1.2
+  ✗ journeymap.client.api.event.ClientEvent not found in MC 26.1.2
+  ✗ journeymap.client.api.event.RegistryEvent$RegistryType not found in MC 26.1.2
+  ✗ [Lfrankv.jmi.jmoverlay.ftbchunks.ClaimedChunkPolygon; not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbteams.event.TeamEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.Event not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.math.ChunkDimPos not found in MC 26.1.2
+  ✗ journeymap.client.api.display.PolygonOverlay not found in MC 26.1.2
+  ✗ journeymap.client.api.display.Displayable not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbteams.data.ClientTeam not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbchunks.client.FTBChunksClientConfig not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.BooleanValue not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbteams.event.ClientTeamPropertiesChangedEvent not found in MC 26.1.2
+  ✗ journeymap.client.api.display.IThemeButton not found in MC 26.1.2
+  ✗ journeymap.client.api.event.RegistryEvent not found in MC 26.1.2
+  ✗ journeymap.client.api.event.RegistryEvent$InfoSlotRegistryEvent not found in MC 26.1.2
+  ✗ [Lfrankv.jmi.jmoverlay.ftbchunks.ClaimingMode; not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.math.XZ not found in MC 26.1.2
+  ✗ journeymap.client.api.model.ShapeProperties not found in MC 26.1.2
+  ✗ journeymap.client.api.util.PolygonHelper not found in MC 26.1.2
+  ✗ journeymap.client.api.model.MapPolygonWithHoles not found in MC 26.1.2
+  ✗ journeymap.client.api.model.IFullscreen not found in MC 26.1.2
+  ✗ journeymap.client.api.event.FullscreenMapEvent$ClickEvent$Pre not found in MC 26.1.2
+  ✗ journeymap.client.api.event.FullscreenMapEvent$ClickEvent not found in MC 26.1.2
+  ✗ journeymap.client.api.event.FullscreenMapEvent$MouseDraggedEvent$Pre not found in MC 26.1.2
+  ✗ journeymap.client.api.event.FullscreenMapEvent$MouseDraggedEvent not found in MC 26.1.2
+  ✗ journeymap.client.api.event.FullscreenMapEvent$MouseMoveEvent not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbchunks.net.RequestChunkChangePacket not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.GuiHelper not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbchunks.client.map.MapDimension not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbchunks.net.SendChunkPacket$SingleChunk not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbteams.data.ClientTeamManager not found in MC 26.1.2
+  ✗ journeymap.client.api.model.TextProperties not found in MC 26.1.2
+  ✗ journeymap.client.api.display.Overlay not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbchunks.client.FTBChunksClient not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbchunks.net.SendGeneralDataPacket not found in MC 26.1.2
+  ✗ net.blay09.mods.waystones.api.KnownWaystonesEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.waystones.api.IWaystone not found in MC 26.1.2
+  ✗ [Lfrankv.jmi.jmoverlay.waystones.WaystoneMarker; not found in MC 26.1.2
+  ✗ journeymap.client.api.model.MapImage not found in MC 26.1.2
+  ✗ journeymap.client.api.display.MarkerOverlay not found in MC 26.1.2
+  ✗ journeymap.client.api.display.IOverlayListener not found in MC 26.1.2
+  ✗ journeymap.client.api.display.Waypoint not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbchunks.client.ChunkScreen not found in MC 26.1.2
+  ✗ journeymap.client.api.display.ThemeButtonDisplay not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getTags() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientPacketListener.m_5784_() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.player.LocalPlayer.clientLevel not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

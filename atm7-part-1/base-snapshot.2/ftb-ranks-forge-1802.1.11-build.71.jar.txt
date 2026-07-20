@@ -1,0 +1,45 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ftb-ranks-forge-1802.1.11-build.71.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:51
+Result:  FAILED
+
+Found 28 issue(s):
+
+── Missing Classes ──
+  ✗ dev.architectury.event.EventFactory not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.SNBTCompoundTag not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.SNBT not found in MC 26.1.2
+  ✗ dev.architectury.platform.forge.EventBuses not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.LifecycleEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.Event not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.CommandRegistrationEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.ChatEvent not found in MC 26.1.2
+  ✗ dev.architectury.hooks.level.entity.PlayerHooks not found in MC 26.1.2
+  ✗ dev.architectury.event.EventResult not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.ChatEvent$ChatComponent not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.ConfigUtil not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129792_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.getSpawnProtectionRadius() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129843_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.m_8900_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.m_131329_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NumericTag.getAsNumber() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

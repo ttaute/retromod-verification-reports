@@ -1,0 +1,117 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     TravelAnchors-1.18.2-3.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:24:34
+Result:  FAILED
+
+Found 100 issue(s):
+
+── Missing Classes ──
+  ✗ io.github.noeppi_noeppi.libx.base.tile.MenuBlockBE not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.menu.BlockEntityMenu not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.render.RenderHelper not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.base.tile.BlockEntityBase not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.event.ClickBlockEmptyHandEvent not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.base.ItemBase not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.network.PacketSerializer not found in MC 26.1.2
+  ✗ [Lde.castcrafter.travel_anchors.network.ClientEventSerializer$ClientEvent; not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.network.NetworkX not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.network.NetworkX$Protocol not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.render.RenderHelperLevel not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.annotation.impl.ProcessorInterface not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.config.ConfigManager not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.mod.registration.ModXRegistration not found in MC 26.1.2
+  ✗ io.github.noeppi_noeppi.libx.mod.registration.RegistrationBuilder not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.setupRenderState() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.clearRenderState() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.create() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.lines() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BlockGetter.m_8055_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BlockGetter.m_141937_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getLightBlock() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60815_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60734_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6144_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_20182_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_20192_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_183503_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6021_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21011_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6330_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5661_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_20154_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142538_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21120_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_146908_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_146909_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41720_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_8055_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_151570_() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.changeFocus() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.tick() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readBlockState() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantment.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.m_44843_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_7494_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_7495_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_7949_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_6630_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123342_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123341_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123343_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_122032_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_6625_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_82520_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_7096_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_7098_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_7094_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_82542_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_82549_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_82541_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_82498_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_82526_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.LevelRenderer.renderLineBox() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.hasChunkAt() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.cameraOrientation() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.renderModel() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos$MutableBlockPos.m_122173_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos$MutableBlockPos.m_7949_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.SavedDataStorage.computeIfAbsent() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.level.Level.f_46443_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.RenderShape.ENTITYBLOCK_ANIMATED not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.sortOnUpload not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.f_82479_ not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.f_82480_ not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.f_82481_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.f_19789_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.f_19853_ not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvents.f_11852_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.item.enchantment.Enchantment.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.<init> with 8 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

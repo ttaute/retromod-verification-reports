@@ -1,0 +1,54 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     elevatorid-1.18.2-1.8.4.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:40
+Result:  FAILED
+
+Found 39 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.client.player.Input not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.m_60941_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.isValidSpawn() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.getFriction() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.entityInside() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.shouldCheckWeakPower() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.getLightEmission() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.getSoundType() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.entityInside() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getLightBlock() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BlockGetter.getMaxLightLevel() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.color.block.BlockColors.getColor() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Checkbox.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Checkbox.onPress() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.dispatch.BlockModelRotation.by() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.dispatch.BlockModelRotation.getRotation() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_146910_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.teleportTo() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.m_129241_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.lighting.LevelLightEngine.m_142202_() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Checkbox.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,38 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     TerraBlender-forge-1.18.2-1.1.0.102.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:35
+Result:  FAILED
+
+Found 23 issue(s):
+
+── Missing Classes ──
+  ✗ [Lterrablender.api.ParameterUtils$Continentalness; not found in MC 26.1.2
+  ✗ [Lterrablender.api.ParameterUtils$Depth; not found in MC 26.1.2
+  ✗ [Lterrablender.api.ParameterUtils$Erosion; not found in MC 26.1.2
+  ✗ [Lterrablender.api.ParameterUtils$Humidity; not found in MC 26.1.2
+  ✗ [Lterrablender.api.ParameterUtils$Temperature; not found in MC 26.1.2
+  ✗ [Lterrablender.api.ParameterUtils$Weirdness; not found in MC 26.1.2
+  ✗ [Lterrablender.api.RegionType; not found in MC 26.1.2
+  ✗ [Lterrablender.api.SurfaceRuleManager$RuleCategory; not found in MC 26.1.2
+  ✗ [Lterrablender.api.SurfaceRuleManager$RuleStage; not found in MC 26.1.2
+  ✗ [Lterrablender.worldgen.noise.ZoomLayer; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.core.Registry.getOrCreateHolder() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Climate$Parameter.f_186813_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Climate$Parameter.f_186814_() not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.biome.OverworldBiomes.m_194913_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.asLong() not found in MC 26.1.2
+  ✗ net.minecraft.util.random.WeightedRandom.getTotalWeight() not found in MC 26.1.2
+  ✗ net.minecraft.util.random.WeightedRandom.getWeightedItem() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_194574_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.dimension.DimensionType.NETHER_LOCATION not found in MC 26.1.2
+  ✗ net.minecraft.world.level.dimension.DimensionType.OVERWORLD_LOCATION not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.f_64333_ not found in MC 26.1.2
+

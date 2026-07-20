@@ -1,0 +1,97 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     phosphophyllite-1.18.2-0.6.0-beta.1.6.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:51:28
+Result:  FAILED
+
+Found 80 issue(s):
+
+── Missing Classes ──
+  ✗ [Lnet.roguelogix.phosphophyllite.config.ConfigFormat; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.phosphophyllite.config.ConfigType; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.phosphophyllite.data.DataLoader$ElementType; not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.IGasHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.GasStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.Gas not found in MC 26.1.2
+  ✗ mekanism.api.Action not found in MC 26.1.2
+  ✗ mekanism.api.providers.IGasProvider not found in MC 26.1.2
+  ✗ mekanism.api.recipes.RotaryRecipe not found in MC 26.1.2
+  ✗ mekanism.api.recipes.ingredients.ChemicalStackIngredient$GasStackIngredient not found in MC 26.1.2
+  ✗ mekanism.api.recipes.ingredients.FluidStackIngredient not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.phosphophyllite.multiblock.MultiblockController$AssemblyState; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.phosphophyllite.multiblock.rectangular.AxisPosition; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.phosphophyllite.parsers.Element$Type; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.phosphophyllite.repack.tnjson.TnJson$Mode; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.phosphophyllite.robn.ROBN$Endianness; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.phosphophyllite.robn.ROBN$Type; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.noDrops() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.use() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getMinSection() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BucketItem.getFluid() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BucketItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getUpdateTag() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getMaxStackSize() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getTextureAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93133_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93200_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseScrolled() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.keyReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.charTyped() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeRegistryId() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readRegistryId() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getAttributes() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129894_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_177941_() not found in MC 26.1.2
+  ✗ net.minecraft.client.User.getUuid() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_6540_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_142591_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_6679_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.getAllRecipesFor() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.asLong() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.m_6151_() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.sort() not found in MC 26.1.2
+  ✗ net.minecraft.core.Holder$Direct.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.LiquidBlock.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.LevelChunk.getMinSection() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.LevelChunk.setUnsaved() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.network.ServerGamePacketListenerImpl.m_141995_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.lighting.LevelLightEngine.m_142202_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122864_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122904_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.delegate not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.OreFeatures.f_195075_ not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.OreFeatures.f_195072_ not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.OreFeatures.f_195073_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.core.Holder$Direct.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.game.ClientboundSectionBlocksUpdatePacket.<init> with 4 params not found in MC 26.1.2
+

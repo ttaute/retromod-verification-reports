@@ -1,0 +1,44 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     eccentrictome-1.18.2-1.10.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:51:07
+Result:  FAILED
+
+Found 27 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.item.crafting.SimpleRecipeSerializer not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getOrCreateTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.resetHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getCreatorModId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.resources.Identifier.isValidResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.item.ItemEntity.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_TOOLS not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

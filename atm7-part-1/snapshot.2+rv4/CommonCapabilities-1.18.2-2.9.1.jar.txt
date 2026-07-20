@@ -1,0 +1,80 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     CommonCapabilities-1.18.2-2.9.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:42:12
+Result:  FAILED
+
+Found 63 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.item.alchemy.PotionUtils not found in MC 26.1.2
+  ✗ cpw.mods.modlauncher.TransformingClassLoader not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.config.extendedconfig.CapabilityConfig not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.init.ModBaseVersionable not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.modcompat.ModCompatLoader not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.config.ConfigHandler not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.LoggerHelper not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.config.extendedconfig.DummyConfig not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.init.ModBase not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.tracking.Analytics not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.tracking.Versions not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.nbt.path.NbtPath not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.nbt.path.INbtPathExpression not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.nbt.path.navigate.NbtPathNavigationList not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.L10NHelpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.Helpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.ItemStackHelpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.ingredient.collection.FilteredIngredientCollectionIterator not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.FluidHelpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.ingredient.collection.IngredientHashMap not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.ingredient.collection.IIngredientMapMutable not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.datastructure.Wrapper not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.nbt.path.navigate.INbtPathNavigation not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.CraftingHelpers not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.modcompat.capabilities.SimpleCapabilityConstructor not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.modcompat.capabilities.DefaultCapabilityProvider not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.modcompat.capabilities.ICapabilityConstructor not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.modcompat.IModCompat not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.modcompat.capabilities.CapabilityConstructorRegistry not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.proxy.ClientProxyComponent not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.proxy.CommonProxyComponent not found in MC 26.1.2
+  ✗ org.cyclops.cyclopscore.helper.MinecraftHelpers not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.serializeNBT() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.ListTag.getElementType() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.StringTag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.stream() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getAttributes() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.LongTag.getAsLong() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.IntTag.getAsInt() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.ByteTag.getAsByte() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.ShortTag.getAsShort() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.FloatTag.getAsFloat() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.DoubleTag.getAsDouble() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BundleItem.getContentWeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BundleItem.getWeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity.isLit() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity.getBurnDuration() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.alchemy.PotionBrewing.CONTAINER_MIXES not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.PotionBrewing.POTION_MIXES not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity.f_58312_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init> with 3 params not found in MC 26.1.2
+

@@ -1,0 +1,103 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ftb-teams-forge-1802.2.11-build.107.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:54:49
+Result:  FAILED
+
+Found 86 issue(s):
+
+── Missing Classes ──
+  ✗ dev.ftb.mods.ftblibrary.icon.Icons not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.SimpleButton not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.NordButton not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.misc.NordColors not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.icon.Color4I not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.Panel not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.TextField not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.WidgetLayout$Vertical not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.Widget not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.BaseScreen not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.GuiHelper not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.Theme not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.icon.Icon not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.Button not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.util.TooltipList not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.TextBox not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.VerticalSpaceWidget not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.icon.FaceIcon not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.CustomClickEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.Event not found in MC 26.1.2
+  ✗ dev.architectury.event.events.client.ClientRawInputEvent not found in MC 26.1.2
+  ✗ dev.architectury.registry.client.keymappings.KeyMappingRegistry not found in MC 26.1.2
+  ✗ dev.architectury.event.EventResult not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.util.ClientUtils not found in MC 26.1.2
+  ✗ dev.architectury.platform.Platform not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.ContextMenuItem not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.ContextMenu not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.config.ConfigGroup not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.config.ui.EditConfigScreen not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.ScreenWrapper not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.ui.input.Key not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.math.MathUtils not found in MC 26.1.2
+  ✗ [Ldev.ftb.mods.ftbteams.data.PrivacyMode; not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.config.NameMap not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.config.NameMap$Builder not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.SNBTCompoundTag not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.util.TextComponentUtils not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.SNBT not found in MC 26.1.2
+  ✗ [Ldev.ftb.mods.ftbteams.data.TeamRank; not found in MC 26.1.2
+  ✗ [Ldev.ftb.mods.ftbteams.data.TeamType; not found in MC 26.1.2
+  ✗ dev.architectury.event.EventFactory not found in MC 26.1.2
+  ✗ dev.architectury.platform.forge.EventBuses not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.LifecycleEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.CommandRegistrationEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.PlayerEvent not found in MC 26.1.2
+  ✗ dev.architectury.utils.EnvExecutor not found in MC 26.1.2
+  ✗ net.minecraft.commands.synchronization.EmptyArgumentSerializer not found in MC 26.1.2
+  ✗ net.minecraft.commands.synchronization.ArgumentTypes not found in MC 26.1.2
+  ✗ dev.architectury.networking.simple.BaseC2SMessage not found in MC 26.1.2
+  ✗ dev.architectury.networking.NetworkManager$PacketContext not found in MC 26.1.2
+  ✗ dev.architectury.networking.simple.SimpleNetworkManager not found in MC 26.1.2
+  ✗ dev.architectury.networking.simple.BaseS2CMessage not found in MC 26.1.2
+  ✗ [Ldev.ftb.mods.ftbteams.net.PlayerGUIOperationMessage$Operation; not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.config.StringConfig not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.client.User.getGameProfile() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readAnySizeNbt() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readComponent() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeComponent() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.displayClientMessage() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129792_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.getProfileCache() not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.selector.EntitySelectorParser.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NumericTag.getAsByte() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NumericTag.getAsDouble() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NumericTag.getAsInt() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.getAsString() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.selector.EntitySelectorParser.<init> with 1 params not found in MC 26.1.2
+

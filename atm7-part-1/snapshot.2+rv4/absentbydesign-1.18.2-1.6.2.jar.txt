@@ -1,0 +1,8 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     absentbydesign-1.18.2-1.6.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:21:10
+Result:  PASSED
+
+No issues found. All bytecode references resolve correctly.

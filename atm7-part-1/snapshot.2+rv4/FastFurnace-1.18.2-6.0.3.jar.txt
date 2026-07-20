@@ -1,0 +1,12 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     FastFurnace-1.18.2-6.0.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:53:18
+Result:  FAILED
+
+Found 1 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+

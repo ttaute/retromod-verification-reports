@@ -1,0 +1,125 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     rechiseled-1.1.5b-forge-mc1.18.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:15:21
+Result:  FAILED
+
+Found 108 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.supermartijn642.rechiseled.api.blocks.BlockModelType; not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.rechiseled.api.blocks.BlockSpecification; not found in MC 26.1.2
+  ✗ com.supermartijn642.core.util.Pair not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.Registries not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.Registries$Registry not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BaseBlock not found in MC 26.1.2
+  ✗ com.supermartijn642.core.TextComponents not found in MC 26.1.2
+  ✗ com.supermartijn642.core.TextComponents$TextComponentBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.util.Holder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BlockProperties not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.RegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.ItemProperties not found in MC 26.1.2
+  ✗ com.supermartijn642.core.CommonUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.CoreSide not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.ClientRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.BaseBlockItem not found in MC 26.1.2
+  ✗ com.supermartijn642.core.network.PacketChannel not found in MC 26.1.2
+  ✗ com.supermartijn642.core.network.BasePacket not found in MC 26.1.2
+  ✗ com.supermartijn642.core.network.PacketContext not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.BaseItem not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.CustomItemRenderer not found in MC 26.1.2
+  ✗ com.supermartijn642.core.ClientUtils not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.IIngredients not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ingredient.IGuiItemStackGroup not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LanguageGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator$ShapedRecipeBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.BaseContainerType not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.GeneratorRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.CreativeItemGroup not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.WidgetContainerScreen not found in MC 26.1.2
+  ✗ com.supermartijn642.configlib.api.ConfigBuilders not found in MC 26.1.2
+  ✗ com.supermartijn642.configlib.api.IConfigBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$BlockStateBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$PartialBlockState not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$VariantBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.util.Triple not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.provider.FusionModelProvider not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.model.data.ConnectingModelDataBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.model.DefaultModelTypes not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.util.Pair not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.model.ModelInstance not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.predicate.DefaultConnectionPredicates not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LootTableGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator$ModelBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator$TagBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.RegistryUtil not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.BaseContainer not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.widget.BaseContainerWidget not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.ScreenUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.widget.premade.AbstractButtonWidget not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.widget.BaseWidget not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.RenderUtils not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.serializeNBT() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getMaxStackSize() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.getOutputFolder() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataProvider.save() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.getInputStream() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_5507_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.close() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_7816_() not found in MC 26.1.2
+  ✗ net.minecraft.data.HashCache.getHash() not found in MC 26.1.2
+  ✗ net.minecraft.data.HashCache.putNew() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.m_122384_() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemDisplayContext.m_111841_() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getVertices() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getSprite() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getTintIndex() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.isShade() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.makeBakedQuad() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.getElements() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.getTransforms() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.dispatch.ModelState.getRotation() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.sprite.Material.texture() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.cuboid.ItemTransforms.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.cuboid.ItemTransforms.m_111810_() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.cuboid.ItemTransforms.m_111808_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getShade() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.PackResources.m_7466_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.resources.metadata.animation.AnimationMetadataSection.SERIALIZER not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.customData not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.textureMap not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.parent not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.<init> with 5 params not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.cuboid.ItemTransforms.<init> with 8 params not found in MC 26.1.2
+

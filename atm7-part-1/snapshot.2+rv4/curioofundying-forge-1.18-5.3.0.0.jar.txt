@@ -1,0 +1,26 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     curioofundying-forge-1.18-5.3.0.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:47:27
+Result:  FAILED
+
+Found 13 issue(s):
+
+── Missing Classes ──
+  ✗ top.theillusivec4.curios.api.client.ICurioRenderer not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotContext not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICurio not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.CuriosCapability not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.client.CuriosRendererRegistry not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypePreset not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypeMessage$Builder not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.isBypassInvul() not found in MC 26.1.2
+

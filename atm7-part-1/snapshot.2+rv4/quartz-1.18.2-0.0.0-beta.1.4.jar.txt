@@ -1,0 +1,39 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     quartz-1.18.2-0.0.0-beta.1.4.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:14:30
+Result:  FAILED
+
+Found 26 issue(s):
+
+── Missing Classes ──
+  ✗ [Lnet.roguelogix.quartz.DynamicLight$Type; not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector3i not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector3f not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Matrix4f not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector4f not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.threading.Queues not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.threading.Event not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.threading.WorkQueue not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector3ic not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Math not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Matrix4fc not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.AABBi not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.util.Util not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.quartz.internal.mixinhelpers.OpenGLSelector$GLVersion; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.quartz.internal.vk.VKConfig$MemoryOptions$AllocationStyle; not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.registry.Registry not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.quartz.QuartzConfig$Mode; not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.config.ConfigManager not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.modular.api.TileModule not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.serialization.PhosphophylliteCompound not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.modular.api.IModularTile not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.GameRenderer.lightTexture() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.DynamicTexture.getId() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.AbstractTexture.getId() not found in MC 26.1.2
+

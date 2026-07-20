@@ -1,0 +1,27 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     SimpleBackups-1.18.2-1.1.14.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:19:05
+Result:  FAILED
+
+Found 10 issue(s):
+
+── Missing Classes ──
+  ✗ ml.denisd3d.mc2discord.core.Mc2Discord not found in MC 26.1.2
+  ✗ ml.denisd3d.mc2discord.core.MessageManager not found in MC 26.1.2
+  ✗ [Lde.melanx.simplebackups.StorageSize; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.storage.SavedDataStorage.computeIfAbsent() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.hasPermissions() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getServer() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.levelPath not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,13 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     blueflame-1.18.2-0.1.0.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:12
+Result:  FAILED
+
+Found 2 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.entity.Entity.m_142049_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.createRenamer() not found in MC 26.1.2
+

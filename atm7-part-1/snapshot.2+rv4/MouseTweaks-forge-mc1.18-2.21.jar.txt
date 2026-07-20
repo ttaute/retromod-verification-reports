@@ -1,0 +1,31 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     MouseTweaks-forge-mc1.18-2.21.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:08:04
+Result:  FAILED
+
+Found 14 issue(s):
+
+── Missing Classes ──
+  ✗ [Lyalter.mousetweaks.MouseButton; not found in MC 26.1.2
+  ✗ [Lyalter.mousetweaks.ScrollHandling; not found in MC 26.1.2
+  ✗ [Lyalter.mousetweaks.ScrollItemScaling; not found in MC 26.1.2
+  ✗ [Lyalter.mousetweaks.WheelScrollDirection; not found in MC 26.1.2
+  ✗ [Lyalter.mousetweaks.WheelSearchOrder; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.CycleButton.builder() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.CycleButton$Builder.withInitialValue() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.inventory.ClickAction.QUICK_MOVE not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ClickAction.PICKUP not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+

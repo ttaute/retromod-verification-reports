@@ -1,0 +1,16 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     mcw-fences-1.1.1-mc1.18.2forge.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:01:48
+Result:  FAILED
+
+Found 5 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+

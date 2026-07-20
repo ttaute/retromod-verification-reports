@@ -1,0 +1,59 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ftb-essentials-1802.2.2-build.83.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:54:19
+Result:  FAILED
+
+Found 42 issue(s):
+
+── Missing Classes ──
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.IntValue not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.SNBTConfig not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.BaseValue not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.BooleanValue not found in MC 26.1.2
+  ✗ dev.architectury.platform.Platform not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.SNBT not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbranks.api.FTBRanksAPI not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbranks.api.PermissionValue not found in MC 26.1.2
+  ✗ net.luckperms.api.LuckPermsProvider not found in MC 26.1.2
+  ✗ net.luckperms.api.LuckPerms not found in MC 26.1.2
+  ✗ net.luckperms.api.model.user.UserManager not found in MC 26.1.2
+  ✗ net.luckperms.api.context.ContextManager not found in MC 26.1.2
+  ✗ net.luckperms.api.model.user.User not found in MC 26.1.2
+  ✗ net.luckperms.api.query.QueryOptions not found in MC 26.1.2
+  ✗ net.luckperms.api.cacheddata.CachedDataManager not found in MC 26.1.2
+  ✗ net.luckperms.api.cacheddata.CachedMetaData not found in MC 26.1.2
+  ✗ dev.architectury.networking.simple.SimpleNetworkManager not found in MC 26.1.2
+  ✗ dev.architectury.networking.simple.BaseS2CMessage not found in MC 26.1.2
+  ✗ dev.architectury.hooks.level.entity.PlayerHooks not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.SNBTCompoundTag not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.util.TimeUtils not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.server.level.ServerPlayer.curePotionEffects() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.displayClientMessage() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.teleportTo() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getSharedSpawnPos() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getSharedSpawnAngle() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129792_() not found in MC 26.1.2
+  ✗ net.minecraft.server.players.PlayerList.broadcastMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getTagType() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.level.chunk.status.ChunkStatus.f_62325_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,90 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     corail_woodcutter-1.18.2-2.3.9.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:21:32
+Result:  FAILED
+
+Found 73 issue(s):
+
+── Missing Classes ──
+  ✗ [Lovh.corail.woodcutter.command.CommandWoodcutter$BaseAction; not found in MC 26.1.2
+  ✗ [Lovh.corail.woodcutter.command.CommandWoodcutter$DataPackAction; not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawableBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeType not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeIngredientRole not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeSlotBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ [Lovh.corail.woodcutter.compatibility.SupportMods; not found in MC 26.1.2
+  ✗ [Lovh.corail.woodcutter.helper.LangKey; not found in MC 26.1.2
+  ✗ [Lovh.corail.woodcutter.registry.ModBlocks$BOPWoodVariant; not found in MC 26.1.2
+  ✗ [Lovh.corail.woodcutter.registry.ModBlocks$BYGWoodVariant; not found in MC 26.1.2
+  ✗ [Lovh.corail.woodcutter.registry.ModBlocks$TFWoodVariant; not found in MC 26.1.2
+  ✗ [Lovh.corail.woodcutter.registry.ModBlocks$TropicraftVariant; not found in MC 26.1.2
+  ✗ [Lovh.corail.woodcutter.registry.ModBlocks$VanillaWoodVariant; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.m_41658_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTags() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.onCraftedBy() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.onCraftedBy() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.m_7025_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129894_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129891_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129861_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129792_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129843_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.byType() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.stream() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.SingleItemRecipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.SingleItemRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.SingleItemRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeType.m_44115_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ResultContainer.m_8015_() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.success() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.getResult() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.village.poi.PoiType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.village.poi.PoiType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getRecipeManager() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.inventory.ClickAction.PICKUP not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122827_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122864_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.SingleItemRecipe.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.village.poi.PoiType.<init> with 5 params not found in MC 26.1.2
+

@@ -1,0 +1,8 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     cofh_core-1.18.2-9.2.3.47.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:20:06
+Result:  PASSED
+
+No issues found. All bytecode references resolve correctly.

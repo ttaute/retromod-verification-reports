@@ -1,0 +1,80 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     oculus-flywheel-compat-1.18.2-0.2.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:10:01
+Result:  FAILED
+
+Found 63 issue(s):
+
+── Missing Classes ──
+  ✗ net.irisshaders.iris.api.v0.IrisApi not found in MC 26.1.2
+  ✗ net.coderbot.iris.Iris not found in MC 26.1.2
+  ✗ net.coderbot.iris.pipeline.PipelineManager not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.compile.ProgramContext not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.shader.ProgramSpec not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.shader.WorldProgram not found in MC 26.1.2
+  ✗ net.coderbot.iris.shaderpack.loading.ProgramId not found in MC 26.1.2
+  ✗ net.coderbot.iris.gl.blending.AlphaTest not found in MC 26.1.2
+  ✗ net.coderbot.iris.pipeline.newshader.FogMode not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.backend.gl.shader.GlProgram$Factory not found in MC 26.1.2
+  ✗ net.coderbot.iris.shaderpack.ProgramSource not found in MC 26.1.2
+  ✗ net.coderbot.iris.gl.shader.StandardMacros not found in MC 26.1.2
+  ✗ net.coderbot.iris.pipeline.newshader.NewWorldRenderingPipeline not found in MC 26.1.2
+  ✗ net.coderbot.iris.shaderpack.preprocessor.JcppProcessor not found in MC 26.1.2
+  ✗ net.coderbot.iris.gl.blending.AlphaTestFunction not found in MC 26.1.2
+  ✗ net.coderbot.iris.shaderpack.ProgramFallbackResolver not found in MC 26.1.2
+  ✗ net.coderbot.iris.uniforms.CapturedRenderingState not found in MC 26.1.2
+  ✗ me.jellysquid.mods.sodium.client.gl.shader.uniform.GlUniform not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.backend.gl.GlStateTracker not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.event.RenderLayerEvent not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.backend.gl.GlStateTracker$State not found in MC 26.1.2
+  ✗ net.coderbot.iris.pipeline.newshader.ShaderKey not found in MC 26.1.2
+  ✗ net.coderbot.iris.pipeline.newshader.ShaderMap not found in MC 26.1.2
+  ✗ net.coderbot.iris.pipeline.newshader.ExtendedShader not found in MC 26.1.2
+  ✗ net.coderbot.iris.gl.framebuffer.GlFramebuffer not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.backend.gl.shader.GlProgram not found in MC 26.1.2
+  ✗ net.coderbot.iris.gl.blending.BlendModeStorage not found in MC 26.1.2
+  ✗ net.coderbot.iris.shaderpack.ProgramSet not found in MC 26.1.2
+  ✗ net.coderbot.iris.gl.blending.BlendModeOverride not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.compile.Template not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.compile.VertexData not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.ast.transform.SingleASTTransformer not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.ast.query.RootSupplier not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.ast.node.Version not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.GLSLLexer not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.ast.transform.JobParameters not found in MC 26.1.2
+  ✗ net.coderbot.iris.shaderpack.StringPair not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.ast.node.TranslationUnit not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.ast.transform.ASTInjectionPoint not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.ast.node.statement.CompoundStatement not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.ast.query.Root not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.ast.query.match.AutoHintedMatcher not found in MC 26.1.2
+  ✗ io.github.douira.glsl_transformer.parser.ParseShape not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.shader.StateSnapshot not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.compile.InstancingTemplateData not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.compile.OneShotTemplateData not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.api.vertex.VertexType not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.layout.BufferLayout not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.source.parse.ShaderStruct not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.source.parse.StructField not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.compile.CompileUtil not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.source.FileIndexImpl not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.source.FileResolution not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.core.source.SourceFile not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.displayClientMessage() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.m_142658_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.apply() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.renderer.ShaderManager.MODEL_VIEW_MATRIX not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

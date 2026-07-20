@@ -1,0 +1,16 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     modnametooltip-1.18.1-1.18.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:07:38
+Result:  FAILED
+
+Found 3 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getCreatorModId() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

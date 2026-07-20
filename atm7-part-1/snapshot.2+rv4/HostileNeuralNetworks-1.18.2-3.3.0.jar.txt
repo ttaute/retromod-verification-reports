@@ -1,0 +1,97 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     HostileNeuralNetworks-1.18.2-3.3.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:55:54
+Result:  FAILED
+
+Found 82 issue(s):
+
+── Missing Classes ──
+  ✗ shadows.placebo.block_entity.TickingEntityBlock not found in MC 26.1.2
+  ✗ shadows.placebo.json.PlaceboJsonReloadListener$TypeKeyedBase not found in MC 26.1.2
+  ✗ shadows.placebo.json.ItemAdapter not found in MC 26.1.2
+  ✗ shadows.placebo.json.PlaceboJsonReloadListener not found in MC 26.1.2
+  ✗ shadows.placebo.json.SerializerBuilder not found in MC 26.1.2
+  ✗ [Lshadows.hostilenetworks.data.ModelTier; not found in MC 26.1.2
+  ✗ shadows.placebo.container.PlaceboContainerMenu not found in MC 26.1.2
+  ✗ shadows.placebo.container.QuickMoveHandler not found in MC 26.1.2
+  ✗ shadows.placebo.screen.PlaceboContainerScreen not found in MC 26.1.2
+  ✗ shadows.placebo.screen.TickableText not found in MC 26.1.2
+  ✗ shadows.placebo.container.BlockEntityContainer not found in MC 26.1.2
+  ✗ shadows.placebo.container.FilteredSlot not found in MC 26.1.2
+  ✗ shadows.placebo.config.Configuration not found in MC 26.1.2
+  ✗ shadows.placebo.block_entity.TickingBlockEntityType not found in MC 26.1.2
+  ✗ shadows.placebo.container.ContainerUtil not found in MC 26.1.2
+  ✗ shadows.placebo.loot.LootSystem not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.subtypes.IIngredientSubtypeInterpreter not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.ISubtypeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeType not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeIngredientRole not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeSlotBuilder not found in MC 26.1.2
+  ✗ shadows.placebo.cap.InternalItemHandler not found in MC 26.1.2
+  ✗ shadows.placebo.block_entity.TickingBlockEntity not found in MC 26.1.2
+  ✗ shadows.placebo.container.EasyContainerData$IDataAutoRegister not found in MC 26.1.2
+  ✗ shadows.placebo.cap.ModifiableEnergyStorage not found in MC 26.1.2
+  ✗ shadows.placebo.container.EasyContainerData not found in MC 26.1.2
+  ✗ shadows.placebo.recipe.VanillaPacketDispatcher not found in MC 26.1.2
+  ✗ [Lshadows.hostilenetworks.tile.SimChamberTileEntity$FailureState; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getOrCreateTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.removeTagKey() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getDeltaFrameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.setRenderShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.overrideCameraOrientation() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.getStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.stream() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.consume() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getGameTime() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getUpdateTag() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.ImageButton.<init> with 9 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+

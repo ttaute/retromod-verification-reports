@@ -1,0 +1,98 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ToolBelt-1.18.2-1.18.9.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:24:30
+Result:  FAILED
+
+Found 81 issue(s):
+
+── Missing Classes ──
+  ✗ top.theillusivec4.curios.api.CuriosCapability not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.inventory.ICurioStacksHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.inventory.IDynamicStackHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICuriosItemHandler not found in MC 26.1.2
+  ✗ [Ldev.gigaherz.toolbelt.client.radial.GenericRadialMenu$State; not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen not found in MC 26.1.2
+  ✗ [Ldev.gigaherz.toolbelt.ConfigData$ThreeWayChoice; not found in MC 26.1.2
+  ✗ dev.gigaherz.sewingkit.api.SewingRecipe$Serializer not found in MC 26.1.2
+  ✗ dev.gigaherz.sewingkit.api.SewingRecipe not found in MC 26.1.2
+  ✗ dev.gigaherz.sewingkit.api.SewingRecipeBuilder$Result not found in MC 26.1.2
+  ✗ dev.gigaherz.sewingkit.api.SewingRecipeBuilder not found in MC 26.1.2
+  ✗ dev.gigaherz.sewingkit.needle.NeedleItem not found in MC 26.1.2
+  ✗ dev.gigaherz.sewingkit.needle.Needles not found in MC 26.1.2
+  ✗ dev.gigaherz.sewingkit.api.ToolActionIngredient not found in MC 26.1.2
+  ✗ dev.gigaherz.sewingkit.SewingKitMod not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypeMessage$Builder not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.equals() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.stream() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.spawnAtLocation() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getFrameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.m_91292_() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getGameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_166854_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_96624_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ItemInHandRenderer.renderItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.hasBindingCurse() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.hasVanishingCurse() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingMenu.slotChangedCraftingGrid() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.init() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.extractGhostRecipe() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.m_100361_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.hasClickedOutside() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.m_100373_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.setPosition() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.overrideCameraOrientation() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.setRenderShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.render() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getGameRules() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.getBoolean() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.young not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ClickAction.SWAP not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeBookCategories.CRAFTING_SEARCH not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_KEEPINVENTORY not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_TOOLS not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init> with 9 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+

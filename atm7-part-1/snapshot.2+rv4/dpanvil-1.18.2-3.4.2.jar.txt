@@ -1,0 +1,28 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     dpanvil-1.18.2-3.4.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:48:22
+Result:  FAILED
+
+Found 15 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataProvider.save() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.getOutputFolder() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.getInputStream() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.close() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getServer() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_BASE not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_TOTAL not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ENCHANTMENT not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ATTRIBUTE not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+

@@ -1,0 +1,134 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     comforts-forge-1.18.2-5.0.0.6.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:20:13
+Result:  FAILED
+
+Found 117 issue(s):
+
+── Missing Classes ──
+  ✗ [Ltop.theillusivec4.comforts.common.block.ComfortsBaseBlock$BedType; not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5661_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_7500_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_20193_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21257_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_7292_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21258_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_36317_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142049_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_8055_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_7471_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_7703_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_6042_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_6443_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_7731_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_5898_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_6425_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46468_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_5594_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46597_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_61124_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_61143_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60713_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60828_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60734_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_204336_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_142300_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123341_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123342_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123343_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_7494_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_5484_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_82539_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_7096_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_7098_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_7094_() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.MultiPlayerGameMode.m_105262_() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.sprite.Material.buffer() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.m_122424_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123916_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player$BedSleepingProblem.values() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player$BedSleepingProblem.ordinal() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player$BedSleepingProblem.m_36423_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BedBlock.m_7417_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BedBlock.m_5573_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BedBlock.m_7926_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BedBlock.m_5888_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.StateDefinition.m_61090_() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.m_19334_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_5803_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_6084_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_7500_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_5802_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_36220_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_20185_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_20186_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_20189_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.dimension.DimensionType.m_63956_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.m_8878_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.m_6018_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.m_46461_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.m_46468_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.m_49966_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.m_49956_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.piglin.PiglinAi.m_34873_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.FlowingFluid.m_6718_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.FlowingFluid.m_76068_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.m_186469_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.m_6907_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.m_8055_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.BlockPlaceContext.m_43725_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.BlockPlaceContext.m_8083_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.BlockPlaceContext.m_43644_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.FluidState.m_76152_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.StateDefinition$Builder.m_61104_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.Monster.m_6935_() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffectInstance.m_19544_() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffectInstance.m_19557_() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffectInstance.m_19564_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.UseOnContext.m_43725_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.UseOnContext.m_8083_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.UseOnContext.m_43723_() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.m_19077_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Builder.m_6509_() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.ValidationContext.getProblems() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataProvider.m_123920_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.entity.player.Player.f_19853_ not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player$BedSleepingProblem.NOT_POSSIBLE_NOW not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player$BedSleepingProblem.NOT_POSSIBLE_HERE not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.f_46443_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.f_46441_ not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.f_19853_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.f_54117_ not found in MC 26.1.2
+  ✗ net.minecraft.stats.Stats.f_12969_ not found in MC 26.1.2
+  ✗ net.minecraft.advancements.CriteriaTriggers.f_10583_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Blocks.f_49990_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Blocks.f_50016_ not found in MC 26.1.2
+  ✗ net.minecraft.tags.BlockTags.f_13088_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluids.f_76193_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.properties.BlockStateProperties.f_61362_ not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvents.f_12639_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.BuiltInLootTables.EMPTY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.item.CreativeModeTab.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,58 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     YungsBetterStrongholds-1.18.2-Forge-2.1.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:26:34
+Result:  FAILED
+
+Found 41 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.commands.arguments.ResourceOrTagLocationArgument$Result not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.io.JSON not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.ItemRandomizer not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.mixin.accessor.StructureTemplatePoolAccessor not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.mixin.accessor.BoundingBoxAccessor not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.BlockStateRandomizer not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.processor.ISafeWorldModifier not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.banner.Banner not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.banner.Banner$Builder not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructurePoolElement.m_207245_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.m_67096_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.StructureSet$StructureSelectionEntry.f_210026_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197355_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197354_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197360_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197356_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197359_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197357_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197358_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.WorldgenRandom.nextInt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool.m_210573_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool.m_210580_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool.m_210585_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Rotation.m_55958_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getNoiseBiome() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings.m_74399_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelReader.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelReader.getMaxBuildHeight() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.STRUCTURE_PROCESSOR not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.TEMPLATE_POOL_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+

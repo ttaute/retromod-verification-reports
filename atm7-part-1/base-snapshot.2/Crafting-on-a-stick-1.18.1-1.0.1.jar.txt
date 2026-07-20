@@ -1,0 +1,19 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Crafting-on-a-stick-1.18.1-1.0.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:20
+Result:  FAILED
+
+Found 6 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21187_() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.pass() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40756_ not found in MC 26.1.2
+

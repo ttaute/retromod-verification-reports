@@ -1,0 +1,29 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     clickadv-1.18.2-2.5.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:14
+Result:  FAILED
+
+Found 14 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.advancements.AdvancementList not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.advancements.Advancement.getChatComponent() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.Advancement.getId() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.Advancement.getParent() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.Advancement.getDisplay() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.getStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientAdvancements.getAdvancements() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.advancements.AdvancementTab.m_97163_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getGameRules() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.getBoolean() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6352_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_ANNOUNCE_ADVANCEMENTS not found in MC 26.1.2
+

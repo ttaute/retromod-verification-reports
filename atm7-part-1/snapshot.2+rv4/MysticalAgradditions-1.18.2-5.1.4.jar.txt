@@ -1,0 +1,85 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     MysticalAgradditions-1.18.2-5.1.4.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:08:12
+Result:  FAILED
+
+Found 68 issue(s):
+
+── Missing Classes ──
+  ✗ com.blakebr0.cucumber.block.BaseBlock not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.iface.IEnableable not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.crop.Crop not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.iface.IColored not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.farmland.IEssenceFarmland not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.crop.CropTier not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.Tooltip not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.Localizable$LocalizableBuilder not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.TooltipPosition not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IRegistrar not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.BlockAccessor not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.ITooltip not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ slimeknights.tconstruct.library.modifiers.Modifier not found in MC 26.1.2
+  ✗ slimeknights.tconstruct.library.tools.context.ToolAttackContext not found in MC 26.1.2
+  ✗ slimeknights.tconstruct.library.tools.context.ToolHarvestContext not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.MysticalAgricultureAPI not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.registry.IMobSoulTypeRegistry not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.soul.MobSoulType not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.util.MobSoulUtils not found in MC 26.1.2
+  ✗ slimeknights.tconstruct.library.modifiers.util.ModifierDeferredRegister not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.iface.IColored$BlockColors not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.iface.IColored$ItemBlockColors not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.BaseBlockItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.block.BaseOreBlock not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.BaseItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.lib.Tooltips not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.farmland.IFarmlandConverter not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.crop.ICropTierProvider not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.farmland.FarmlandConverter not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.tool.BasePaxelItem not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.tinkering.ITinkerable not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.util.AugmentUtils not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.tinkering.Augment not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.tinkering.AugmentType not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.IMysticalAgriculturePlugin not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.lib.PluginConfig not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.registry.ICropRegistry not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.crop.CropType not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.lib.LazyIngredient not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.mysticalagradditions.lib.ModItemTier; not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.mysticalagradditions.util.EssenceAppleTier; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.getOptionalParameter() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.eat() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getGameRules() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.stream() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.getBoolean() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties$Builder.alwaysEat() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.damagesource.DamageSource.FALL not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_DOMOBLOOT not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.MOVEMENT_SPEED not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.DAMAGE_RESISTANCE not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.DAMAGE_BOOST not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.DIG_SPEED not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.OreFeatures.f_195075_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

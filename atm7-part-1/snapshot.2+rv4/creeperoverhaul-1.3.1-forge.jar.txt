@@ -1,0 +1,70 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     creeperoverhaul-1.3.1-forge.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:46:32
+Result:  FAILED
+
+Found 53 issue(s):
+
+── Missing Classes ──
+  ✗ software.bernie.geckolib.renderer.layer.GeoRenderLayer not found in MC 26.1.2
+  ✗ software.bernie.geckolib3.model.provider.GeoModelProvider not found in MC 26.1.2
+  ✗ software.bernie.geckolib.renderer.GeoRenderer not found in MC 26.1.2
+  ✗ software.bernie.geckolib.model.GeoModel not found in MC 26.1.2
+  ✗ software.bernie.geckolib.core.animation.AnimationState not found in MC 26.1.2
+  ✗ software.bernie.geckolib3.core.processor.AnimationProcessor not found in MC 26.1.2
+  ✗ software.bernie.geckolib3.model.provider.data.EntityModelData not found in MC 26.1.2
+  ✗ software.bernie.geckolib3.core.processor.IBone not found in MC 26.1.2
+  ✗ software.bernie.geckolib.renderer.GeoEntityRenderer not found in MC 26.1.2
+  ✗ software.bernie.geckolib3.renderers.geo.GeoReplacedEntityRenderer not found in MC 26.1.2
+  ✗ software.bernie.geckolib3.geo.render.built.GeoBone not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Wearable not found in MC 26.1.2
+  ✗ software.bernie.geckolib.animatable.GeoAnimatable not found in MC 26.1.2
+  ✗ software.bernie.geckolib.util.GeckoLibUtil not found in MC 26.1.2
+  ✗ software.bernie.geckolib.core.animation.RawAnimation not found in MC 26.1.2
+  ✗ software.bernie.geckolib.core.animation.AnimationController not found in MC 26.1.2
+  ✗ software.bernie.geckolib.core.animation.PlayState not found in MC 26.1.2
+  ✗ software.bernie.geckolib3.core.builder.Animation not found in MC 26.1.2
+  ✗ software.bernie.geckolib3.core.AnimationState not found in MC 26.1.2
+  ✗ software.bernie.geckolib.core.animatable.manager.AnimatableManager not found in MC 26.1.2
+  ✗ [Ltech.thatgravyboat.creeperoverhaul.common.Events; not found in MC 26.1.2
+  ✗ software.bernie.example.GeckoLibMod not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.create() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityTranslucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.Creeper.canDropMobsSkull() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.Creeper.increaseDroppedSkulls() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getOffset() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.Monster.defineSynchedData() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.Monster.doHurtTarget() not found in MC 26.1.2
+  ✗ net.minecraft.network.syncher.SynchedEntityData.define() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getGameRules() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Explosion.getHitPlayers() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Explosion.getToBlow() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelReader.m_46863_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.goal.MeleeAttackGoal.getAttackReachSqr() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.PathfinderMob.doHurtTarget() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.getBoolean() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.level.Explosion$BlockInteraction.NONE not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.CACTUS not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.DROWN not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_DOMOBLOOT not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome$ClimateSettings.f_47680_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.<init> with 8 params not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData.<init> with 4 params not found in MC 26.1.2
+

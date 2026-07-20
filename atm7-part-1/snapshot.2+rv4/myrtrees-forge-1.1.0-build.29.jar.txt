@@ -1,0 +1,84 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     myrtrees-forge-1.1.0-build.29.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:08:06
+Result:  FAILED
+
+Found 69 issue(s):
+
+── Missing Classes ──
+  ✗ dev.architectury.registry.registries.DeferredRegister not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.TextComponent not found in MC 26.1.2
+  ✗ dev.architectury.hooks.block.BlockEntityHooks not found in MC 26.1.2
+  ✗ dev.architectury.hooks.block.BlockEntityHooks$TypeBuilder not found in MC 26.1.2
+  ✗ dev.architectury.registry.level.biome.BiomeModifications not found in MC 26.1.2
+  ✗ dev.architectury.registry.fuel.FuelRegistry not found in MC 26.1.2
+  ✗ dev.architectury.utils.EnvExecutor not found in MC 26.1.2
+  ✗ dev.architectury.registry.CreativeTabRegistry not found in MC 26.1.2
+  ✗ dev.architectury.registry.client.rendering.RenderTypeRegistry not found in MC 26.1.2
+  ✗ dev.architectury.registry.client.rendering.BlockEntityRendererRegistry not found in MC 26.1.2
+  ✗ dev.architectury.event.events.client.ClientTextureStitchEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.Event not found in MC 26.1.2
+  ✗ dev.architectury.registry.registries.RegistrySupplier not found in MC 26.1.2
+  ✗ dev.architectury.registry.level.biome.BiomeModifications$BiomeContext not found in MC 26.1.2
+  ✗ dev.architectury.hooks.level.biome.BiomeProperties not found in MC 26.1.2
+  ✗ dev.architectury.hooks.level.biome.BiomeProperties$Mutable not found in MC 26.1.2
+  ✗ dev.architectury.hooks.level.biome.GenerationProperties$Mutable not found in MC 26.1.2
+  ✗ dev.architectury.platform.forge.EventBuses not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.m_60926_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.m_49966_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.m_7417_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.m_49796_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41700_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41782_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41783_() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.m_122424_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.BlockPlaceContext.m_8125_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_61124_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_61143_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60717_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60734_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BlockGetter.m_8055_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_142300_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123341_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123342_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123343_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_7494_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.StateDefinition$Builder.m_61104_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_7702_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_7967_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_5776_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Rotation.m_55954_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Mirror.m_54846_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_7500_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5661_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128405_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128456_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128441_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128469_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128451_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.item.ItemEntity.m_32060_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getTextureAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.placement.PlacementUtils.m_206513_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_ENTITY_TYPE_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.TRUNK_PLACER_TYPE_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Blocks.f_50014_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Blocks.f_50016_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.f_46443_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.HorizontalDirectionalBlock.f_54117_ not found in MC 26.1.2
+

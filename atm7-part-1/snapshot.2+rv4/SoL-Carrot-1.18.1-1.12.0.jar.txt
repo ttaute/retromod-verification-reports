@@ -1,0 +1,40 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     SoL-Carrot-1.18.1-1.12.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:19:13
+Result:  FAILED
+
+Found 23 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.cazsius.solcarrot.client.gui.elements.UILabel$TextAlignment; not found in MC 26.1.2
+  ✗ [Lcom.cazsius.solcarrot.client.gui.elements.UIStack$Axis; not found in MC 26.1.2
+  ✗ [Lcom.cazsius.solcarrot.client.gui.PageFlipButton$Direction; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item.isEdible() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getFoodProperties() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.extractComponentTooltip() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTooltipLines() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.TooltipFlag$Default.ADVANCED not found in MC 26.1.2
+  ✗ net.minecraft.world.item.TooltipFlag$Default.NORMAL not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_MISC not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init> with 4 params not found in MC 26.1.2
+

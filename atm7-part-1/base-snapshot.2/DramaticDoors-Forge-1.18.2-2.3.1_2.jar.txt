@@ -1,0 +1,61 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     DramaticDoors-Forge-1.18.2-2.3.1_2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:29:38
+Result:  FAILED
+
+Found 44 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.fizzware.dramaticdoors.blockentities.TallNetheriteDoorBlockEntity$KeyStatus; not found in MC 26.1.2
+  ✗ net.minecraft.advancements.critereon.ItemUsedOnBlockTrigger not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ mod.pianomanu.blockcarpentry.block.DoorFrameBlock not found in MC 26.1.2
+  ✗ [Lcom.fizzware.dramaticdoors.state.properties.Orientation; not found in MC 26.1.2
+  ✗ [Lcom.fizzware.dramaticdoors.state.properties.TripleBlockPart; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.m_183515_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.m_142466_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128359_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128441_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128461_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41786_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_204117_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5661_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5833_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21120_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6047_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_7500_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123341_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123342_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123343_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_6263_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46753_() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket.m_195640_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.m_41471_() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.navigation.GroundPathNavigation.canOpenDoors() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_23325_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.sounds.SoundEvents.f_12012_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122901_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122904_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+

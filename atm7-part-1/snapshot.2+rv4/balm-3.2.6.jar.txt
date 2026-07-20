@@ -1,0 +1,53 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     balm-3.2.6.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:27:13
+Result:  FAILED
+
+Found 36 issue(s):
+
+── Missing Classes ──
+  ✗ [Lnet.blay09.mods.balm.api.BalmEnvironment; not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.balm.api.client.keymappings.KeyConflictContext; not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.balm.api.client.keymappings.KeyModifier; not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.balm.api.event.client.GuiDrawEvent$Element; not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.balm.api.event.EventPriority; not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.balm.api.event.TickPhase; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.resolveParents() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41726_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getContainerItem() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.IntTag.getAsInt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.dispatch.BlockModelRotation.getRotation() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.UnbakedModel.bake() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyMapping.matches() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelBakery.getModel() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.curePotionEffects() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.placement.PlacementUtils.m_206513_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.renderer.block.dispatch.BlockModelRotation.X0_Y0 not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.FALL not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.CUSTOM_STAT not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.PLACED_FEATURE_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.PLACEMENT_MODIFIERS not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome$ClimateSettings.f_47680_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.<init> with 7 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+

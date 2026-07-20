@@ -1,0 +1,147 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ExtraStorage-1.18.2-2.2.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:52:54
+Result:  FAILED
+
+Found 130 issue(s):
+
+── Missing Classes ──
+  ✗ com.refinedmods.refinedstorage.blockentity.NetworkNodeBlockEntity not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.data.BlockEntitySynchronizationManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.data.BlockEntitySynchronizationParameter not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.config.IComparable not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.config.IType not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.storage.disk.IStorageDisk not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.config.IPrioritizable not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.config.IWhitelistBlacklist not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.config.IAccessType not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.data.RSSerializers not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.block.NetworkNodeBlock not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.BlockUtils not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.block.BlockDirection not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.security.Permission not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.NetworkUtils not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.factory.BlockEntityMenuProvider not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.block.CableBlock not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.block.shape.ShapeCache not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.render.ConstantsCable not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.CollisionUtils not found in MC 26.1.2
+  ✗ [Ledivad.extrastorage.blocks.CrafterTier; not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.BaseScreen not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.RenderUtils not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.item.UpgradeItem$Type not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.item.UpgradeItemHandler not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.widget.sidebutton.RedstoneModeSideButton not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.widget.sidebutton.TypeSideButton not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.widget.sidebutton.ExactModeSideButton not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.StorageScreen not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.StorageScreenSynchronizationParameters not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.widget.sidebutton.WhitelistBlacklistSideButton not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.widget.sidebutton.SideButton not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.data.BlockEntitySynchronizationClientListener not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfoProvider not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ITheOneProbe not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeHitData not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfo not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.CrafterBlockEntity not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.CrafterNetworkNode not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.BaseContainerMenu not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.transfer.TransferManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.slot.filter.FilterSlot not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.slot.filter.FluidFilterSlot not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.RSItems not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.storage.ItemStorageType not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.storage.FluidStorageType not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.RSBlocks not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.ColorMap not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.item.ProcessorItem$Type not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.item.blockitem.BaseBlockItem not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.API not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.IRSAPI not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.storage.disk.IStorageDiskSync not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.storage.disk.StorageDiskSyncData not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.util.IQuantityFormatter not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.render.Styles not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.storage.disk.IStorageDiskManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.storage.disk.IStorageDiskProvider not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.storage.StorageType not found in MC 26.1.2
+  ✗ [Ledivad.extrastorage.items.storage.fluid.FluidStorageType; not found in MC 26.1.2
+  ✗ [Ledivad.extrastorage.items.storage.item.ItemStorageType; not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.item.BaseItemHandler not found in MC 26.1.2
+  ✗ [Ledivad.extrastorage.nodes.AdvancedCrafterNetworkNode$CrafterMode; not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.NetworkNode not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.autocrafting.ICraftingPatternContainer not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.listener.NetworkNodeInventoryListener not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.item.validator.PatternItemValidator not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.autocrafting.ICraftingPatternProvider not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.autocrafting.ICraftingPattern not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.INetwork not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.autocrafting.ICraftingManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.StackUtils not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.LevelUtils not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.node.INetworkNodeManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.node.INetworkNode not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.autocrafting.task.ICraftingTask not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.node.ICoverable not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.fluid.FluidInventory not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.listener.NetworkNodeFluidInventoryListener not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.cover.CoverManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.RS not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.config.ServerConfig not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.config.ServerConfig$Exporter not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.util.IComparer not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.util.Action not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.SlottedCraftingRequest not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.storage.cache.IStorageCache not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.util.IStackList not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.storage.FluidStorageNetworkNode not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.storage.FluidStorageWrapperStorageDisk not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.config.ServerConfig$Importer not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.DiskDriveBlockEntity not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.storage.StorageNetworkNode not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.storage.ItemStorageWrapperStorageDisk not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.render.BakedModelOverrideRegistry not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.render.model.FullbrightBakedModel not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.render.BakedModelOverrideRegistry$BakedModelOverrideFactory not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.node.INetworkNodeRegistry not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.block.BaseBlock not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hasCustomHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.hasUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.putUUID() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.SimpleCookingRecipeBuilder.smelting() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.shapeless() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.getParamOrNull() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.displayClientMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.getRegistryName() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.LOOT_FUNCTION_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+

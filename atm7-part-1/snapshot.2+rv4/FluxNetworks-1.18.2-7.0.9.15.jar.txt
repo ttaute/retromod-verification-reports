@@ -1,0 +1,193 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     FluxNetworks-1.18.2-7.0.9.15.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:53:25
+Result:  FAILED
+
+Found 176 issue(s):
+
+── Missing Classes ──
+  ✗ [Lsonar.fluxnetworks.api.device.FluxDeviceType; not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.api.energy.EnergyType; not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.api.gui.EnumNetworkColor; not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.api.misc.FeedbackInfo; not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.api.misc.FluxConfigurationType; not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.api.network.AccessLevel; not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.api.network.SecurityLevel; not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.api.network.WirelessType; not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.EditText not found in MC 26.1.2
+  ✗ icyllis.modernui.util.ColorStateList not found in MC 26.1.2
+  ✗ icyllis.modernui.util.StateSet not found in MC 26.1.2
+  ✗ icyllis.modernui.text.InputFilter$LengthFilter not found in MC 26.1.2
+  ✗ icyllis.modernui.graphics.drawable.Drawable not found in MC 26.1.2
+  ✗ icyllis.modernui.view.View not found in MC 26.1.2
+  ✗ icyllis.modernui.graphics.Paint not found in MC 26.1.2
+  ✗ icyllis.modernui.graphics.Rect not found in MC 26.1.2
+  ✗ icyllis.modernui.graphics.Canvas not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.BaseAdapter not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.TextView not found in MC 26.1.2
+  ✗ icyllis.modernui.view.ViewGroup not found in MC 26.1.2
+  ✗ icyllis.modernui.view.ViewGroup$LayoutParams not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.toasts.ToastComponent not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.client.gui.basic.GuiTabPages$SortType; not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.client.gui.EnumNavigationTab; not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeType not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeIngredientRole not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeSlotBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ITickTimer not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ icyllis.modernui.text.TextWatcher not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.LinearLayout not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.AdapterView$OnItemSelectedListener not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.AdapterView not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.RelativeRadioGroup not found in MC 26.1.2
+  ✗ icyllis.modernui.fragment.Fragment not found in MC 26.1.2
+  ✗ icyllis.modernui.fragment.FragmentManager not found in MC 26.1.2
+  ✗ icyllis.modernui.animation.LayoutTransition not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.LinearLayout$LayoutParams not found in MC 26.1.2
+  ✗ icyllis.modernui.text.InputFilter not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.Spinner not found in MC 26.1.2
+  ✗ icyllis.modernui.text.method.PasswordTransformationMethod not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.Button not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.FrameLayout$LayoutParams not found in MC 26.1.2
+  ✗ icyllis.modernui.text.Editable not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.RelativeLayout$LayoutParams not found in MC 26.1.2
+  ✗ icyllis.modernui.util.DataSet not found in MC 26.1.2
+  ✗ icyllis.modernui.util.FloatProperty not found in MC 26.1.2
+  ✗ icyllis.modernui.animation.AnimatorListener not found in MC 26.1.2
+  ✗ icyllis.modernui.animation.ObjectAnimator not found in MC 26.1.2
+  ✗ icyllis.modernui.util.IntProperty not found in MC 26.1.2
+  ✗ icyllis.modernui.animation.TimeInterpolator not found in MC 26.1.2
+  ✗ icyllis.modernui.mc.forge.ContainerDrawHelper not found in MC 26.1.2
+  ✗ icyllis.modernui.text.method.DigitsInputFilter not found in MC 26.1.2
+  ✗ icyllis.modernui.fragment.FragmentTransaction not found in MC 26.1.2
+  ✗ icyllis.modernui.graphics.Image not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.ImageButton not found in MC 26.1.2
+  ✗ icyllis.modernui.graphics.drawable.ImageDrawable not found in MC 26.1.2
+  ✗ icyllis.modernui.fragment.FragmentContainerView not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.RadioButton not found in MC 26.1.2
+  ✗ icyllis.modernui.animation.PropertyValuesHolder not found in MC 26.1.2
+  ✗ icyllis.modernui.animation.Animator not found in MC 26.1.2
+  ✗ icyllis.modernui.animation.AnticipateOvershootInterpolator not found in MC 26.1.2
+  ✗ icyllis.modernui.view.View$OnFocusChangeListener not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICuriosItemHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.inventory.ICurioStacksHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+  ✗ icyllis.modernui.mc.forge.MuiForgeApi not found in MC 26.1.2
+  ✗ icyllis.modernui.text.SpannableString not found in MC 26.1.2
+  ✗ icyllis.modernui.text.style.ForegroundColorSpan not found in MC 26.1.2
+  ✗ icyllis.modernui.core.Core not found in MC 26.1.2
+  ✗ icyllis.modernui.widget.Toast not found in MC 26.1.2
+  ✗ icyllis.modernui.mc.forge.OpenMenuEvent not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IBlockDisplayOverride not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeHitData not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfo not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.TextStyleClass not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfoProvider not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ITheOneProbe not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.common.test.FluxLogicalType; not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.common.test.NBTType; not found in MC 26.1.2
+  ✗ [Lsonar.fluxnetworks.common.test.NumberFormatType; not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.functions.CopyNbtFunction not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ icyllis.modernui.mc.forge.NetworkHandler not found in MC 26.1.2
+  ✗ icyllis.modernui.mc.forge.PacketDispatcher not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.getTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getOrCreateTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.putUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getUUID() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.hasPermissions() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.reviveCaps() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.invalidateCaps() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getToasts() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.GuiEventListener.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.extractButton() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.GameRenderer.lightTexture() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.renderModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.SavedDataStorage.computeIfAbsent() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getGroup() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getRecipeWidth() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getRecipeHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.fromNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.toNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapelessRecipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapelessRecipe.getGroup() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapelessRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapelessRecipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getUpdateTag() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.asLong() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.LevelChunk.setUnsaved() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.success() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.BlockLootSubProvider.m_124165_() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.common.ServerboundCustomPayloadPacket.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.common.ClientboundCustomPayloadPacket.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.toasts.SystemToast$SystemToastId.TUTORIAL_HINT not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Inventory.offhand not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Inventory.armor not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.SHAPED_RECIPE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.SHAPELESS_RECIPE not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider.BLOCK_ENTITY not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.clientLevel not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.<init> with 8 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.common.ServerboundCustomPayloadPacket.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.common.ClientboundCustomPayloadPacket.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,129 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     entangled-1.3.17-forge-mc1.18.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:52:10
+Result:  FAILED
+
+Found 114 issue(s):
+
+── Missing Classes ──
+  ✗ com.supermartijn642.core.registry.RegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.GeneratorRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BaseBlockEntityType not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.BaseBlockItem not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.ItemProperties not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.CreativeItemGroup not found in MC 26.1.2
+  ✗ com.supermartijn642.core.CommonUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.BaseItem not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.RegistryUtil not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.BaseItem$InteractionFeedback not found in MC 26.1.2
+  ✗ com.supermartijn642.core.TextComponents not found in MC 26.1.2
+  ✗ com.supermartijn642.core.TextComponents$TextComponentBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.BaseItem$ItemUseResult not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.entangled.EntangledBlock$State; not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BaseBlock not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.EntityHoldingBlock not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BlockProperties not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BaseBlock$InteractionFeedback not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BaseBlockEntity not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.TickableBlockEntity not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.CustomBlockEntityRenderer not found in MC 26.1.2
+  ✗ com.supermartijn642.core.ClientUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.Registries not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.Registries$Registry not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.BlockEntityCustomItemRenderer not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.RenderWorldEvent not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.RenderUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.ClientRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.configlib.api.ConfigBuilders not found in MC 26.1.2
+  ✗ com.supermartijn642.configlib.api.IConfigBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$BlockStateBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$PartialBlockState not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$VariantBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LanguageGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LootTableGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator$ModelBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator$ShapedRecipeBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator$ShapelessRecipeBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator$TagBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.data.tag.entries.NamespaceTagEntry not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IComponentProvider not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.TooltipPosition not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IWailaClientRegistration not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.BlockAccessor not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.ITooltip not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfoProvider not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ITheOneProbe not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeHitData not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.TextStyleClass not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfo not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.m_41782_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41783_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41751_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41749_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41784_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41619_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41720_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.m_49956_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.m_49803_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128471_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128425_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128461_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128451_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128379_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128359_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128405_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128441_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.m_128469_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123341_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123342_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123343_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123314_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46472_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_8055_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_7702_() not found in MC 26.1.2
+  ✗ net.minecraft.resources.ResourceKey.m_135782_() not found in MC 26.1.2
+  ✗ net.minecraft.resources.ResourceKey.m_135785_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5661_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6047_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21120_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_61124_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_61143_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getAnalogOutputSignal() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getOcclusionShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.StateDefinition$Builder.m_61104_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.shapes.Shapes.m_83040_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.shapes.Shapes.m_83144_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.BlockPlaceContext.m_43722_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.BlockPlaceContext.m_43725_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.BlockPlaceContext.m_8083_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.BlockPlaceContext.m_43723_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BlockGetter.m_7702_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.properties.EnumProperty.m_61587_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher.render() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40753_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.f_46443_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122819_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_ENTITY_TYPE_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.SoundType.f_56742_ not found in MC 26.1.2
+

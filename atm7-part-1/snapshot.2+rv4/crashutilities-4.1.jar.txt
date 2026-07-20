@@ -1,0 +1,83 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     crashutilities-4.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:43:21
+Result:  FAILED
+
+Found 66 issue(s):
+
+── Missing Classes ──
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICuriosItemHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.inventory.ICurioStacksHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.inventory.IDynamicStackHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.CuriosApi not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.util.ISlotHelper not found in MC 26.1.2
+  ✗ [Lcom.darkere.crashutils.Network.DataRequestType; not found in MC 26.1.2
+  ✗ [Lcom.darkere.crashutils.Screens.CUTab; not found in MC 26.1.2
+  ✗ [Lcom.darkere.crashutils.Screens.Types.DropDownType; not found in MC 26.1.2
+  ✗ [Lcom.darkere.crashutils.Screens.Types.GridRenderType; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.server.level.ServerLevel.removeEntityComplete() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getSharedSpawnPos() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.getProfileCache() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.server.players.PlayerList.broadcastMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.m_96602_() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.hasPermissions() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.changeDimension() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.hasPermissions() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.PlayerDataStorage.getPlayerDataFolder() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ChunkMap.getChunks() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.toLong() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ChunkHolder.getLastAvailable() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.LevelChunk.m_6708_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getStatus() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getWorldForge() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.status.ChunkStatus.m_62467_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.DistanceManager.getTickets() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.extractButton() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.onPress() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.blit() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.getArrow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.moveCursorToStart() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.m_94178_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.charTyped() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseScrolled() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.charTyped() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.extractTooltip() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.ChatType.SYSTEM not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Inventory.offhand not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Inventory.armor not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.f_129745_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+

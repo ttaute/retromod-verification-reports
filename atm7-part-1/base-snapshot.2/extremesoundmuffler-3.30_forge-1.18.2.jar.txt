@@ -1,0 +1,49 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     extremesoundmuffler-3.30_forge-1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:32:12
+Result:  FAILED
+
+Found 32 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen not found in MC 26.1.2
+  ✗ [Lcom.leobeliik.extremesoundmuffler.utils.Tips; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.components.AbstractButton.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.AbstractWidget.onDrag() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.AbstractWidget.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.AbstractWidget.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92750_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92857_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.m_131328_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.copy() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseScrolled() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.m_94178_() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyMapping.matches() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.sounds.SoundInstance.getLocation() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.writeBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readBlockPos() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.f_131282_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122821_ not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.clientLevel not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+

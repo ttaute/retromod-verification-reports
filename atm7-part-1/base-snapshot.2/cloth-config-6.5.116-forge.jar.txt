@@ -1,0 +1,85 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     cloth-config-6.5.116-forge.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:19:49
+Result:  FAILED
+
+Found 68 issue(s):
+
+── Missing Classes ──
+  ✗ [Lme.shedaniel.autoconfig.annotation.ConfigEntry$Gui$EnumHandler$EnumDisplayOption; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.autoconfig.example.ExampleConfig$ExampleEnum; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.autoconfig.gui.registry.GuiRegistry$Priority; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.cloth.clothconfig.shadowed.com.moandjiezana.toml.Identifier$Type; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.cloth.clothconfig.shadowed.org.yaml.snakeyaml.DumperOptions$FlowStyle; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.cloth.clothconfig.shadowed.org.yaml.snakeyaml.DumperOptions$LineBreak; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.cloth.clothconfig.shadowed.org.yaml.snakeyaml.DumperOptions$NonPrintableStyle; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.cloth.clothconfig.shadowed.org.yaml.snakeyaml.DumperOptions$ScalarStyle; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.cloth.clothconfig.shadowed.org.yaml.snakeyaml.DumperOptions$Version; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.cloth.clothconfig.shadowed.org.yaml.snakeyaml.events.Event$ID; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.cloth.clothconfig.shadowed.org.yaml.snakeyaml.introspector.BeanAccess; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.cloth.clothconfig.shadowed.org.yaml.snakeyaml.nodes.NodeId; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.cloth.clothconfig.shadowed.org.yaml.snakeyaml.tokens.Token$ID; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.clothconfig2.ClothConfigDemo$1DependencyDemoEnum; not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.chat.NarratorChatListener not found in MC 26.1.2
+  ✗ [Lme.shedaniel.clothconfig2.gui.entries.ColorEntry$ColorError; not found in MC 26.1.2
+  ✗ [Lme.shedaniel.clothconfig2.impl.EasingMethod$EasingMethodImpl; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92744_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92897_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92877_() not found in MC 26.1.2
+  ✗ net.minecraft.util.Mth.m_14053_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_96624_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_96570_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.handleComponentClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.tick() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.moveCursorToStart() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.charTyped() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.moveCursorTo() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.ClickEvent.getValue() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.AbstractContainerEventHandler.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.AbstractContainerEventHandler.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.AbstractContainerEventHandler.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.AbstractSliderButton.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.AbstractSliderButton.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.client.StringSplitter.componentStyleAtWidth() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.ContainerEventHandler.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.ContainerEventHandler.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.ContainerEventHandler.mouseScrolled() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.ContainerEventHandler.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.ContainerEventHandler.keyReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.ContainerEventHandler.charTyped() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.Minecraft.ON_OSX not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122827_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122824_ not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.BLOCK_EFFICIENCY not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.f_93096_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+

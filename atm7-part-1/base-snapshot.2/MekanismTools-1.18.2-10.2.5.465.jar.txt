@@ -1,0 +1,92 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     MekanismTools-1.18.2-10.2.5.465.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:44:49
+Result:  FAILED
+
+Found 75 issue(s):
+
+── Missing Classes ──
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mekanism.common.registration.impl.ItemDeferredRegister not found in MC 26.1.2
+  ✗ mekanism.api.providers.IItemProvider not found in MC 26.1.2
+  ✗ mekanism.client.jei.RecipeRegistryHelper not found in MC 26.1.2
+  ✗ mekanism.client.render.item.MekanismISTER not found in MC 26.1.2
+  ✗ mekanism.common.registration.impl.ItemRegistryObject not found in MC 26.1.2
+  ✗ mekanism.common.Mekanism not found in MC 26.1.2
+  ✗ mekanism.client.render.RenderPropertiesProvider$MekRenderProperties not found in MC 26.1.2
+  ✗ [Lmekanism.tools.client.ShieldTextures; not found in MC 26.1.2
+  ✗ mekanism.client.ClientRegistrationUtil not found in MC 26.1.2
+  ✗ mekanism.common.config.MekanismConfigHelper not found in MC 26.1.2
+  ✗ mekanism.common.config.BaseMekanismConfig not found in MC 26.1.2
+  ✗ mekanism.common.config.value.CachedBooleanValue not found in MC 26.1.2
+  ✗ mekanism.common.config.value.CachedDoubleValue not found in MC 26.1.2
+  ✗ mekanism.common.integration.gender.MekanismGenderArmor not found in MC 26.1.2
+  ✗ mekanism.common.integration.MekanismHooks not found in MC 26.1.2
+  ✗ mekanism.common.capabilities.ItemCapabilityWrapper$ItemCapability not found in MC 26.1.2
+  ✗ mekanism.common.capabilities.ItemCapabilityWrapper not found in MC 26.1.2
+  ✗ mekanism.common.lib.attribute.IAttributeRefresher not found in MC 26.1.2
+  ✗ mekanism.common.lib.attribute.AttributeCache not found in MC 26.1.2
+  ✗ mekanism.common.config.value.CachedValue not found in MC 26.1.2
+  ✗ net.minecraft.advancements.critereon.ItemUsedOnBlockTrigger not found in MC 26.1.2
+  ✗ mekanism.common.tags.MekanismTags$Items not found in MC 26.1.2
+  ✗ mekanism.common.resource.ResourceType not found in MC 26.1.2
+  ✗ mekanism.common.resource.PrimaryResource not found in MC 26.1.2
+  ✗ mekanism.common.config.value.CachedFloatValue not found in MC 26.1.2
+  ✗ mekanism.common.config.value.CachedIntValue not found in MC 26.1.2
+  ✗ mekanism.common.base.IModModule not found in MC 26.1.2
+  ✗ mekanism.common.registration.impl.RecipeSerializerDeferredRegister not found in MC 26.1.2
+  ✗ mekanism.common.lib.Version not found in MC 26.1.2
+  ✗ mekanism.common.config.MekanismModConfig not found in MC 26.1.2
+  ✗ mekanism.common.registration.impl.RecipeSerializerRegistryObject not found in MC 26.1.2
+  ✗ mekanism.common.recipe.WrappedShapedRecipe not found in MC 26.1.2
+  ✗ mekanism.api.math.MathUtils not found in MC 26.1.2
+  ✗ mekanism.common.recipe.serializer.WrappedShapedRecipeSerializer not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.SimpleRecipeSerializer not found in MC 26.1.2
+  ✗ mekanism.api.text.ILangEntry not found in MC 26.1.2
+  ✗ [Lmekanism.tools.common.ToolsLang; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.Model.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.renderToBuffer() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.object.equipment.ShieldModel.renderToBuffer() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.addTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.sprite.Material.atlasLocation() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.sprite.Material.texture() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.render() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ShieldItem.getColor() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ShieldItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BannerBlockEntity.getItemPatterns() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BannerBlockEntity.createPatterns() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.BannerRenderer.renderPatterns() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.equipment.ArmorMaterial.getRepairIngredient() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.equipment.ArmorMaterial.m_7365_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.model.Model.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init> with 5 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init> with 1 params not found in MC 26.1.2
+

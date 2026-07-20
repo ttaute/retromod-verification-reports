@@ -1,0 +1,77 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ars_creo-1.18.2-2.2.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:26:16
+Result:  FAILED
+
+Found 60 issue(s):
+
+── Missing Classes ──
+  ✗ software.bernie.ars_nouveau.geckolib3.model.AnimatedGeoModel not found in MC 26.1.2
+  ✗ software.bernie.ars_nouveau.geckolib3.core.processor.AnimationProcessor not found in MC 26.1.2
+  ✗ software.bernie.ars_nouveau.geckolib3.core.processor.IBone not found in MC 26.1.2
+  ✗ com.simibubi.create.content.kinetics.base.KineticBlockEntity not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.utility.AnimationTickHolder not found in MC 26.1.2
+  ✗ com.simibubi.create.content.kinetics.simpleRelays.ICogWheel not found in MC 26.1.2
+  ✗ software.bernie.ars_nouveau.geckolib3.renderers.geo.GeoBlockRenderer not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.client.renderer.item.GenericItemBlockRenderer not found in MC 26.1.2
+  ✗ com.simibubi.create.content.kinetics.base.DirectionalKineticBlock not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.block.IBE not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.utility.worldWrappers.WrappedWorld not found in MC 26.1.2
+  ✗ com.simibubi.create.content.kinetics.base.GeneratingKineticBlockEntity not found in MC 26.1.2
+  ✗ software.bernie.ars_nouveau.geckolib3.core.IAnimatable not found in MC 26.1.2
+  ✗ software.bernie.ars_nouveau.geckolib3.core.manager.AnimationFactory not found in MC 26.1.2
+  ✗ software.bernie.ars_nouveau.geckolib3.core.controller.AnimationController not found in MC 26.1.2
+  ✗ software.bernie.ars_nouveau.geckolib3.core.manager.AnimationData not found in MC 26.1.2
+  ✗ com.simibubi.create.content.kinetics.crank.HandCrankBlock not found in MC 26.1.2
+  ✗ software.bernie.ars_nouveau.geckolib3.core.event.predicate.AnimationEvent not found in MC 26.1.2
+  ✗ software.bernie.ars_nouveau.geckolib3.core.builder.AnimationBuilder not found in MC 26.1.2
+  ✗ software.bernie.ars_nouveau.geckolib3.core.PlayState not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.common.items.RendererBlockItem not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.setup.ItemsRegistry not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.behaviour.MovementBehaviour not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.behaviour.MovingInteractionBehaviour not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.AbstractContraptionEntity not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.Contraption not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.behaviour.MovementContext not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.common.block.BasicSpellTurret not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.api.ANFakePlayer not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.api.spell.TurretSpellCaster not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.api.spell.Spell not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.api.spell.EntitySpellResolver not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.api.spell.SpellContext not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.api.spell.SpellContext$CasterType not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.api.util.SourceUtil not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.common.spell.method.MethodProjectile not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.common.spell.method.MethodTouch not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.common.entity.EntityProjectileSpell not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.common.block.CreativeSourceJar not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.common.block.SourceJar not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.common.block.tile.SourceJarTile not found in MC 26.1.2
+  ✗ com.simibubi.create.AllInteractionBehaviours not found in MC 26.1.2
+  ✗ com.simibubi.create.AllMovementBehaviours not found in MC 26.1.2
+  ✗ com.simibubi.create.content.kinetics.BlockStressDefaults not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.setup.BlockRegistry not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.ArsNouveau not found in MC 26.1.2
+  ✗ com.hollingsworth.arsnouveau.setup.IProxy not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.render.ContraptionRenderDispatcher not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNormal() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNearest() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.level.block.RenderShape.ENTITYBLOCK_ANIMATED not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+

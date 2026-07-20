@@ -1,0 +1,48 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     universalgrid-1.18.2-1.0321.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:25:57
+Result:  FAILED
+
+Found 33 issue(s):
+
+── Missing Classes ──
+  ✗ com.refinedmods.refinedstorage.api.network.grid.IGridFactory not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.grid.GridFactoryType not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.GridContainerMenu not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.item.INetworkItem not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.INetwork not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.security.Permission not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.security.ISecurityManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.LevelUtils not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.API not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.IRSAPI not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.grid.IGridManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.item.INetworkItemManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.widget.sidebutton.SideButton not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.BaseScreen not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.KeyInputListener not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.item.property.NetworkItemPropertyGetter not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.grid.WirelessGrid not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.StackUtils not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.grid.GridType not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.storage.cache.listener.FluidGridStorageCacheListener not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.grid.ICraftingGridBehavior not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.util.Action not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.storage.tracker.IStorageTracker not found in MC 26.1.2
+  ✗ [Lcom.YTrollman.UniversalGrid.item.WirelessUniversalGridItem$Type; not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.item.NetworkItem not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.NetworkUtils not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init> with 3 params not found in MC 26.1.2
+

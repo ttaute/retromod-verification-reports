@@ -1,0 +1,61 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     PackMenu-1.18.2-4.1.4.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:12:01
+Result:  FAILED
+
+Found 44 issue(s):
+
+── Missing Classes ──
+  ✗ [Lshadows.packmenu.buttons.AnchorPoint; not found in MC 26.1.2
+  ✗ [Lshadows.packmenu.buttons.ButtonAction; not found in MC 26.1.2
+  ✗ [Lshadows.packmenu.buttons.ScreenType; not found in MC 26.1.2
+  ✗ shadows.placebo.config.Configuration not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.FolderPackResources not found in MC 26.1.2
+  ✗ shadows.placebo.util.RunnableReloader not found in MC 26.1.2
+  ✗ shadows.placebo.util.ClientUtil not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.Minecraft.getDeltaFrameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.m_91101_() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.setConnectedToRealms() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen.init() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ServerList.m_105443_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.ConnectScreen.m_169267_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.m_93208_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.options.OptionsScreen.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.options.OptionsScreen.init() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.packs.PackSelectionScreen.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.TitleScreen.m_96624_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.repository.Pack.m_10430_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureManager.preload() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.getInputStream() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.close() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.gui.components.Button.f_93716_ not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.AbstractWidget.WIDGETS_LOCATION not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.CubeMap.images not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.options.OptionsScreen.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.packs.PackSelectionScreen.<init> with 5 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init> with 12 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

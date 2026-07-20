@@ -1,0 +1,108 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     endertanks-forge-1.18.2-1.11.14.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:51:49
+Result:  FAILED
+
+Found 91 issue(s):
+
+── Missing Classes ──
+  ✗ [Lshetiphian.endertanks.api.StorageAccessMode; not found in MC 26.1.2
+  ✗ shetiphian.core.common.DyeHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.Function not found in MC 26.1.2
+  ✗ shetiphian.core.client.ColorHandler$BlockColor not found in MC 26.1.2
+  ✗ shetiphian.core.client.ColorHandler$ItemColor not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.item.ItemPropertyFunction not found in MC 26.1.2
+  ✗ [Lshetiphian.endertanks.common.block.BlockEnderTank$EnumType; not found in MC 26.1.2
+  ✗ shetiphian.core.common.IColored not found in MC 26.1.2
+  ✗ shetiphian.core.common.Materials not found in MC 26.1.2
+  ✗ shetiphian.core.common.CapabilityHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.CapabilityHelper$FluidHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.ToolHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.IColored$Data not found in MC 26.1.2
+  ✗ shetiphian.core.common.HitBoxData not found in MC 26.1.2
+  ✗ shetiphian.core.common.crafting.AbstractShapedRecipe$Serializer not found in MC 26.1.2
+  ✗ shetiphian.core.common.crafting.AbstractShapedRecipe not found in MC 26.1.2
+  ✗ shetiphian.core.common.TagHelper not found in MC 26.1.2
+  ✗ [Lshetiphian.endertanks.common.item.ItemEnderBucket$EnumMode; not found in MC 26.1.2
+  ✗ shetiphian.core.common.item.IToolMode not found in MC 26.1.2
+  ✗ shetiphian.core.common.NBTFile not found in MC 26.1.2
+  ✗ shetiphian.core.common.NameHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.network.PacketPipeline not found in MC 26.1.2
+  ✗ shetiphian.core.common.network.PacketBase not found in MC 26.1.2
+  ✗ shetiphian.core.common.tileentity.TileEntityBase not found in MC 26.1.2
+  ✗ shetiphian.core.common.rgb16.IRGB16_Tile not found in MC 26.1.2
+  ✗ shetiphian.core.common.rgb16.RGB16 not found in MC 26.1.2
+  ✗ shetiphian.core.common.rgb16.RGB16Helper not found in MC 26.1.2
+  ✗ mekanism.api.chemical.ChemicalTankBuilder$BasicGasTank not found in MC 26.1.2
+  ✗ mekanism.api.chemical.attribute.ChemicalAttributeValidator not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.GasStack not found in MC 26.1.2
+  ✗ mekanism.api.Action not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.IGasHandler not found in MC 26.1.2
+  ✗ mekanism.common.capabilities.MekanismCapabilities not found in MC 26.1.2
+  ✗ mekanism.api.chemical.ChemicalTankBuilder$BasicInfusionTank not found in MC 26.1.2
+  ✗ mekanism.api.chemical.infuse.InfusionStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.infuse.IInfusionHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.ChemicalTankBuilder$BasicPigmentTank not found in MC 26.1.2
+  ✗ mekanism.api.chemical.pigment.PigmentStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.pigment.IPigmentHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.ChemicalTankBuilder$BasicSlurryTank not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.SlurryStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.ISlurryHandler not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IComponentProvider not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IServerDataProvider not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.BlockAccessor not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.ITooltip not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.config.IPluginConfig not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.ui.IElementHelper not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.ui.IElement not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IWailaCommonRegistration not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.TooltipPosition not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IWailaClientRegistration not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IElementFactory not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IElement not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.apiimpl.client.ElementTextRender not found in MC 26.1.2
+  ✗ shetiphian.core.client.gui.GuiHelper not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfoProvider not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeHitData not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ProbeMode not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfo not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ITheOneProbe not found in MC 26.1.2
+  ✗ shetiphian.core.common.MyCreativeTab not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.onDestroyedByPlayer() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getTagType() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.lines() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.getOptionalParameter() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.onCraftedBy() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.success() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getAttributes() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.LiquidBlock.getFluid() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.LiquidBlock.pickupBlock() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.FlowingFluid.getAttributes() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.cauldron.CauldronInteraction.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.core.cauldron.CauldronInteraction.WATER not found in MC 26.1.2
+  ✗ net.minecraft.core.cauldron.CauldronInteraction.LAVA not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,17 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     bwncr-3.13.21.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:12
+Result:  FAILED
+
+Found 4 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6352_() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,21 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     rangedpumps-0.9.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:14:31
+Result:  FAILED
+
+Found 8 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.refinedmods.rangedpumps.blockentity.PumpState; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.entity.player.Player.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.LiquidBlock.getFluid() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.LongTag.getAsLong() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.setRegistryName() not found in MC 26.1.2
+

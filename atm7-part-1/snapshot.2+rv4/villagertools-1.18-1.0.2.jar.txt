@@ -1,0 +1,8 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     villagertools-1.18-1.0.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:26:06
+Result:  PASSED
+
+No issues found. All bytecode references resolve correctly.

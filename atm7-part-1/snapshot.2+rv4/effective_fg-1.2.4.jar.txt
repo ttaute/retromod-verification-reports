@@ -1,0 +1,27 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     effective_fg-1.2.4.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:51:08
+Result:  FAILED
+
+Found 12 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getGameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.clear() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.sounds.AbstractSoundInstance.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.particle.ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.ParticleRenderType.PARTICLE_SHEET_OPAQUE not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.resources.sounds.AbstractSoundInstance.<init> with 2 params not found in MC 26.1.2
+

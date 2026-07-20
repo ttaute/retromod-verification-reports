@@ -1,0 +1,58 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     YungsBetterMineshafts-1.18.2-Forge-2.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 05:07:10
+Result:  FAILED
+
+Found 41 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.commands.arguments.ResourceOrTagLocationArgument$Result not found in MC 26.1.2
+  ✗ [Lcom.yungnickyoung.minecraft.bettermineshafts.world.BetterMineshaftStructureFeature$LegVariant; not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.BlockStateRandomizer not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.BoundingBoxHelper not found in MC 26.1.2
+  ✗ [Lcom.yungnickyoung.minecraft.bettermineshafts.world.generator.pieces.OreDeposit$OreType; not found in MC 26.1.2
+  ✗ [Lcom.yungnickyoung.minecraft.bettermineshafts.world.generator.pieces.SmallTunnelTurn$TurnDirection; not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.SurfaceHelper not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.levelgen.structure.StructureSet$StructureSelectionEntry.f_210026_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.util.StringRepresentable.m_14350_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.WorldgenRandom.nextDouble() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.WorldgenRandom.nextInt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197354_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197355_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197358_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getNoiseBiome() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context.f_192709_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context.f_192705_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context.f_192708_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context.f_197328_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context.f_192707_() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction$Plane.m_122560_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelHeightAccessor.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.WorldGenLevel.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.WorldGenLevel.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.m_59620_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_65385_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartChest.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartTNT.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BaseSpawner.m_45462_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.f_122843_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartChest.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartTNT.<init> with 4 params not found in MC 26.1.2
+

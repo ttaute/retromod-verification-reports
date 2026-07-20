@@ -1,0 +1,110 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     curios-forge-1.18.2-5.0.9.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:47:30
+Result:  FAILED
+
+Found 93 issue(s):
+
+── Missing Classes ──
+  ✗ [Ltop.theillusivec4.curios.api.SlotTypePreset; not found in MC 26.1.2
+  ✗ [Ltop.theillusivec4.curios.api.type.capability.ICurio$DropRule; not found in MC 26.1.2
+  ✗ [Ltop.theillusivec4.curios.client.CuriosClientConfig$Client$ButtonCorner; not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGuiContainerHandler not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+  ✗ [Ltop.theillusivec4.curios.common.network.server.sync.SPacketSyncOperation$Operation; not found in MC 26.1.2
+  ✗ [Ltop.theillusivec4.curios.common.network.server.sync.SPacketSyncStack$HandlerType; not found in MC 26.1.2
+  ✗ net.minecraft.commands.synchronization.EmptyArgumentSerializer not found in MC 26.1.2
+  ✗ net.minecraft.commands.synchronization.ArgumentTypes not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.copyFrom() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.copyPropertiesTo() not found in MC 26.1.2
+  ✗ net.minecraft.resources.Identifier.isValidResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isEnderMask() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.inventoryTick() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getGameRules() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.getDamageBonus() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.hasVanishingCurse() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.hasBindingCurse() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.putUUID() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.load() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.toValue() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.fromValue() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.setPosition() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen.getSelectedTab() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen.findSlot() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.getId() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.InventoryScreen.getRecipeBookComponent() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.InventoryScreen.extractEntityInInventory() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.init() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.extractGhostRecipe() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.hasClickedOutside() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookComponent.m_100373_() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.forEach() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getExpDrop() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.getBoolean() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeBookTabButton.getArrow() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ResultContainer.setRecipeUsed() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate.matches() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.LocationPredicate.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.getParamOrNull() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.CriteriaTriggers.register() not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.item.ItemArgument.m_120960_() not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.item.ItemInput.createItemStack() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.TagParser.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.TagParser.readStruct() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.enchantment.Enchantments.BLOCK_FORTUNE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.MOB_LOOTING not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.ATTRIBUTE_MODIFIER_FORMAT not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_BASE not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_TOTAL not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_INVENTORY not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_KEEPINVENTORY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.LOOT_FUNCTION_TYPE not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.functions.LootItemFunctions.SET_ATTRIBUTES not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init> with 9 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init> with 11 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.nbt.TagParser.<init> with 1 params not found in MC 26.1.2
+

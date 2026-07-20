@@ -1,0 +1,136 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     biggerreactors-1.18.2-0.6.0-beta.1.4.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:27:39
+Result:  FAILED
+
+Found 119 issue(s):
+
+── Missing Classes ──
+  ✗ net.roguelogix.phosphophyllite.registry.Registry not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.registry.RegisterTile$Producer not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.registry.IPhosphophylliteOre not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.client.gui.elements.InteractiveElement not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.client.gui.RenderHelper not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.client.gui.ScreenCallbacks$OnRender not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.client.gui.screens.PhosphophylliteScreen not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.client.gui.ScreenCallbacks$OnMouseReleased not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.client.gui.elements.RenderedElement not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.client.SelectorColors; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.Config$Mode; not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.registry.PhosphophylliteFluid not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.client.gui.elements.TooltipElement not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.client.gui.GuiSync$IGUIPacketProvider not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.client.gui.GuiSync$IGUIPacket not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.client.gui.api.IHasUpdatableState not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.debug.DebugTool not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.modular.block.PhosphophylliteBlock not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.rectangular.IRectangularMultiblockBlock not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.IAssemblyStateBlock not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.rectangular.IAxisPositionBlock not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.rectangular.IFaceDirectionBlock not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.modular.block.IConnectedTexture not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.util.BlockStates not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.util.Util not found in MC 26.1.2
+  ✗ cpw.mods.modlauncher.api.LamdbaExceptionUtils$Supplier_WithExceptions not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.util.HeatBody not found in MC 26.1.2
+  ✗ dan200.computercraft.api.peripheral.IPeripheral not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.MultiblockController$AssemblyState not found in MC 26.1.2
+  ✗ dan200.computercraft.api.lua.LuaException not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.rectangular.RectangularMultiblockController not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector3i not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.Validator not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.ValidationError not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.util.ModuleMap not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.Phosphophyllite not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.MultiblockTileModule not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.modular.block.IConnectedTexture$Module not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.modular.tile.PhosphophylliteTile not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.rectangular.IRectangularMultiblockTile not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.fluids.IPhosphophylliteFluidHandler not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.IOnAssemblyTile not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.IOnDisassemblyTile not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.fluids.FluidHandlerWrapper not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.fluids.MekanismGasWrappers not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.IGasHandler not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.reactor.blocks.ReactorAccessPort$PortDirection; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.reactor.blocks.ReactorPowerTap$ConnectionState; not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector3ic not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.serialization.PhosphophylliteCompound not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector2ic not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.serialization.IPhosphophylliteSerializable not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector2i not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector3d not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.threading.Event not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.threading.Queues not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.threading.WorkQueue not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.reactor.state.ReactorActivity; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.reactor.state.ReactorRedstonePortSelection; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.reactor.state.ReactorRedstonePortTriggers; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.reactor.state.ReactorType; not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.IAssemblyAttemptedTile not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.energy.IPhosphophylliteEnergyStorage not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.energy.EnergyStorageWrapper not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.multiblock.ITickableMultiblockTile not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.turbine.blocks.TurbineFluidPort$PortDirection; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.turbine.blocks.TurbinePowerTap$ConnectionState; not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector4i not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.turbine.state.TurbineActivity; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.turbine.state.TurbineShaftRotationState; not found in MC 26.1.2
+  ✗ [Lnet.roguelogix.biggerreactors.multiblocks.turbine.state.VentState; not found in MC 26.1.2
+  ✗ net.roguelogix.quartz.Quartz not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Matrix4f not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.AABBi not found in MC 26.1.2
+  ✗ net.roguelogix.quartz.DrawBatch not found in MC 26.1.2
+  ✗ net.roguelogix.quartz.DynamicLight$Type not found in MC 26.1.2
+  ✗ net.roguelogix.quartz.DrawBatch$Instance not found in MC 26.1.2
+  ✗ net.roguelogix.quartz.DynamicMatrix not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector3f not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.repack.org.joml.Vector4f not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.robn.ROBNObject not found in MC 26.1.2
+  ✗ net.roguelogix.phosphophyllite.data.DataLoader not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.isSelectAll() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.isCopy() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.isCut() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.isPaste() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.SharedConstants.filterText() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNearest() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNormal() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46616_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.blockUpdated() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BaseContainerBlockEntity.load() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BaseContainerBlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.core.DefaultedRegistry.getTag() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.dimension.DimensionType.ultraWarm() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.m_108739_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.core.HolderSet$Named.forEach() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.FLUID not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.FLUID_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

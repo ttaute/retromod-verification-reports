@@ -1,0 +1,21 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     glassential-forge-1.18.2-1.2.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:55:09
+Result:  FAILED
+
+Found 8 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BlockGetter.getMaxLightLevel() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_BUILDING_BLOCKS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_REDSTONE not found in MC 26.1.2
+

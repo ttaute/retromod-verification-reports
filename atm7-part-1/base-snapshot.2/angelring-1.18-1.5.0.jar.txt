@@ -1,0 +1,25 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     angelring-1.18-1.5.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:00
+Result:  FAILED
+
+Found 10 issue(s):
+
+── Missing Classes ──
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICurio not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotContext not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICurio$SoundInfo not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.CuriosCapability not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypeMessage$Builder not found in MC 26.1.2
+  ✗ [Lcom.denismasterherobrine.angelring.compat.ExternalMods; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.initCapabilities() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40753_ not found in MC 26.1.2
+

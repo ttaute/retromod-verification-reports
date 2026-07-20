@@ -1,0 +1,51 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     connectedglass-1.1.11-forge-mc1.18.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:42:46
+Result:  FAILED
+
+Found 38 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.supermartijn642.connectedglass.CGGlassType; not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.RegistrationHandler$Helper not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.Registries not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.Registries$Registry not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.BaseBlockItem not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.ItemProperties not found in MC 26.1.2
+  ✗ com.supermartijn642.core.util.Triple not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.RegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.GeneratorRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.CreativeItemGroup not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.ClientRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$BlockStateBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$VariantBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$MultipartConditionBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.rechiseled.api.ChiselingRecipeProvider not found in MC 26.1.2
+  ✗ com.supermartijn642.rechiseled.api.ChiselingRecipeProvider$ChiselingRecipeBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.provider.FusionModelProvider not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.model.DefaultModelTypes not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.model.data.ConnectingModelData not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.model.data.ConnectingModelDataBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.model.ModelInstance not found in MC 26.1.2
+  ✗ com.supermartijn642.fusion.api.predicate.DefaultConnectionPredicates not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LanguageGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.ClientUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LootTableGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator$ModelBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator$ElementBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator$FaceBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator$ShapedRecipeBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.rechiseled.api.ChiseledTextureProvider not found in MC 26.1.2
+  ✗ com.supermartijn642.rechiseled.api.ChiseledTextureProvider$PaletteMap not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.BlockGetter.getMaxLightLevel() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getVertices() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNearest() not found in MC 26.1.2
+

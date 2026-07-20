@@ -1,0 +1,100 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     enderchests-forge-1.18.2-1.9.12.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:51:47
+Result:  FAILED
+
+Found 83 issue(s):
+
+── Missing Classes ──
+  ✗ shetiphian.core.client.gui.GuiHelper not found in MC 26.1.2
+  ✗ [Lshetiphian.enderchests.client.gui.Textures; not found in MC 26.1.2
+  ✗ shetiphian.core.common.DyeHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.Function not found in MC 26.1.2
+  ✗ shetiphian.core.client.ColorHandler$BlockColor not found in MC 26.1.2
+  ✗ shetiphian.core.client.ColorHandler$ItemColor not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.item.ItemPropertyFunction not found in MC 26.1.2
+  ✗ [Lshetiphian.enderchests.common.block.BlockEnderChest$EnumType; not found in MC 26.1.2
+  ✗ shetiphian.core.common.IColored not found in MC 26.1.2
+  ✗ shetiphian.core.common.Materials not found in MC 26.1.2
+  ✗ shetiphian.core.common.ToolHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.CapabilityHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.CapabilityHelper$ComparatorHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.IColored$Data not found in MC 26.1.2
+  ✗ shetiphian.core.common.HitBoxData not found in MC 26.1.2
+  ✗ shetiphian.core.common.crafting.AbstractShapedRecipe$Serializer not found in MC 26.1.2
+  ✗ shetiphian.core.common.crafting.AbstractShapedRecipe not found in MC 26.1.2
+  ✗ shetiphian.core.common.TagHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.InventoryInternal not found in MC 26.1.2
+  ✗ shetiphian.core.common.NBTFile not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.TextComponent not found in MC 26.1.2
+  ✗ shetiphian.core.common.NameHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.tileentity.TileEntityBase not found in MC 26.1.2
+  ✗ shetiphian.core.common.rgb16.IRGB16_Tile not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.IContainerCallback not found in MC 26.1.2
+  ✗ shetiphian.core.common.rgb16.RGB16 not found in MC 26.1.2
+  ✗ shetiphian.core.common.rgb16.RGB16Helper not found in MC 26.1.2
+  ✗ [Lshetiphian.enderchests.Configuration$Menu_GUI$STYLE; not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IComponentProvider not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IServerDataProvider not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.BlockAccessor not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.ITooltip not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IWailaCommonRegistration not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.TooltipPosition not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IWailaClientRegistration not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IElement not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.apiimpl.client.ElementTextRender not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IElementFactory not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfoProvider not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeHitData not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ProbeMode not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfo not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ITheOneProbe not found in MC 26.1.2
+  ✗ shetiphian.core.common.MyCreativeTab not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_183503_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5661_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.lines() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNormal() not found in MC 26.1.2
+  ✗ net.minecraft.client.color.block.BlockColors.getColor() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.renderModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.onDestroyedByPlayer() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.getOptionalParameter() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.inventoryTick() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.onCraftedBy() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.MutableComponent.m_7220_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.success() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.StringTag.m_129297_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.m_7916_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.TextColor.m_131270_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Style.m_131148_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Style.m_131136_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.inventory.ClickAction.SWAP not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Style.f_131099_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+

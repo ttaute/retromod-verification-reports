@@ -1,0 +1,20 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     mcw-roofs-2.3.0-mc1.18.2forge.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:02:41
+Result:  FAILED
+
+Found 7 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.item.alchemy.PotionUtils not found in MC 26.1.2
+  ✗ [Lcom.mcwroofs.kikoz.objects.roofs.RoofTopNew$RoofPart; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+

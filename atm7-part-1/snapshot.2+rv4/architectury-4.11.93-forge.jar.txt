@@ -1,0 +1,90 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     architectury-4.11.93-forge.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:26:15
+Result:  FAILED
+
+Found 73 issue(s):
+
+── Missing Classes ──
+  ✗ [Ldev.architectury.fluid.forge.FluidStackImpl; not found in MC 26.1.2
+  ✗ [Ldev.architectury.networking.NetworkManager$Side; not found in MC 26.1.2
+  ✗ cpw.mods.jarhandling.SecureJar not found in MC 26.1.2
+  ✗ [Ldev.architectury.registry.registries.options.StandardRegistrarOption; not found in MC 26.1.2
+  ✗ [Ldev.architectury.utils.Env; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.hasContainerItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getContainerItem() not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.getHolderOrThrow() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.LiquidBlock.getFluid() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.arch$registryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getAttributes() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BucketItem.initCapabilities() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BucketItem.getFluid() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.JukeboxSong.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.SpawnEggItem.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.arch$registryName() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.gameEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getDeltaFrameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getTextureAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemColors() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.item.ItemEntity.m_32047_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getWorldForge() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gameevent.GameEvent.builtInRegistryHolder() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.DyeColor.getTextureDiffuseColors() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.DyeColor.getMaterialColor() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties$Builder.effect() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.BiomeGenerationSettings.getCarvers() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Explosion.getPosition() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.ParticleEngine.register() not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.ParticleEngine.register() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.CriteriaTriggers.register() not found in MC 26.1.2
+  ✗ net.minecraft.core.RegistryAccess$Frozen.registry() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.MobSpawnSettings$MobSpawnCost.m_48400_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.MobSpawnSettings$MobSpawnCost.m_48395_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.register() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.JukeboxSong.BY_NAME not found in MC 26.1.2
+  ✗ net.minecraft.world.item.SpawnEggItem.BY_ID not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.renderDebug not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.delegate not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.STRIPPABLES not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.TILLABLES not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.FLATTENABLES not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.f_47442_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome$ClimateSettings.f_47680_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.BiomeSpecialEffects.fogColor not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.BiomeSpecialEffects.skyColor not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.BiomeSpecialEffects.ambientParticleSettings not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.BiomeSpecialEffects.ambientLoopSoundEvent not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.BiomeSpecialEffects.ambientMoodSettings not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.BiomeSpecialEffects.ambientAdditionsSettings not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.BiomeSpecialEffects.backgroundMusic not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Explosion.source not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Explosion.radius not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.material not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.materialColor not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.ParticleEngine.textureAtlas not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.item.JukeboxSong.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.SpawnEggItem.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.<init> with 7 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+

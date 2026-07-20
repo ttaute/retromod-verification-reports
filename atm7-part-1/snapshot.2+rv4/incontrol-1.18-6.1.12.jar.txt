@@ -1,0 +1,145 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     incontrol-1.18-6.1.12.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:57:23
+Result:  FAILED
+
+Found 128 issue(s):
+
+── Missing Classes ──
+  ✗ net.darkhax.gamestages.GameStageHelper not found in MC 26.1.2
+  ✗ net.darkhax.gamestages.data.IStageData not found in MC 26.1.2
+  ✗ mcjty.lostcities.api.ILostCities not found in MC 26.1.2
+  ✗ mcjty.lostcities.api.ILostCityInformation not found in MC 26.1.2
+  ✗ mcjty.lostcities.api.ILostChunkInfo not found in MC 26.1.2
+  ✗ sereneseasons.api.season.SeasonHelper not found in MC 26.1.2
+  ✗ sereneseasons.api.season.Season not found in MC 26.1.2
+  ✗ sereneseasons.api.season.ISeasonState not found in MC 26.1.2
+  ✗ [Lmcjty.incontrol.rules.SpecialRule$SpecialResult; not found in MC 26.1.2
+  ✗ [Lmcjty.incontrol.spawner.SpawnerConditions$Cmd; not found in MC 26.1.2
+  ✗ [Lmcjty.incontrol.spawner.SpawnerRule$Cmd; not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.TextComponent not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.m_41758_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41619_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41777_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41720_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41613_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41741_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41764_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.m_49966_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.commands.Commands.m_82117_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123341_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123342_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_123343_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_142082_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.removeEntity() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getSharedSpawnPos() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.m_7049_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46518_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129892_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getAABB() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.getCurrentDifficultyAt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.m_45930_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.m_7967_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.m_7731_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.m_142572_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getBiomeCategory() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.SavedDataStorage.computeIfAbsent() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21205_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21008_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_150109_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5552_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5661_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Mob.finalizeSpawn() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Mob.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Mob.m_21530_() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.isMagic() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.isProjectile() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.isExplosion() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.m_19385_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.TagParser.m_129359_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.getTags() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_6703_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_21335_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_6593_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_7378_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_21008_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_8061_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_19880_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_21051_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_20049_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_21153_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_7292_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_6469_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_20254_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_21219_() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffectInstance.m_19544_() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffectInstance.m_19557_() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffectInstance.m_19564_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.LevelChunk.getStatus() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.MobCategory.m_21605_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.isPathfindable() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_61147_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelReader.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.asLong() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.WorldgenRandom.m_64685_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.properties.Property.m_61708_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.BlockHitResult.m_82425_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.NeutralMob.m_6710_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.m_40614_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.EnderMan.m_32521_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeInstance.m_22115_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeInstance.m_22100_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Inventory.m_36054_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.m_82512_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.ItemStack.f_41583_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19305_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19306_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19307_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19308_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19309_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19310_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19311_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19312_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19313_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19314_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19315_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19316_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19317_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19318_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19319_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19320_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19321_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19322_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_19323_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.Attributes.f_22281_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.Attributes.f_22279_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.Attributes.f_22276_ not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec2.f_82462_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+

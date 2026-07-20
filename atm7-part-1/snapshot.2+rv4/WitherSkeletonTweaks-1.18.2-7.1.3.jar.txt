@@ -1,0 +1,35 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     WitherSkeletonTweaks-1.18.2-7.1.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:26:15
+Result:  FAILED
+
+Found 18 issue(s):
+
+── Missing Classes ──
+  ✗ shadows.placebo.recipe.RecipeHelper not found in MC 26.1.2
+  ✗ shadows.placebo.util.RunnableReloader not found in MC 26.1.2
+  ✗ shadows.placebo.recipe.RecipeHelper$RecipeFactory not found in MC 26.1.2
+  ✗ shadows.placebo.config.Configuration not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.setSecondsOnFire() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.setExplosion() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.skeleton.WitherSkeleton.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.getParamOrNull() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_COMBAT not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_MATERIALS not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.msgId not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.item.Item.<init> with 4 params not found in MC 26.1.2
+

@@ -1,0 +1,44 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     alltheores-1.9.9m-1.18.2-40.1.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:24:42
+Result:  FAILED
+
+Found 27 issue(s):
+
+── Missing Classes ──
+  ✗ [Lnet.allthemods.alltheores.datagen.builder.ShapedArmorBuilder$Slot; not found in MC 26.1.2
+  ✗ [Lnet.allthemods.alltheores.datagen.builder.ShapedBlockBuilder$Slot; not found in MC 26.1.2
+  ✗ [Lnet.allthemods.alltheores.datagen.builder.ShapedIngotBuilder$Slot; not found in MC 26.1.2
+  ✗ [Lnet.allthemods.alltheores.datagen.builder.ShapedRawBuilder$Slot; not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.Slurry not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.SlurryBuilder not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.setNoRepair() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getDigSpeed() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate$Builder.of() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.SimpleCookingRecipeBuilder.blasting() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.SimpleCookingRecipeBuilder.smelting() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.shapeless() not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.placement.PlacementUtils.register() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.data.worldgen.features.OreFeatures.f_195072_ not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.OreFeatures.f_195073_ not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.OreFeatures.f_195074_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+

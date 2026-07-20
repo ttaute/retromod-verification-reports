@@ -1,0 +1,45 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Controlling-forge-1.18.2-9.0+23.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:42:52
+Result:  FAILED
+
+Found 28 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.blamejared.controlling.api.DisplayMode; not found in MC 26.1.2
+  ✗ [Lcom.blamejared.controlling.api.SearchType; not found in MC 26.1.2
+  ✗ [Lcom.blamejared.controlling.api.SortOrder; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.screens.options.controls.KeyBindsList.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.options.controls.KeyBindsList.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.options.controls.KeyBindsList$Entry.getChildAt() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.centeredText() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.options.controls.KeyBindsScreen.m_96602_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.options.controls.KeyBindsScreen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.charTyped() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.tick() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.m_94178_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.setKey() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.GuiEventListener.mouseClicked() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

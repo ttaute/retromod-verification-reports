@@ -1,0 +1,149 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     embeddium-0.3.10+mc1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:31:03
+Result:  FAILED
+
+Found 132 issue(s):
+
+── Missing Classes ──
+  ✗ com.jozufozu.flywheel.backend.Backend not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.backend.instancing.InstancedRenderRegistry not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.backend.instancing.InstancedRenderDispatcher not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.backend.instancing.InstanceManager not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gl.buffer.GlBufferMapFlags; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gl.buffer.GlBufferStorageFlags; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gl.buffer.GlBufferTarget; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gl.buffer.GlBufferUsage; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gl.functions.BufferStorageFunctions; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gl.shader.ShaderType; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gl.tessellation.GlIndexType; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gl.tessellation.GlPrimitiveType; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gui.misc.GraphicsMode; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gui.options.OptionFlag; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gui.options.OptionImpact; not found in MC 26.1.2
+  ✗ net.minecraft.client.Option not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gui.SodiumGameOptions$ArenaMemoryAllocator; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.gui.SodiumGameOptions$GraphicsQuality; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.model.light.LightMode; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.model.light.smooth.AoNeighborInfo; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.model.quad.properties.ModelQuadFacing; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.model.quad.properties.ModelQuadOrientation; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.model.quad.properties.ModelQuadWinding; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.render.chunk.ChunkUpdateType; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBufferSorter$PositionType; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.render.chunk.format.ChunkMeshAttribute; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.render.chunk.format.VanillaLikeChunkMeshAttribute; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.render.chunk.passes.BlockRenderPass; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.render.chunk.shader.ChunkFogMode; not found in MC 26.1.2
+  ✗ [Lme.jellysquid.mods.sodium.client.util.frustum.Frustum$Visibility; not found in MC 26.1.2
+  ✗ [Lorg.embeddedt.embeddium.api.BlockRendererRegistry$RenderResult; not found in MC 26.1.2
+  ✗ codechicken.lib.render.block.ICCBlockRenderer not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.utils.ResettableLazy not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.wires.GlobalWireNetwork not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.wires.WireCollisionData not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.wires.WireCollisionData$ConnectionSegments not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.wires.Connection not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.wires.ConnectionPoint not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.wires.WireType not found in MC 26.1.2
+  ✗ blusunrize.immersiveengineering.api.wires.Connection$CatenaryData not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getRenderBoundingBox() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.resizeDisplay() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.useAmbientOcclusion() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getProfiler() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getTextureAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.tesselateWithoutAO() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.tesselateWithAO() not found in MC 26.1.2
+  ✗ net.minecraft.client.OptionInstance$ValueSet.m_167795_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.m_6111_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92877_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92822_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_7333_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.LevelRenderer.getLightColor() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.LevelRenderer.getLightColor() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.options.VideoSettingsScreen.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_141952_() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNormal() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.BlockAndTintGetter.getShade() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getLightBlock() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.isSolidRender() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getFaceOcclusionShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getOffset() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getOcclusionShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getVertices() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.isShade() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.isTinted() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getSprite() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getTintIndex() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_174746_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118405_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118408_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118375_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.asLong() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.clearRenderState() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.setupRenderState() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.tripwire() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.chunkBufferLayers() not found in MC 26.1.2
+  ✗ net.minecraft.client.Camera.m_90591_() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getMinSection() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getMaxSection() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getTimeOfDay() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.effects() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.LevelChunkSection.m_188013_() not found in MC 26.1.2
+  ✗ net.minecraft.world.phys.Vec3.fromRGB24() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.BlockEntityRenderer.shouldRenderOffScreen() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getBlockModelShaper() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getAttributes() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_5962_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getShade() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.m_206081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.PalettedContainer$Data.f_188102_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.PalettedContainer$Data.f_188101_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.PalettedContainer$Data.f_188100_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.Palette.m_142067_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ShaderManager.setSampler() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.game.ClientboundForgetLevelChunkPacket.getX() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.game.ClientboundForgetLevelChunkPacket.getZ() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getFogColor() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getSkyColor() not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.SingleQuadParticle.render() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.OptionInstance.f_90678_ not found in MC 26.1.2
+  ✗ net.minecraft.client.OptionInstance.f_167713_ not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.ON_OSX not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.f_92114_ not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.graphicsMode not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart$Vertex.pos not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.f_174723_ not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.f_174724_ not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.f_118342_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.options.VideoSettingsScreen.<init> with 2 params not found in MC 26.1.2
+

@@ -1,0 +1,48 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ScalableCatsForce-2.13.10-build-12-with-library.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:18:22
+Result:  FAILED
+
+Found 37 issue(s):
+
+── Missing Classes ──
+  ✗ scala.reflect.api.TypeCreator not found in MC 26.1.2
+  ✗ scala.reflect.api.Mirror not found in MC 26.1.2
+  ✗ scala.reflect.api.Universe not found in MC 26.1.2
+  ✗ scala.reflect.api.Internals$InternalApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Internals$ReificationSupportApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Internals$ReificationSupportApi$FlagsReprExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Names$TypeNameExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Names$NameApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Symbols$ClassSymbolApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Symbols$TypeSymbolApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Types$TypeApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Symbols$ModuleSymbolApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Exprs$Expr not found in MC 26.1.2
+  ✗ scala.reflect.macros.blackbox.Context not found in MC 26.1.2
+  ✗ scala.reflect.macros.Universe not found in MC 26.1.2
+  ✗ scala.reflect.api.TypeTags$WeakTypeTag$ not found in MC 26.1.2
+  ✗ scala.reflect.api.Trees$FunctionApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Internals$ReificationSupportApi$SyntacticFunctionExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Trees$TreeApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Trees$ValDefApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Internals$ReificationSupportApi$SyntacticAppliedExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Internals$ReificationSupportApi$SyntacticTypeAppliedExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.TreeCreator not found in MC 26.1.2
+  ✗ scala.reflect.api.Trees$BlockApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Trees$BlockExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Trees$TypeTreeApi not found in MC 26.1.2
+  ✗ scala.reflect.api.Trees$TypeTreeExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Liftables$Liftable$ not found in MC 26.1.2
+  ✗ scala.reflect.api.TypeTags$TypeTag$ not found in MC 26.1.2
+  ✗ scala.reflect.api.Exprs$Expr$ not found in MC 26.1.2
+  ✗ scala.reflect.api.Liftables$Liftable not found in MC 26.1.2
+  ✗ scala.reflect.api.Names$TermNameExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Internals$ReificationSupportApi$SyntacticSelectTermExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Trees$ModifiersExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Internals$ReificationSupportApi$SyntacticEmptyTypeTreeExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Internals$ReificationSupportApi$SyntacticValDefExtractor not found in MC 26.1.2
+  ✗ scala.reflect.api.Internals$ReificationSupportApi$SyntacticTermIdentExtractor not found in MC 26.1.2
+

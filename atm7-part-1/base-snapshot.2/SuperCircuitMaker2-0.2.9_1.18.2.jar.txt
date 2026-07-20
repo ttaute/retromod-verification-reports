@@ -1,0 +1,153 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     SuperCircuitMaker2-0.2.9+1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 05:00:16
+Result:  FAILED
+
+Found 136 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.block.BlockComponentData not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.math.Vec2i not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.util.Utils not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.math.VecDirection not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.block.TKBlock$WithEntity not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.block.multipart.Multipart not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.block.CustomBlockHighlight not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.block.component.BlockData not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.block.multipart.FaceSlot not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.math.VecDirectionFlags not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.ComponentState not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.math.MergedShape not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.ComponentHarvestContext not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.block.TKBlockEntity not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.math.IndexedBlockHitResult not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.ComponentSlot not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.scm.circuit.CircuitAdjacency; not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.math.IndexedShape not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.ComponentType not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.CircuitEvent not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.ComponentEventMap$Builder not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.ComponentEventMap not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.ComponentContext not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.CircuitComponent not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.ComponentType$Factory not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.RedstoneSource not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.scm.circuit.util.TileSection; not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.client.circuit.ComponentRenderTypes not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.client.screen.TKMenuScreen not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.ClientComponent not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.util.value.Reference not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.init.TKLibItemTags not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.BundledSource not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.DyeableComponent not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.RedstoneSink not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.scm.component.digital.NoteComponent$Instrument; not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.component.ComponentStateBuilder not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.wire.RedstoneConductor not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.wire.WireConnectionState not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.wire.BundledWire not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.wire.RedstoneConductor$Visitor not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.wire.RedstoneWire not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.wire.Wire not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.BundledSink not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.util.Maybe not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.placement.ComponentPlacement not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.interfaces.wire.WireConnectionState$Visual not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.item.TKItem not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.menu.TKMenu not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.util.value.Value not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.network.Packet not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.placement.PlacementContext$Server not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.placement.ComponentPlacement$Instance not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.placement.PlacementContext$Client not found in MC 26.1.2
+  ✗ com.technicalitiesmc.lib.circuit.placement.PlacementContext$MultiPlacementContext not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.m_60939_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.m_60978_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.m_60999_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.m_60924_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.core.Vec3i.m_141952_() not found in MC 26.1.2
+  ✗ net.minecraft.core.Vec3i.m_141950_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.m_7731_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.m_186460_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129898_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.m_78975_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTable.m_79129_() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.pass() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.m_19078_() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.shouldSwing() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46681_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46586_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46590_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_8055_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_183326_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_5776_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.putUUID() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_142300_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_141950_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.m_122424_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.StateDefinition$Builder.m_61104_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_61124_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_61143_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60717_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60746_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60734_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60713_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6047_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5661_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.context.BlockPlaceContext.m_7820_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Rotation.m_55954_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Mirror.m_54846_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.m_5776_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.m_183326_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.m_186460_() not found in MC 26.1.2
+  ✗ net.minecraft.world.ticks.LevelTickAccess.m_183582_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.saveddata.SavedData.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.SavedDataStorage.computeIfAbsent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.isTinted() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getTintIndex() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getVertices() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getSprite() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.isShade() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getBlockModelShaper() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getMissingModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.properties.NoteBlockInstrument.m_61666_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.properties.NoteBlockInstrument.m_61668_() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.InteractionResult.CONSUME_PARTIAL not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122824_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.f_46443_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.properties.BlockStateProperties.f_61372_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.properties.BlockStateProperties.f_61448_ not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelBakery.STATIC_DEFINITIONS not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.<init> with 5 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+

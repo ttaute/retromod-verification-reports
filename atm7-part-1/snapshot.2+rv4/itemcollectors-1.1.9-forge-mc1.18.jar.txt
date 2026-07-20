@@ -1,0 +1,64 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     itemcollectors-1.1.9-forge-mc1.18.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:58:46
+Result:  FAILED
+
+Found 51 issue(s):
+
+── Missing Classes ──
+  ✗ com.supermartijn642.core.block.BaseBlock not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.EntityHoldingBlock not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BlockProperties not found in MC 26.1.2
+  ✗ com.supermartijn642.core.CommonUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BaseBlockEntityType not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BlockShape not found in MC 26.1.2
+  ✗ com.supermartijn642.core.TextComponents not found in MC 26.1.2
+  ✗ com.supermartijn642.core.TextComponents$TextComponentBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BaseBlockEntity not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.TickableBlockEntity not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.CustomBlockEntityRenderer not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.RenderUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.Registries not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.Registries$Registry not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$BlockStateBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$PartialBlockState not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$VariantBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LanguageGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LootTableGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator$ModelBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator$ShapedRecipeBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator$TagBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.network.PacketChannel not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.RegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.GeneratorRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.BaseContainerType not found in MC 26.1.2
+  ✗ com.supermartijn642.core.ClientUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.BaseBlockItem not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.ItemProperties not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.CreativeItemGroup not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.ClientRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.WidgetScreen not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.WidgetContainerScreen not found in MC 26.1.2
+  ✗ com.supermartijn642.configlib.api.ConfigBuilders not found in MC 26.1.2
+  ✗ com.supermartijn642.configlib.api.IConfigBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.network.BlockEntityBasePacket not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.BlockEntityBaseContainer not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.widget.BlockEntityBaseContainerWidget not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.ScreenUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.widget.premade.AbstractButtonWidget not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.widget.BlockEntityBaseWidget not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+

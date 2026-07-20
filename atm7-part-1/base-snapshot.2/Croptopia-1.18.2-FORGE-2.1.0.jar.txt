@@ -1,0 +1,53 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Croptopia-1.18.2-FORGE-2.1.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:25:57
+Result:  FAILED
+
+Found 36 issue(s):
+
+── Missing Classes ──
+  ✗ vazkii.patchouli.api.PatchouliAPI not found in MC 26.1.2
+  ✗ vazkii.patchouli.api.PatchouliAPI$IPatchouliAPI not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.entries.LootTableReference not found in MC 26.1.2
+  ✗ [Lcom.epherical.croptopia.register.helpers.VanillaCrops; not found in MC 26.1.2
+  ✗ [Lcom.epherical.croptopia.register.TagCategory; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.CropBlock.use() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getStatus() not found in MC 26.1.2
+  ✗ net.minecraft.core.Holder.m_205706_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_151555_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.FoliageColor.getDefaultColor() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.eat() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Builder.m_5577_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.m_78933_() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties$Builder.alwaysEat() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties$Builder.effect() not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.FeatureUtils.simpleRandomPatchConfiguration() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122904_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122901_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_194567_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.animal.chicken.Chicken.FOOD_ITEMS not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.animal.parrot.Parrot.TAME_FOOD not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.animal.pig.Pig.FOOD_ITEMS not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.Feature.RANDOM_PATCH not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,34 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     RSInfinityBooster-1.18.2-2.1+20.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:17:47
+Result:  FAILED
+
+Found 19 issue(s):
+
+── Missing Classes ──
+  ✗ com.refinedmods.refinedstorage.RSItems not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.item.UpgradeItem$Type not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.RS not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.item.UpgradeItem not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.item.INetworkItemManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.INetwork not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.INetworkNodeGraph not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.INetworkNodeGraphEntry not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.WirelessTransmitterNetworkNode not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.item.INetworkItemProvider not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.item.INetworkItem not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.config.ServerConfig not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.config.ServerConfig$WirelessTransmitter not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.item.BaseItemHandler not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+

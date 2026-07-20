@@ -1,0 +1,101 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     MEGACells-1.4.2-1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:03:26
+Result:  FAILED
+
+Found 84 issue(s):
+
+── Missing Classes ──
+  ✗ appeng.blockentity.AEBaseBlockEntity not found in MC 26.1.2
+  ✗ appeng.block.AEBaseEntityBlock not found in MC 26.1.2
+  ✗ appeng.blockentity.ClientTickingBlockEntity not found in MC 26.1.2
+  ✗ appeng.blockentity.ServerTickingBlockEntity not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEParts not found in MC 26.1.2
+  ✗ appeng.block.crafting.CraftingMonitorBlock not found in MC 26.1.2
+  ✗ appeng.block.crafting.CraftingUnitBlock not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEItems not found in MC 26.1.2
+  ✗ appeng.block.networking.EnergyCellBlock not found in MC 26.1.2
+  ✗ appeng.block.crafting.CraftingBlockItem not found in MC 26.1.2
+  ✗ appeng.core.AEConfig not found in MC 26.1.2
+  ✗ appeng.util.InteractionUtil not found in MC 26.1.2
+  ✗ appeng.core.localization.Tooltips not found in MC 26.1.2
+  ✗ appeng.block.crafting.ICraftingUnitType not found in MC 26.1.2
+  ✗ [Lgripe._90.megacells.block.MEGACraftingUnitType; not found in MC 26.1.2
+  ✗ appeng.block.AEBaseBlockItemChargeable not found in MC 26.1.2
+  ✗ appeng.client.render.crafting.AbstractCraftingUnitModelProvider not found in MC 26.1.2
+  ✗ appeng.client.render.crafting.UnitBakedModel not found in MC 26.1.2
+  ✗ appeng.client.render.crafting.LightBakedModel not found in MC 26.1.2
+  ✗ appeng.client.render.crafting.MonitorBakedModel not found in MC 26.1.2
+  ✗ appeng.block.crafting.AbstractCraftingUnitBlock not found in MC 26.1.2
+  ✗ appeng.init.client.InitItemModelsProperties not found in MC 26.1.2
+  ✗ appeng.core.AppEng not found in MC 26.1.2
+  ✗ appeng.core.definitions.ItemDefinition not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEBlocks not found in MC 26.1.2
+  ✗ appeng.datagen.providers.tags.ConventionTags not found in MC 26.1.2
+  ✗ appeng.api.util.AEColor not found in MC 26.1.2
+  ✗ appeng.core.definitions.ColoredItemDefinition not found in MC 26.1.2
+  ✗ appeng.api.storage.StorageCells not found in MC 26.1.2
+  ✗ appeng.api.client.StorageCellModels not found in MC 26.1.2
+  ✗ appeng.core.localization.GuiText not found in MC 26.1.2
+  ✗ appeng.api.upgrades.Upgrades not found in MC 26.1.2
+  ✗ appeng.block.AEBaseBlock not found in MC 26.1.2
+  ✗ appeng.client.render.model.AutoRotatingBakedModel not found in MC 26.1.2
+  ✗ appeng.client.render.SimpleModelLoader not found in MC 26.1.2
+  ✗ appeng.client.render.crafting.CraftingCubeModel not found in MC 26.1.2
+  ✗ [Lgripe._90.megacells.integration.appmek.AppMekCellType; not found in MC 26.1.2
+  ✗ me.ramidzkh.mekae2.ae2.MekanismKeyType not found in MC 26.1.2
+  ✗ me.ramidzkh.mekae2.AMMenus not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.ICellWorkbenchItem not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKeyType not found in MC 26.1.2
+  ✗ appeng.items.contents.CellConfig not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.ICellHandler not found in MC 26.1.2
+  ✗ appeng.api.stacks.KeyCounter not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKey not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.StorageCell not found in MC 26.1.2
+  ✗ appeng.util.prioritylist.IPartitionList not found in MC 26.1.2
+  ✗ appeng.util.ConfigInventory not found in MC 26.1.2
+  ✗ appeng.util.prioritylist.IPartitionList$Builder not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.CellState not found in MC 26.1.2
+  ✗ me.ramidzkh.mekae2.ae2.MekanismKey not found in MC 26.1.2
+  ✗ mekanism.api.chemical.attribute.ChemicalAttributeValidator not found in MC 26.1.2
+  ✗ mekanism.api.chemical.ChemicalStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.Chemical not found in MC 26.1.2
+  ✗ mekanism.common.registries.MekanismGases not found in MC 26.1.2
+  ✗ mekanism.common.registration.impl.GasRegistryObject not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEItemKey not found in MC 26.1.2
+  ✗ appeng.api.config.Actionable not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.ISaveProvider not found in MC 26.1.2
+  ✗ appeng.items.AEBaseItem not found in MC 26.1.2
+  ✗ [Lgripe._90.megacells.item.core.MEGACellType; not found in MC 26.1.2
+  ✗ appeng.items.materials.MaterialItem not found in MC 26.1.2
+  ✗ appeng.menu.me.common.MEStorageMenu not found in MC 26.1.2
+  ✗ [Lgripe._90.megacells.item.core.MEGATier; not found in MC 26.1.2
+  ✗ appeng.api.upgrades.UpgradeInventories not found in MC 26.1.2
+  ✗ appeng.items.materials.StorageComponentItem not found in MC 26.1.2
+  ✗ appeng.items.tools.powered.PortableCellItem not found in MC 26.1.2
+  ✗ appeng.items.tools.powered.PortableCellItem$StorageTier not found in MC 26.1.2
+  ✗ appeng.items.storage.BasicStorageCell not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.shapeless() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.resources.model.ModelBakery.MISSING_MODEL_LOCATION not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+

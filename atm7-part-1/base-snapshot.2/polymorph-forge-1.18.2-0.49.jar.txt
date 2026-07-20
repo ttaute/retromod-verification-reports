@@ -1,0 +1,125 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     polymorph-forge-1.18.2-0.49.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:52:46
+Result:  FAILED
+
+Found 108 issue(s):
+
+── Missing Classes ──
+  ✗ appeng.menu.me.items.CraftingTermMenu not found in MC 26.1.2
+  ✗ appeng.menu.me.items.PatternEncodingTermMenu not found in MC 26.1.2
+  ✗ appeng.menu.slot.CraftingTermSlot not found in MC 26.1.2
+  ✗ appeng.menu.slot.PatternTermSlot not found in MC 26.1.2
+  ✗ appeng.parts.encoding.EncodingMode not found in MC 26.1.2
+  ✗ com.lothrazar.cyclic.block.crafter.ContainerCrafter not found in MC 26.1.2
+  ✗ com.lothrazar.cyclic.item.crafting.CraftingBagContainer not found in MC 26.1.2
+  ✗ com.lothrazar.cyclic.block.crafter.ScreenCrafter not found in MC 26.1.2
+  ✗ com.lothrazar.cyclic.block.crafter.TileCrafter not found in MC 26.1.2
+  ✗ com.blakebr0.extendedcrafting.tileentity.AutoTableTileEntity not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.inventory.BaseItemStackHandler not found in MC 26.1.2
+  ✗ com.blakebr0.extendedcrafting.container.BasicTableContainer not found in MC 26.1.2
+  ✗ com.blakebr0.extendedcrafting.container.BasicAutoTableContainer not found in MC 26.1.2
+  ✗ com.blakebr0.extendedcrafting.tileentity.AutoTableTileEntity$Basic not found in MC 26.1.2
+  ✗ com.blakebr0.extendedcrafting.api.crafting.ITableRecipe not found in MC 26.1.2
+  ✗ com.blakebr0.extendedcrafting.tileentity.AutoTableTileEntity$WrappedRecipe not found in MC 26.1.2
+  ✗ com.blakebr0.extendedcrafting.container.inventory.ExtendedCraftingInventory not found in MC 26.1.2
+  ✗ com.blakebr0.extendedcrafting.client.screen.BasicAutoTableScreen not found in MC 26.1.2
+  ✗ shadows.fastbench.FastBench not found in MC 26.1.2
+  ✗ shadows.fastbench.net.RecipeMessage not found in MC 26.1.2
+  ✗ shadows.placebo.network.PacketDistro not found in MC 26.1.2
+  ✗ ironfurnaces.util.LRUCache not found in MC 26.1.2
+  ✗ ironfurnaces.tileentity.furnaces.BlockIronFurnaceTileBase not found in MC 26.1.2
+  ✗ ironfurnaces.container.furnaces.BlockIronFurnaceContainerBase not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGlobalGuiHandler not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+  ✗ com.github.klikli_dev.occultism.common.container.storage.StorageControllerContainerBase not found in MC 26.1.2
+  ✗ [Ltop.theillusivec4.polymorph.common.integration.PolymorphIntegrations$Mod; not found in MC 26.1.2
+  ✗ de.ellpeck.prettypipes.terminal.containers.CraftingTerminalContainer not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.grid.GridBlockEntity not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.GridNetworkNode not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.grid.IGrid not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.GridContainerMenu not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorageaddons.item.WirelessCraftingGrid not found in MC 26.1.2
+  ✗ [Ltop.theillusivec4.polymorph.common.integration.sophisticatedbackpacks.BackpackUpgradeRecipesWidget$Mode; not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedbackpacks.common.gui.BackpackContainer not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.common.gui.UpgradeContainerBase not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.crafting.CraftingUpgradeContainer not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.cooking.CookingUpgradeContainer not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.cooking.AutoCookingUpgradeContainer not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.util.RecipeHelper not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.cooking.CookingLogicContainer not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.cooking.CookingLogic not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.crafting.CraftingUpgradeItem not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.cooking.SmeltingUpgradeItem not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.cooking.AutoSmeltingUpgradeItem not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.cooking.BlastingUpgradeItem not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.cooking.AutoBlastingUpgradeItem not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.cooking.SmokingUpgradeItem not found in MC 26.1.2
+  ✗ net.p3pp3rf1y.sophisticatedcore.upgrades.cooking.AutoSmokingUpgradeItem not found in MC 26.1.2
+  ✗ slimeknights.tconstruct.tables.menu.CraftingStationContainerMenu not found in MC 26.1.2
+  ✗ slimeknights.tconstruct.tables.block.entity.table.CraftingStationBlockEntity not found in MC 26.1.2
+  ✗ slimeknights.mantle.block.entity.InventoryBlockEntity not found in MC 26.1.2
+  ✗ com.tom.storagemod.tile.TileEntityCraftingTerminal not found in MC 26.1.2
+  ✗ com.tom.storagemod.gui.ContainerCraftingTerminal not found in MC 26.1.2
+  ✗ appeng.menu.me.common.MEStorageMenu not found in MC 26.1.2
+  ✗ net.blay09.mods.craftingcraft.container.CustomCraftingMenu not found in MC 26.1.2
+  ✗ com.lothrazar.cyclic.gui.ContainerBase not found in MC 26.1.2
+  ✗ com.lothrazar.cyclic.block.TileBlockEntityCyclic not found in MC 26.1.2
+  ✗ ironfurnaces.tileentity.TileEntityInventory not found in MC 26.1.2
+  ✗ mezz.jei.common.gui.recipes.layout.IRecipeLayoutInternal not found in MC 26.1.2
+  ✗ de.ellpeck.prettypipes.terminal.containers.ItemTerminalContainer not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.NetworkNode not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.item.BaseItemHandler not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.grid.ICraftingGridListener not found in MC 26.1.2
+  ✗ slimeknights.tconstruct.tables.block.entity.table.RetexturedTableBlockEntity not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.components.ImageButton.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.m_6303_() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_96555_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent.getHeight() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent.extractText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getDescriptionId() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.getRecipesFor() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.getAllRecipesFor() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CraftingRecipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ItemCombinerMenu.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getRecipeManager() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.f_131282_ not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122864_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.ImageButton.<init> with 11 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ItemCombinerMenu.<init> with 4 params not found in MC 26.1.2
+

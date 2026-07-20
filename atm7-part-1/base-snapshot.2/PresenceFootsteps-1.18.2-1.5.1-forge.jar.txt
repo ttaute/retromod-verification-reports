@@ -1,0 +1,55 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     PresenceFootsteps-1.18.2-1.5.1-forge.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:53:17
+Result:  FAILED
+
+Found 38 issue(s):
+
+── Missing Classes ──
+  ✗ [Leu.ha3.presencefootsteps.sound.generator.Locomotion; not found in MC 26.1.2
+  ✗ [Leu.ha3.presencefootsteps.sound.generator.WingedStepSoundGenerator$FlightState; not found in MC 26.1.2
+  ✗ [Leu.ha3.presencefootsteps.sound.player.DelayedSoundPlayer$State; not found in MC 26.1.2
+  ✗ [Leu.ha3.presencefootsteps.sound.State; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93172_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureManager.bindForSetup() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_96597_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.m_6111_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92841_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92733_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.m_146910_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.game.ClientboundSoundPacket.m_133455_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.getMyRidingOffset() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_142385_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_142383_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ChatComponent.addMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_7396_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_6679_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_7843_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_7816_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.f_131282_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122824_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122826_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122901_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,63 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     configured-2.0.1-1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:42:22
+Result:  FAILED
+
+Found 46 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.mrcrayfish.configured.api.ConfigType; not found in MC 26.1.2
+  ✗ [Lcom.mrcrayfish.configured.client.screen.ConfirmationScreen$Icon; not found in MC 26.1.2
+  ✗ [Lcom.mrcrayfish.configured.client.screen.EditListScreen$ListType; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_93243_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.blit() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.fill() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.extractComponentTooltip() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.drawCenteredString() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.blit() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.extractTooltip() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.extractToolTip() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.extractButton() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ContainerObjectSelectionList.render() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.HoverEvent.getValue() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Checkbox.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Checkbox.onPress() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.LevelSummary.m_78362_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.DynamicTexture.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.LevelStorageSource.m_78244_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.hasPermissions() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.gui.screens.Screen.BACKGROUND_LOCATION not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.BACKGROUND_LOCATION not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Checkbox.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.DynamicTexture.<init> with 1 params not found in MC 26.1.2
+

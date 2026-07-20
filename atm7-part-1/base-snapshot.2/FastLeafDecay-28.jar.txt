@@ -1,0 +1,13 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     FastLeafDecay-28.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:45
+Result:  FAILED
+
+Found 2 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60616_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.m_60735_() not found in MC 26.1.2
+

@@ -1,0 +1,34 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     FastWorkbench-1.18.2-6.1.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:53:19
+Result:  FAILED
+
+Found 17 issue(s):
+
+── Missing Classes ──
+  ✗ shadows.placebo.config.Configuration not found in MC 26.1.2
+  ✗ shadows.placebo.network.MessageHelper not found in MC 26.1.2
+  ✗ shadows.placebo.network.MessageProvider not found in MC 26.1.2
+  ✗ shadows.placebo.network.PacketDistro not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.onCraftedBy() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getRemainingItems() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.onCraftedBy() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.gui.components.ImageButton.resourceLocation not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.items not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init> with 3 params not found in MC 26.1.2
+

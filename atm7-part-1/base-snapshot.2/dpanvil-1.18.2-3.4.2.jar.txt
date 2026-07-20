@@ -1,0 +1,35 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     dpanvil-1.18.2-3.4.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:36
+Result:  FAILED
+
+Found 22 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataProvider.m_123920_() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123916_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_141952_() not found in MC 26.1.2
+  ✗ net.minecraft.core.Vec3i.m_141952_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_6540_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_7396_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_142591_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_6679_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.close() not found in MC 26.1.2
+  ✗ net.minecraft.server.network.ServerGamePacketListenerImpl.m_141995_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129894_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_BASE not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_TOTAL not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122824_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122827_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122825_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122866_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122901_ not found in MC 26.1.2
+

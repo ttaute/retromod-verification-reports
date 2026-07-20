@@ -1,0 +1,97 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     littlecontraptions-forge-1.18.2.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:00:15
+Result:  FAILED
+
+Found 80 issue(s):
+
+── Missing Classes ──
+  ✗ com.simibubi.create.content.equipment.wrench.IWrenchable not found in MC 26.1.2
+  ✗ dev.murad.shipping.util.TickerUtil not found in MC 26.1.2
+  ✗ dev.murad.shipping.entity.custom.vessel.VesselEntity not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.mounted.CartAssemblerBlock not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.blockEntity.behaviour.CenteredSideValueBoxTransform not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.utility.VecHelper not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.blockEntity.SmartBlockEntity not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.mounted.CartAssemblerBlock$CartAssemblerAction not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.mounted.CartAssemblerBlockEntity$CartMovementMode not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.mounted.MountedContraption not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.AssemblyException not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.OrientedContraptionEntity not found in MC 26.1.2
+  ✗ dev.murad.shipping.block.energy.VesselChargerBlock not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ com.simibubi.create.AllItems not found in MC 26.1.2
+  ✗ com.tterrag.registrate.util.entry.ItemEntry not found in MC 26.1.2
+  ✗ dev.murad.shipping.setup.ModItems not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.minecart.capability.MinecartController not found in MC 26.1.2
+  ✗ dev.murad.shipping.capability.StallingCapability not found in MC 26.1.2
+  ✗ dev.murad.shipping.entity.custom.vessel.barge.AbstractBargeEntity not found in MC 26.1.2
+  ✗ com.simibubi.create.content.contraptions.minecart.capability.CapabilityMinecartController not found in MC 26.1.2
+  ✗ dev.murad.shipping.entity.render.barge.StaticVesselRenderer not found in MC 26.1.2
+  ✗ dev.murad.shipping.item.AbstractEntityAddItem not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuilder not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuildingUtil not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuildingUtil$SelectionUtil not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.Selection not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuilder$WorldInstructions not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuildingUtil$PositionUtil not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuilder$EffectInstructions not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuilder$OverlayInstructions not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.element.TextWindowElement$Builder not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.SceneBuildingUtil$VectorUtil not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderPalette not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.instruction.AnimateElementInstruction not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.element.AnimatedSceneElement not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.utility.animation.LerpedFloat not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderScene not found in MC 26.1.2
+  ✗ com.jozufozu.flywheel.util.transform.TransformStack not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.instruction.FadeIntoSceneInstruction not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.instruction.FadeOutOfSceneInstruction not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.ElementLink not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.element.InputWindowElement not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.utility.Pointing not found in MC 26.1.2
+  ✗ dev.murad.shipping.setup.ModBlocks not found in MC 26.1.2
+  ✗ dev.murad.shipping.block.dock.DockingBlockStates not found in MC 26.1.2
+  ✗ dev.murad.shipping.block.rail.AbstractDockingRail not found in MC 26.1.2
+  ✗ dev.murad.shipping.util.LocoRoute not found in MC 26.1.2
+  ✗ dev.murad.shipping.util.LocoRouteNode not found in MC 26.1.2
+  ✗ dev.murad.shipping.item.LocoRouteItem not found in MC 26.1.2
+  ✗ dev.murad.shipping.block.rail.SwitchRail not found in MC 26.1.2
+  ✗ dev.murad.shipping.item.TugRouteItem not found in MC 26.1.2
+  ✗ dev.murad.shipping.block.guiderail.CornerGuideRailBlock not found in MC 26.1.2
+  ✗ dev.murad.shipping.setup.Registration not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderTag not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderRegistrationHelper not found in MC 26.1.2
+  ✗ com.tterrag.registrate.util.entry.ItemProviderEntry not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderRegistrationHelper$MultiSceneBuilder not found in MC 26.1.2
+  ✗ com.simibubi.create.infrastructure.ponder.PonderIndex not found in MC 26.1.2
+  ✗ com.simibubi.create.infrastructure.ponder.AllPonderTags not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderTagRegistry not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.ponder.PonderTagRegistry$TagBuilder not found in MC 26.1.2
+  ✗ com.simibubi.create.foundation.data.CreateRegistrate not found in MC 26.1.2
+  ✗ com.tterrag.registrate.util.entry.BlockEntry not found in MC 26.1.2
+  ✗ com.tterrag.registrate.util.OneTimeEventReceiver not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.render() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_TRANSPORTATION not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_MISC not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,56 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     trashslot-forge-1.18.2-11.0.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:24:34
+Result:  FAILED
+
+Found 41 issue(s):
+
+── Missing Classes ──
+  ✗ [Lnet.blay09.mods.trashslot.api.SlotRenderStyle; not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.trashslot.api.Snap$Type; not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.Balm not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.network.BalmNetworking not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.mixin.AbstractContainerScreenAccessor not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.mixin.SlotAccessor not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.keymappings.KeyConflictContext not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.keymappings.KeyModifier not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.keymappings.BalmKeyMappings not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.rendering.BalmTextures not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.BalmClient not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.BalmEvents not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.screen.ScreenInitEvent$Post not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.screen.ScreenMouseEvent$Release$Pre not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.screen.ScreenMouseEvent$Click$Pre not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.screen.ScreenKeyEvent$Press$Post not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.screen.ContainerScreenDrawEvent$Background not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGlobalGuiHandler not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.config.BalmConfig not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.config.BalmConfigData not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.BalmHooks not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.PlayerOpenMenuEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.PlayerRespawnEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.PlayerLoginEvent not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.m_41758_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.getArrow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.extractSlotHighlight() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.extractComponentTooltip() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.m_96555_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ClickAction.PICKUP not found in MC 26.1.2
+

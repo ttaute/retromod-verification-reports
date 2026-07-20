@@ -1,0 +1,64 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     CTM-1.18.2-1.1.5+5.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:26:02
+Result:  FAILED
+
+Found 47 issue(s):
+
+── Missing Classes ──
+  ✗ [Lteam.chisel.ctm.client.model.parsing.ModelLoaderCTM; not found in MC 26.1.2
+  ✗ [Lteam.chisel.ctm.client.texture.ctx.OffsetProviderRegistry; not found in MC 26.1.2
+  ✗ [Lteam.chisel.ctm.client.texture.render.TextureMap$MapType; not found in MC 26.1.2
+  ✗ [Lteam.chisel.ctm.client.texture.type.TextureTypeNormal; not found in MC 26.1.2
+  ✗ [Lteam.chisel.ctm.client.util.BlockRenderLayer; not found in MC 26.1.2
+  ✗ [Lteam.chisel.ctm.client.util.BlockstatePredicateParser$ComparisonType; not found in MC 26.1.2
+  ✗ [Lteam.chisel.ctm.client.util.BlockstatePredicateParser$Composition; not found in MC 26.1.2
+  ✗ [Lteam.chisel.ctm.client.util.ConnectionLocations; not found in MC 26.1.2
+  ✗ [Lteam.chisel.ctm.client.util.Dir; not found in MC 26.1.2
+  ✗ [Lteam.chisel.ctm.client.util.TextureMetadataHandler; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getProfiler() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getTextureAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getMissingModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getBlockModelShaper() not found in MC 26.1.2
+  ✗ net.minecraft.util.random.WeightedRandom.getWeightedItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.chunkBufferLayers() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getTintIndex() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getSprite() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getVertices() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.isShade() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.pipe() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118413_() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.UnbakedModel.resolveParents() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.UnbakedModel.bake() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.UnbakedModel.getDependencies() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.sprite.Material.texture() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.sprite.Material.atlasLocation() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.getRootModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.bake() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.getElements() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.cuboid.ItemModelGenerator.generateBlockModel() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_141952_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_141950_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BlockGetter.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_142591_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_5507_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.close() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.resources.model.ModelBakery.GENERATION_MARKER not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.textureMap not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.delegate not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.delegate not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.<init> with 5 params not found in MC 26.1.2
+

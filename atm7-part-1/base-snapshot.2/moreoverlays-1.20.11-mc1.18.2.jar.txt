@@ -1,0 +1,57 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     moreoverlays-1.20.11-mc1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:09
+Result:  FAILED
+
+Found 40 issue(s):
+
+── Missing Classes ──
+  ✗ [Lat.ridgo8.moreoverlays.chunkbounds.ChunkBoundsHandler$RenderMode; not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.runtime.IIngredientFilter not found in MC 26.1.2
+  ✗ slimeknights.mantle.client.screen.MultiModuleScreen not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.subtypes.UidContext not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IStackHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.runtime.IJeiRuntime not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureManager.bindForSetup() not found in MC 26.1.2
+  ✗ net.minecraft.client.Camera.m_90591_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_166854_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93236_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93208_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ContainerObjectSelectionList$Entry.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ContainerObjectSelectionList$Entry.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ContainerObjectSelectionList$Entry.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ContainerObjectSelectionList$Entry.mouseScrolled() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ContainerObjectSelectionList.getScrollbarPosition() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ContainerObjectSelectionList.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.m_94178_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_96624_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41726_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getEnchantmentTags() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Items.getEnchantments() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantment.byId() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.isValidSpawn() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.Options.graphicsMode not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.renderDebug not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+

@@ -1,0 +1,16 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Prism-1.18.2-1.0.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:13:52
+Result:  FAILED
+
+Found 3 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.getTooltipLines() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.getInputStream() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.TooltipFlag$Default.ADVANCED not found in MC 26.1.2
+

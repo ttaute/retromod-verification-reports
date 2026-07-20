@@ -1,0 +1,31 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     time-in-a-bottle-2.1.0-mc1.18.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:24:01
+Result:  FAILED
+
+Found 16 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.haoict.tiab.utils.lang.Translation; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.displayClientMessage() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.network.syncher.SynchedEntityData.define() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.writeBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.setStyle() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

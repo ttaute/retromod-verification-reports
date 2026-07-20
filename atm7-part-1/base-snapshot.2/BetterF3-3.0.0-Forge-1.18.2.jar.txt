@@ -1,0 +1,86 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     BetterF3-3.0.0-Forge-1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:05:54
+Result:  FAILED
+
+Found 69 issue(s):
+
+── Missing Classes ──
+  ✗ me.shedaniel.clothconfig2.api.ConfigBuilder not found in MC 26.1.2
+  ✗ me.shedaniel.clothconfig2.api.ConfigEntryBuilder not found in MC 26.1.2
+  ✗ me.shedaniel.clothconfig2.impl.builders.BooleanToggleBuilder not found in MC 26.1.2
+  ✗ me.shedaniel.clothconfig2.api.ConfigCategory not found in MC 26.1.2
+  ✗ me.shedaniel.clothconfig2.impl.builders.DoubleFieldBuilder not found in MC 26.1.2
+  ✗ me.shedaniel.clothconfig2.impl.builders.ColorFieldBuilder not found in MC 26.1.2
+  ✗ me.shedaniel.clothconfig2.impl.builders.DropdownMenuBuilder$TopCellElementBuilder not found in MC 26.1.2
+  ✗ me.shedaniel.clothconfig2.impl.builders.DropdownMenuBuilder not found in MC 26.1.2
+  ✗ me.shedaniel.clothconfig2.impl.builders.IntFieldBuilder not found in MC 26.1.2
+  ✗ me.shedaniel.clothconfig2.impl.builders.StringFieldBuilder not found in MC 26.1.2
+  ✗ [Lme.cominixo.betterf3.config.ModConfigFile$FileType; not found in MC 26.1.2
+  ✗ net.minecraft.client.Option not found in MC 26.1.2
+  ✗ [Lme.cominixo.betterf3.utils.FpsEnum; not found in MC 26.1.2
+  ✗ [Lme.cominixo.betterf3.utils.PositionEnum; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.Minecraft.getFrameTimer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getProfiler() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.is64Bit() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92841_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureManager.bindForSetup() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93172_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93133_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ObjectSelectionList.getScrollbarPosition() not found in MC 26.1.2
+  ✗ net.minecraft.client.server.IntegratedServer.m_129904_() not found in MC 26.1.2
+  ✗ net.minecraft.client.server.IntegratedServer.m_129903_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.LevelRenderer.countRenderedChunks() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.m_5962_() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getBiome() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientChunkCache.m_142061_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getForcedChunks() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerChunkCache.m_142061_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.GameRenderer.currentEffect() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.PostChain.getName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getMoonBrightness() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.WorldgenRandom.m_64685_() not found in MC 26.1.2
+  ✗ net.minecraft.client.ClientBrandRetriever.m_129629_() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.getServerBrand() not found in MC 26.1.2
+  ✗ net.minecraft.client.sounds.SoundManager.getDebugString() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getTags() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.FluidState.getTags() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.Minecraft.fpsString not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.f_93098_ not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.renderDebug not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.renderDebugCharts not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.renderFpsChart not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.f_92114_ not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.graphicsMode not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.LevelRenderer.chunkRenderDispatcher not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.LevelRenderer.renderedEntities not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.ViewArea.chunks not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122824_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122822_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122826_ not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.DebugScreenOverlay.HEIGHTMAP_NAMES not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+

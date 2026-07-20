@@ -1,0 +1,37 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Morph-o-Tool-1.5-32.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:08:03
+Result:  FAILED
+
+Found 20 issue(s):
+
+── Missing Classes ──
+  ✗ vazkii.arl.network.NetworkHandler not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.SimpleRecipeSerializer not found in MC 26.1.2
+  ✗ vazkii.arl.item.BasicItem not found in MC 26.1.2
+  ✗ vazkii.arl.util.TooltipHandler not found in MC 26.1.2
+  ✗ vazkii.arl.network.IMessage not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getCreatorModId() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.setRegistryName() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_TOOLS not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

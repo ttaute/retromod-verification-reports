@@ -1,0 +1,21 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     TipTheScales-forge-1.18.2-5.0.6.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:36
+Result:  FAILED
+
+Found 6 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.client.Option not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.m_6111_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.m_131328_() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.resizeDisplay() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

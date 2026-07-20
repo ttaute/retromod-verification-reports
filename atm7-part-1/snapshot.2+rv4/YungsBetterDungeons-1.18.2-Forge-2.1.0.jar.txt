@@ -1,0 +1,58 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     YungsBetterDungeons-1.18.2-Forge-2.1.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:26:30
+Result:  FAILED
+
+Found 41 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.yungnickyoung.minecraft.betterdungeons.world.DungeonType; not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.spawner.MobSpawnerData not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.spawner.MobSpawnerData$Builder not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.BlockStateRandomizer not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.banner.Banner not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.banner.Banner$Builder not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.processor.ISafeWorldModifier not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.api.YungJigsawConfig not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.api.YungJigsawManager not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.placement.PlacedFeature.f_191775_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.ConfiguredFeature.f_65377_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings.m_74399_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.SpawnData.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.util.random.WeightedList.single() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelReader.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelReader.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197358_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197354_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197355_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getNoiseBiome() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.WorldgenRandom.nextInt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.WorldgenRandom.nextFloat() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.StructurePiece.m_142537_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.WorldGenLevel.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.WorldGenLevel.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BaseSpawner.setEntryId() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context.f_192705_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGenerator$Context.f_192708_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.STRUCTURE_PIECE not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.STRUCTURE_PROCESSOR not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ENTITY_TYPE not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.level.SpawnData.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init> with 2 params not found in MC 26.1.2
+

@@ -1,0 +1,51 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     structures_compass-1.18.2-1.4.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:59:59
+Result:  FAILED
+
+Found 34 issue(s):
+
+── Missing Classes ──
+  ✗ [Lio.github.samarium150.minecraft.mod.structures_compass.config.HUDPosition; not found in MC 26.1.2
+  ✗ [Lio.github.samarium150.minecraft.mod.structures_compass.config.StructuresCompassConfig$Mode; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getEntityRepresentation() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.item.ItemEntity.m_32047_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.item.ItemEntity.getSpin() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.charTyped() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.tick() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92750_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ObjectSelectionList.getScrollbarPosition() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.m_5962_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.m_207970_() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getGameTime() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129785_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40756_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122882_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122841_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+

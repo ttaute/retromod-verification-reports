@@ -1,0 +1,140 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     moreminecarts-1.4.7.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:08:01
+Result:  FAILED
+
+Found 123 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.alc.moreminecarts.blocks.holo_scaffolds.HoloScaffold$HoloScaffoldStrength; not found in MC 26.1.2
+  ✗ [Lcom.alc.moreminecarts.blocks.utility_rails.ArithmeticRailBlock$SignalEffect; not found in MC 26.1.2
+  ✗ [Lcom.alc.moreminecarts.blocks.utility_rails.PistonLifterRailBlock$PistonLifterEffect; not found in MC 26.1.2
+  ✗ [Lcom.alc.moreminecarts.items.HoloRemoteItem$HoloRemoteType; not found in MC 26.1.2
+  ✗ net.minecraft.client.player.Input not found in MC 26.1.2
+  ✗ [Lcom.alc.moreminecarts.proxy.MoreMinecartsPacketHandler$FakeInteraction; not found in MC 26.1.2
+  ✗ [Lcom.alc.moreminecarts.tile_entities.AbstractCommonLoader$ComparatorOutputType; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.neighborChanged() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getGameRules() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.addParticle() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.startRiding() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hasCustomHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.CactusBlock.m_7455_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.CactusBlock.canSustainPlant() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getBiomeCategory() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.interactAt() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getLeashOffset() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.properties.RailShape.isAscending() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.getResult() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.shouldSwing() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.AbstractMinecart.shouldDoRailFunctions() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.AbstractMinecart.getMinecartType() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.AbstractMinecart.interact() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.AbstractMinecart.destroy() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.AbstractMinecart.defineSynchedData() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.AbstractMinecart.moveAlongTrack() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.AbstractMinecart.applyNaturalSlowdown() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.AbstractMinecartContainer.destroy() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.AbstractMinecartContainer.defineSynchedData() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.AbstractButton.extractToolTip() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.stream() not found in MC 26.1.2
+  ✗ net.minecraft.util.Mth.m_14195_() not found in MC 26.1.2
+  ✗ net.minecraft.network.syncher.SynchedEntityData.define() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.isExplosion() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.playerAttack() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.getBoolean() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.hasUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.putUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartChest.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartChest.getMaxSpeedWithRail() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartChest.destroy() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartCommandBlock.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartCommandBlock.getMaxSpeedWithRail() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartCommandBlock.destroy() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartFurnace.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartFurnace.getMaxSpeedWithRail() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartFurnace.destroy() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartFurnace.getCurrentRailPosition() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartHopper.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartHopper.getMaxSpeedWithRail() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartHopper.destroy() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.Minecart.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.Minecart.getMaxSpeedWithRail() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.Minecart.destroy() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartSpawner.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartSpawner.getMaxSpeedWithRail() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartSpawner.destroy() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartTNT.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartTNT.getMaxSpeedWithRail() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartTNT.destroy() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.network.Connection.m_129514_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.Endermite.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.onlyOpCanSetNbt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.placement.PlacementUtils.m_206513_() not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.features.FeatureUtils.simpleRandomPatchConfiguration() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.leash() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.game.ServerboundInteractPacket.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.game.ServerboundInteractPacket.getTarget() not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.game.ServerboundInteractPacket.dispatch() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderer.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.EntityModel.setupAnim() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.EntityModel.renderToBuffer() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BaseContainerBlockEntity.load() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.damagesource.DamageSource.CACTUS not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.FALL not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_DOENTITYDROPS not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_DOMOBSPAWNING not found in MC 26.1.2
+  ✗ net.minecraft.network.syncher.EntityDataSerializers.COMPOUND_TAG not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.ChatType.GAME_INFO not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.delegate not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.Feature.RANDOM_PATCH not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_MATERIALS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_TRANSPORTATION not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_TOOLS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_REDSTONE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_DECORATIONS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_BUILDING_BLOCKS not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartFurnace.xPush not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartFurnace.zPush not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartChest.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartCommandBlock.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartFurnace.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartHopper.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.Minecart.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartSpawner.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.vehicle.minecart.MinecartTNT.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.network.protocol.game.ServerboundInteractPacket.<init> with 1 params not found in MC 26.1.2
+

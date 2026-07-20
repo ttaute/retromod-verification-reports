@@ -1,0 +1,51 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     forgebrainlib-1.18.2-1.0.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:53:52
+Result:  FAILED
+
+Found 34 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.level.levelgen.RandomSource not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.entity.Mob.doHurtTarget() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Mob.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Mob.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Mob.wantsToPickUp() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.behavior.BehaviorUtils.m_147441_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.spawnAtLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.isInWaterOrBubble() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getProfiler() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.PathfinderMob.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.PathfinderMob.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.memory.NearestVisibleLivingEntities.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.pathfinder.NodeEvaluator.getBlockPathType() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.TamableAnimal.m_142480_() not found in MC 26.1.2
+  ✗ net.minecraft.util.valueproviders.FloatProvider.m_142269_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.Brain.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.Brain.codec() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.sensing.Sensor.isEntityAttackable() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.is() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.village.poi.PoiType.getPredicate() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.piglin.PiglinAi.isWearingGold() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.npc.villager.VillagerData.getProfession() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.npc.villager.VillagerProfession.m_35624_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.memory.ExpirableValue.canExpire() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.memory.ExpirableValue.hasExpired() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.memory.ExpirableValue.tick() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.Brain$Provider.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.village.poi.PoiType.HOME not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.entity.ai.memory.NearestVisibleLivingEntities.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.Brain.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.Brain$Provider.<init> with 2 params not found in MC 26.1.2
+

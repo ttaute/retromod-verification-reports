@@ -1,0 +1,127 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Applied-Mekanistics-1.2.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:25:09
+Result:  FAILED
+
+Found 110 issue(s):
+
+── Missing Classes ──
+  ✗ appeng.api.client.IAEStackRenderHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.ChemicalStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.Chemical not found in MC 26.1.2
+  ✗ appeng.client.gui.style.Blitter not found in MC 26.1.2
+  ✗ appeng.util.Platform not found in MC 26.1.2
+  ✗ mekanism.api.chemical.attribute.ChemicalAttribute not found in MC 26.1.2
+  ✗ appeng.api.client.AEStackRendering not found in MC 26.1.2
+  ✗ appeng.api.behaviors.ContainerItemStrategy not found in MC 26.1.2
+  ✗ appeng.api.stacks.GenericStack not found in MC 26.1.2
+  ✗ appeng.api.config.Actionable not found in MC 26.1.2
+  ✗ mekanism.api.Action not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.GasStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.infuse.InfusionStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.pigment.PigmentStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.SlurryStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.IChemicalHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.ISlurryHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.pigment.IPigmentHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.infuse.IInfusionHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.IGasHandler not found in MC 26.1.2
+  ✗ appeng.api.integrations.jei.IngredientConverter not found in MC 26.1.2
+  ✗ appeng.api.config.PowerUnits not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKeyType not found in MC 26.1.2
+  ✗ appeng.api.behaviors.GenericInternalInventory not found in MC 26.1.2
+  ✗ appeng.parts.PartModel not found in MC 26.1.2
+  ✗ appeng.core.AppEng not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKey not found in MC 26.1.2
+  ✗ mekanism.api.MekanismAPI not found in MC 26.1.2
+  ✗ mekanism.api.Coord4D not found in MC 26.1.2
+  ✗ mekanism.api.radiation.IRadiationManager not found in MC 26.1.2
+  ✗ appeng.parts.p2p.P2PTunnelPart not found in MC 26.1.2
+  ✗ appeng.api.parts.IPartHost not found in MC 26.1.2
+  ✗ appeng.api.util.DimensionalBlockPos not found in MC 26.1.2
+  ✗ appeng.api.storage.MEStorage not found in MC 26.1.2
+  ✗ appeng.core.localization.GuiText not found in MC 26.1.2
+  ✗ appeng.me.storage.NullInventory not found in MC 26.1.2
+  ✗ appeng.me.storage.ExternalStorageFacade not found in MC 26.1.2
+  ✗ appeng.api.stacks.KeyCounter not found in MC 26.1.2
+  ✗ appeng.api.behaviors.ExternalStorageStrategy not found in MC 26.1.2
+  ✗ appeng.util.BlockApiCache not found in MC 26.1.2
+  ✗ appeng.api.behaviors.StackExportStrategy not found in MC 26.1.2
+  ✗ appeng.api.behaviors.StackTransferContext not found in MC 26.1.2
+  ✗ appeng.api.networking.storage.IStorageService not found in MC 26.1.2
+  ✗ appeng.api.storage.StorageHelper not found in MC 26.1.2
+  ✗ appeng.api.behaviors.StackImportStrategy not found in MC 26.1.2
+  ✗ appeng.core.AELog not found in MC 26.1.2
+  ✗ [Lme.ramidzkh.mekae2.AMItems$Tier; not found in MC 26.1.2
+  ✗ appeng.items.materials.MaterialItem not found in MC 26.1.2
+  ✗ appeng.items.parts.PartModelsHelper not found in MC 26.1.2
+  ✗ appeng.api.parts.PartModels not found in MC 26.1.2
+  ✗ appeng.items.parts.PartItem not found in MC 26.1.2
+  ✗ appeng.items.tools.powered.PortableCellItem not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEItems not found in MC 26.1.2
+  ✗ appeng.items.storage.CreativeCellItem not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mekanism.api.integration.jei.IMekanismJEIHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.IIngredientHelper not found in MC 26.1.2
+  ✗ appeng.api.integrations.jei.IngredientConverters not found in MC 26.1.2
+  ✗ appeng.init.client.InitScreens not found in MC 26.1.2
+  ✗ appeng.menu.implementations.MenuTypeBuilder not found in MC 26.1.2
+  ✗ [Lme.ramidzkh.mekae2.AMText; not found in MC 26.1.2
+  ✗ appeng.capabilities.Capabilities not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.ICellGuiHandler not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.IBasicCellItem not found in MC 26.1.2
+  ✗ appeng.api.implementations.blockentities.IChestOrDrive not found in MC 26.1.2
+  ✗ appeng.menu.me.common.MEStorageMenu not found in MC 26.1.2
+  ✗ appeng.menu.locator.MenuLocators not found in MC 26.1.2
+  ✗ appeng.menu.MenuOpener not found in MC 26.1.2
+  ✗ appeng.parts.automation.StackWorldBehaviors not found in MC 26.1.2
+  ✗ appeng.api.behaviors.GenericSlotCapacities not found in MC 26.1.2
+  ✗ appeng.api.storage.StorageCells not found in MC 26.1.2
+  ✗ appeng.api.client.StorageCellModels not found in MC 26.1.2
+  ✗ appeng.api.upgrades.Upgrades not found in MC 26.1.2
+  ✗ appeng.api.features.P2PTunnelAttunement not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKeyTypes not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEBlocks not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.TooltipPosition not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IWailaClientRegistration not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.ITooltip not found in MC 26.1.2
+  ✗ mekanism.api.chemical.attribute.ChemicalAttributeValidator not found in MC 26.1.2
+  ✗ appeng.items.storage.BasicStorageCell not found in MC 26.1.2
+  ✗ appeng.api.upgrades.UpgradeInventories not found in MC 26.1.2
+  ✗ mekanism.api.inventory.qio.IQIOComponent not found in MC 26.1.2
+  ✗ mekanism.api.inventory.qio.IQIOFrequency not found in MC 26.1.2
+  ✗ mekanism.api.security.ISecurityUtils not found in MC 26.1.2
+  ✗ mekanism.api.security.SecurityMode not found in MC 26.1.2
+  ✗ appeng.api.networking.security.IActionSource not found in MC 26.1.2
+  ✗ appeng.api.networking.IGridNode not found in MC 26.1.2
+  ✗ appeng.api.features.IPlayerRegistry not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEItemKey not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getTextureAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.playNotifySound() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.shapeless() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.getRegistryName() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+

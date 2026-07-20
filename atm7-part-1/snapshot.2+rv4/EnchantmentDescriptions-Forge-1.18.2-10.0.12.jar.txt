@@ -1,0 +1,8 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     EnchantmentDescriptions-Forge-1.18.2-10.0.12.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:51:45
+Result:  PASSED
+
+No issues found. All bytecode references resolve correctly.

@@ -1,0 +1,135 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     artifacts-1.18.2-4.2.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:05:40
+Result:  FAILED
+
+Found 118 issue(s):
+
+── Missing Classes ──
+  ✗ top.theillusivec4.curios.api.SlotTypePreset not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypeMessage$Builder not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.client.CuriosRendererRegistry not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICuriosItemHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.inventory.ICurioStacksHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.inventory.IDynamicStackHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.client.ICurioRenderer not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotContext not found in MC 26.1.2
+  ✗ be.florens.expandability.api.forge.PlayerSwimEvent not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICurio$SoundInfo not found in MC 26.1.2
+  ✗ net.minecraft.client.player.Input not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICurioItem not found in MC 26.1.2
+  ✗ be.florens.expandability.api.forge.LivingFluidCollisionEvent not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.entries.LootTableReference not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.core.Registry.m_206081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_142581_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_21187_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.setSecondsOnFire() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.eat() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.canApplyAtEnchantingTable() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.setupAnim() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.prepareMobModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.renderToBuffer() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.getModelName() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.sprite.Material.buffer() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.MobRenderer.render() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21187_() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.m_19370_() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.m_19360_() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.m_19376_() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.m_19384_() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.m_19335_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.hasFrostWalker() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.hasAquaAffinity() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.is() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.setSecondsOnFire() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LightningBolt.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.consume() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.m_78933_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.m_78940_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_21187_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider.m_7112_() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction$Plane.m_122560_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.m_59620_() not found in MC 26.1.2
+  ✗ net.minecraft.core.DefaultedRegistry.getTag() not found in MC 26.1.2
+  ✗ net.minecraft.core.HolderSet$Named.m_203450_() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootPool$Builder.m_6509_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Builder.m_6509_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Builder.m_5577_() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction.enchantWithLevels() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.functions.EnchantWithLevelsFunction$Builder.allowTreasure() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.TooltipFlag$Default.NORMAL not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.xCloakO not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.xCloak not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.yCloakO not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.yCloak not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.zCloakO not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.zCloak not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.oBob not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.bob not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.walkDistO not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.walkDist not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.CHEST_XMAS_LOCATION not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.CHEST_LOCATION not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.JUMP not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.MOVEMENT_SPEED not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.CONFUSION not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.DIG_SLOWDOWN not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.MOVEMENT_SLOWDOWN not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122903_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_194570_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122838_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122904_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122877_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122898_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122901_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122900_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122823_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122824_ not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40753_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.hasImpulse not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.maxUpStep not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_TOTAL not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.maxUpStep not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.HOT_FLOOR not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.LIGHTNING_BOLT not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.rightArmPose not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.leftArmPose not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.DISPENSE_ITEM_BEHAVIOR not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+

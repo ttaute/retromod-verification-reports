@@ -1,0 +1,45 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     create-confectionery1.18.2_v1.0.9.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:46:18
+Result:  FAILED
+
+Found 30 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hurt() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getTier() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.isEdible() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getFoodProperties() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.render() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.goal.FollowOwnerGoal.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.getObject() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Mob.finalizeSpawn() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType$Builder.setCustomClientFactory() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties$Builder.alwaysEat() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.JukeboxSong.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.getCurrentDifficultyAt() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.moveTo() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.effect.MobEffects.MOVEMENT_SPEED not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.DIG_SPEED not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.DAMAGE_RESISTANCE not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.DIG_SLOWDOWN not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.MOVEMENT_SLOWDOWN not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.entity.ai.goal.FollowOwnerGoal.<init> with 5 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.JukeboxSong.<init> with 3 params not found in MC 26.1.2
+

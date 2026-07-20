@@ -1,0 +1,70 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ftb-ultimine-forge-1802.3.4-build.93.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:54:50
+Result:  FAILED
+
+Found 53 issue(s):
+
+── Missing Classes ──
+  ✗ dev.architectury.event.events.client.ClientLifecycleEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.Event not found in MC 26.1.2
+  ✗ dev.architectury.event.events.client.ClientTickEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.events.client.ClientGuiEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.events.client.ClientRawInputEvent not found in MC 26.1.2
+  ✗ dev.architectury.registry.client.keymappings.KeyMappingRegistry not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.IntValue not found in MC 26.1.2
+  ✗ dev.architectury.event.EventResult not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.ConfigUtil not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.SNBTConfig not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.BaseValue not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.BooleanValue not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.StringListValue not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.NumberValue not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftblibrary.snbt.config.DoubleValue not found in MC 26.1.2
+  ✗ dev.architectury.event.EventFactory not found in MC 26.1.2
+  ✗ dev.architectury.platform.Platform not found in MC 26.1.2
+  ✗ dev.architectury.utils.EnvExecutor not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.LifecycleEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.BlockEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.InteractionEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.TickEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.events.common.EntityEvent not found in MC 26.1.2
+  ✗ dev.architectury.hooks.level.entity.PlayerHooks not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbranks.api.FTBRanksAPI not found in MC 26.1.2
+  ✗ dev.ftb.mods.ftbranks.api.PermissionValue not found in MC 26.1.2
+  ✗ dev.architectury.networking.simple.SimpleNetworkManager not found in MC 26.1.2
+  ✗ dev.architectury.networking.simple.BaseC2SMessage not found in MC 26.1.2
+  ✗ dev.architectury.networking.NetworkManager$PacketContext not found in MC 26.1.2
+  ✗ dev.architectury.networking.simple.BaseS2CMessage not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.areCapsCompatible() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92744_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.create() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodData.getExhaustionLevel() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNormal() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.fromDelta() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.<init> with 8 params not found in MC 26.1.2
+

@@ -1,0 +1,99 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     spark-1.10.38-forge.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:19:45
+Result:  FAILED
+
+Found 84 issue(s):
+
+── Missing Classes ──
+  ✗ [Lme.lucko.spark.api.statistic.StatisticWindow$CpuUsage; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.api.statistic.StatisticWindow$MillisPerTick; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.api.statistic.StatisticWindow$TicksPerSecond; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.heapdump.HeapDump; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.monitor.cpu.CpuInfo; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.monitor.cpu.CpuMonitor; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.monitor.disk.DiskUsage; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.monitor.LinuxProc; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.monitor.memory.MemoryInfo; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.monitor.MonitoringExecutor; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.monitor.net.Direction; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.monitor.net.NetworkMonitor; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.monitor.tick.TickMonitor$Phase; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.monitor.WindowsWmic; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.platform.PlatformInfo$Type; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.platform.serverconfig.PropertiesConfigParser; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.sampler.async.AsyncProfilerAccess$ProfilingEvent; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.sampler.SamplerMode; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.sampler.source.ClassSourceLookup$NoOpVisitor; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.sampler.window.ProfilingWindowUtils; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.util.Compression; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.util.FormatUtil; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.util.MediaTypes; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.util.SparkPlaceholder; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.util.StatisticFormatter; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.common.ws.CryptoAlgorithm; not found in MC 26.1.2
+  ✗ cpw.mods.modlauncher.TransformingClassLoader not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.audience.MessageType; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.bossbar.BossBar$Color; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.bossbar.BossBar$Flag; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.bossbar.BossBar$Overlay; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.sound.Sound$Source; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.text.BlockNBTComponent$WorldPos$Coordinate$Type; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.text.ComponentIteratorFlag; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.text.event.ClickEvent$Action; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.text.format.TextDecoration; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.text.format.Style$Merge$Strategy; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.text.format.Style$Merge; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.text.format.TextDecoration$State; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.text.PatternReplacementResult; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.text.serializer.legacy.LegacyComponentSerializerImpl$FormatCodeType; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.text.serializer.legacy.LegacyComponentSerializerImpl$Reset; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.adventure.util.TriState; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.asyncprofiler.Counter; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$AgentProvider$ForByteBuddyAgent; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$AttachmentProvider$Accessor$Unavailable; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$AttachmentProvider$ForEmulatedAttachment; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$AttachmentProvider$ForJ9Vm; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$AttachmentProvider$ForModularizedVm; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$AttachmentProvider$ForStandardToolsJarVm; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$AttachmentProvider$ForUserDefinedToolsJar; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$AttachmentTypeEvaluator$Disabled; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$AttachmentTypeEvaluator$InstallationAction; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$ProcessProvider$ForCurrentVm$ForLegacyVm; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.ByteBuddyAgent$ProcessProvider$ForCurrentVm; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.bytebuddy.agent.VirtualMachine$Resolver; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.Field$Cardinality; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.Field$Kind; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.FieldType$Collection; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.FieldType; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.GeneratedMessageLite$MethodToInvoke; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.JavaType; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.NullValue; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.ProtoSyntax; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.Syntax; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.Value$KindCase; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.WireFormat$FieldType; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.WireFormat$JavaType; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.WireFormat$Utf8Validation; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.lib.protobuf.Writer$FieldOrder; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.proto.SparkProtos$CommandSenderMetadata$Type; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.proto.SparkProtos$PlatformMetadata$Type; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.proto.SparkSamplerProtos$SamplerMetadata$DataAggregator$ThreadGrouper; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.proto.SparkSamplerProtos$SamplerMetadata$DataAggregator$Type; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.proto.SparkSamplerProtos$SamplerMetadata$SamplerMode; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.proto.SparkSamplerProtos$SamplerMetadata$ThreadDumper$Type; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.proto.SparkWebSocketProtos$PacketWrapper$PacketCase; not found in MC 26.1.2
+  ✗ [Lme.lucko.spark.proto.SparkWebSocketProtos$ServerConnectResponse$State; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.commands.CommandSource.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.hasPermissions() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientChunkCache.m_142061_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerChunkCache.m_142061_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.server.level.ServerPlayer.latency not found in MC 26.1.2
+

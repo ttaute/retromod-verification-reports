@@ -1,0 +1,69 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     paucal-forge-1.18.2-0.4.7.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:51:22
+Result:  FAILED
+
+Found 52 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ [Lat.petrak.paucal.xplat.Platform; not found in MC 26.1.2
+  ✗ [Lat.petrak.relocated.nightconfig.core.ConfigSpec$CorrectionAction; not found in MC 26.1.2
+  ✗ [Lat.petrak.relocated.nightconfig.core.EnumGetMethod; not found in MC 26.1.2
+  ✗ [Lat.petrak.relocated.nightconfig.core.io.IndentStyle; not found in MC 26.1.2
+  ✗ [Lat.petrak.relocated.nightconfig.core.io.NewlineStyle; not found in MC 26.1.2
+  ✗ [Lat.petrak.relocated.nightconfig.core.io.ParsingMode; not found in MC 26.1.2
+  ✗ [Lat.petrak.relocated.nightconfig.core.io.WritingMode; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.data.advancements.AdvancementProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123916_() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.Advancement.getId() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.Advancement.deconstruct() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.Advancement$Builder.serializeToJson() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataProvider.m_123920_() not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.TagsProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_126118_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_126116_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142700_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_126191_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_142700_() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate$Builder.of() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate$Builder.of() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.InventoryChangeTrigger$TriggerInstance.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.MinMaxBounds$Ints.serializeToJson() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.MinMaxBounds$Ints.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.SimpleCriterionTrigger.createInstance() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.f_122824_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122827_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122832_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.advancements.AdvancementProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.TagsProvider.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.InventoryChangeTrigger$TriggerInstance.<init> with 5 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+

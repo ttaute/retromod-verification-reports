@@ -1,0 +1,12 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:53:19
+Result:  FAILED
+
+Found 1 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.Clearable.tryClear() not found in MC 26.1.2
+

@@ -1,0 +1,87 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     TKLib-0.0.23+1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:24:09
+Result:  FAILED
+
+Found 70 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.technicalitiesmc.lib.block.component.BlockInventory$Flag; not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.lib.block.component.BlockItemCollection$Flag; not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.lib.block.multipart.FaceSlot; not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.lib.block.multipart.IntersectionTestResult; not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.lib.circuit.component.CircuitEvent; not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.lib.circuit.component.ComponentSlot; not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.lib.circuit.interfaces.wire.WireConnectionState$Visual; not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.lib.circuit.interfaces.wire.WireConnectionState; not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGhostIngredientHandler$Target not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGhostIngredientHandler not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.lib.inventory.InventoryHint; not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.lib.inventory.ItemFilter$AmountMatchMode; not found in MC 26.1.2
+  ✗ [Lcom.technicalitiesmc.lib.math.VecDirection; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.serializeNBT() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.addTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getOrCreateTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.pass() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.success() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.getResult() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.getObject() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNormal() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNearest() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.stream() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.invalidateCaps() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getUpdateTag() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.LevelChunk.setUnsaved() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.getLootTables() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.lines() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseScrolled() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.LevelRenderer.renderShape() not found in MC 26.1.2
+  ✗ net.minecraft.util.valueproviders.FloatProvider.m_142269_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest.m_7715_() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.ParticleEngine.destroy() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.InteractionResult.CONSUME_PARTIAL not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.CraftingContainer.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,8 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     FastLeafDecay-28.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:53:18
+Result:  PASSED
+
+No issues found. All bytecode references resolve correctly.

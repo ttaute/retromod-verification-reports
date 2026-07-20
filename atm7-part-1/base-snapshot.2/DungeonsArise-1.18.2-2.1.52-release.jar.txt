@@ -1,0 +1,22 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     DungeonsArise-1.18.2-2.1.52-release.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:30:09
+Result:  FAILED
+
+Found 9 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197355_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197357_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.m_156179_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.m_141914_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.m_156174_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement.m_210284_() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init> with 3 params not found in MC 26.1.2
+

@@ -1,0 +1,72 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     jeed-1.18.2-1.11.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:58:47
+Result:  FAILED
+
+Found 55 issue(s):
+
+── Missing Classes ──
+  ✗ mezz.jei.api.gui.drawable.IDrawable not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.PotionUtils not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.runtime.IIngredientVisibility not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeIngredientRole not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeSlotBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.IIngredientHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.IIngredientRenderer not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IModIngredientRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGuiContainerHandler not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.IFocusFactory not found in MC 26.1.2
+  ✗ mezz.jei.api.runtime.IJeiRuntime not found in MC 26.1.2
+  ✗ mezz.jei.api.runtime.IRecipesGui not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93200_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getMobEffectTextures() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.Potion.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.FlowerBlock.getSuspiciousEffect() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getFoodProperties() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties.getEffects() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92744_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffect.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffect.getAttributeModifiers() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffect.getAttributeModifierValue() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118414_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.getName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.toValue() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_BASE not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_TOTAL not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.ATTRIBUTE_MODIFIER_FORMAT not found in MC 26.1.2
+  ✗ net.minecraft.world.item.TooltipFlag$Default.ADVANCED not found in MC 26.1.2
+  ✗ net.minecraft.world.item.TooltipFlag$Default.NORMAL not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

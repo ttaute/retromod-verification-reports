@@ -1,0 +1,31 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     AEInfinityBooster-1.18.2-1.1.0+9.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:23:04
+Result:  FAILED
+
+Found 16 issue(s):
+
+── Missing Classes ──
+  ✗ appeng.core.definitions.AEItems not found in MC 26.1.2
+  ✗ appeng.core.definitions.ItemDefinition not found in MC 26.1.2
+  ✗ appeng.util.inv.filter.IAEItemFilter not found in MC 26.1.2
+  ✗ appeng.util.inv.AppEngInternalInventory not found in MC 26.1.2
+  ✗ appeng.menu.slot.RestrictedInputSlot not found in MC 26.1.2
+  ✗ appeng.api.implementations.menuobjects.ItemMenuHost not found in MC 26.1.2
+  ✗ appeng.api.implementations.blockentities.IWirelessAccessPoint not found in MC 26.1.2
+  ✗ appeng.api.networking.IGrid not found in MC 26.1.2
+  ✗ appeng.blockentity.networking.WirelessBlockEntity not found in MC 26.1.2
+  ✗ appeng.api.inventories.InternalInventory not found in MC 26.1.2
+  ✗ appeng.api.util.DimensionalBlockPos not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+

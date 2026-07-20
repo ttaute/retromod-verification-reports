@@ -1,0 +1,25 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     AllTheCompressed-1.0.8-1.18.2-40.1.30.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:02:44
+Result:  FAILED
+
+Found 12 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.Pdiddy973.AllTheCompressed.AllTheCompressedType; not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.runtime.IJeiRuntime not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.runtime.IIngredientManager not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.Block.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+

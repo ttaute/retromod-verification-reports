@@ -1,0 +1,35 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     multi-piston-1.18.2-1.2.15-ALPHA.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:11
+Result:  FAILED
+
+Found 20 issue(s):
+
+── Missing Classes ──
+  ✗ com.ldtteam.blockui.views.BOWindow not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.ButtonHandler not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.Button not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.mod.Log not found in MC 26.1.2
+  ✗ com.ldtteam.structurize.api.util.IRotatableBlockEntity not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.TextField not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.controls.ButtonImage not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.views.View not found in MC 26.1.2
+  ✗ com.ldtteam.blockui.Pane not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.rotate() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46753_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNearest() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.saveWithId() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_141950_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BucketPickup.pickupBlock() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40751_ not found in MC 26.1.2
+

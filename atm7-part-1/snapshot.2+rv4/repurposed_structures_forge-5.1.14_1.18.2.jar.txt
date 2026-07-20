@@ -1,0 +1,126 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     repurposed_structures_forge-5.1.14+1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:16:54
+Result:  FAILED
+
+Found 109 issue(s):
+
+── Missing Classes ──
+  ✗ brightspark.asynclocator.logic.MerchantLogic not found in MC 26.1.2
+  ✗ [Lcom.telepathicgrunt.repurposedstructures.misc.maptrades.WanderingTraderMapObj$TRADE_TYPE; not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager not found in MC 26.1.2
+  ✗ net.minecraft.world.level.StructureFeatureManager not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.ResourceOrTagLocationArgument$Result not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ [Lcom.telepathicgrunt.repurposedstructures.world.predicates.MatterPhaseRuleTest$MATTER_PHASE; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructurePoolElement.m_207245_() not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.getHolderOrThrow() not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.getTag() not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.getOrCreateTag() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.m_78940_() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.findNearestMapFeature() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.structureFeatureManager() not found in MC 26.1.2
+  ✗ net.minecraft.core.RegistryAccess.m_206191_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapFeature() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getBaseColumn() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.m_183403_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.hasFeatureChunkInRange() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getBaseHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getNoiseBiome() not found in MC 26.1.2
+  ✗ net.minecraft.util.Util.identityStrategy() not found in MC 26.1.2
+  ✗ net.minecraft.util.Util.m_203747_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool.m_210585_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool.m_210573_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool.m_210580_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool.m_210587_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.getLootTables() not found in MC 26.1.2
+  ✗ net.minecraft.resources.RegistryOps.m_206821_() not found in MC 26.1.2
+  ✗ net.minecraft.core.WritableRegistry.createRegistrationLookup() not found in MC 26.1.2
+  ✗ net.minecraft.core.WritableRegistry.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.core.Holder$Reference.m_205775_() not found in MC 26.1.2
+  ✗ net.minecraft.core.Holder$Reference.m_205763_() not found in MC 26.1.2
+  ✗ net.minecraft.core.Holder$Reference.m_205766_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.WorldGenLevel.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.WorldGenLevel.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getStatus() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.server.commands.LocateCommand.showLocateResult() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings.setKeepLiquids() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getOcclusionShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelReader.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.PackResources.m_7211_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.zombie.Drowned.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.zombie.Drowned.finalizeSpawn() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Rotation.m_55958_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.core.RegistryAccess$Frozen.registryOrThrow() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BaseSpawner.setEntryId() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.setLootTable() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.Shulker.absMoveTo() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.animal.equine.SkeletonHorse.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.animal.equine.SkeletonHorse.finalizeSpawn() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.skeleton.Skeleton.finalizeSpawn() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.skeleton.Skeleton.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.monster.skeleton.WitherSkeleton.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.util.StringRepresentable.m_14350_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelHeightAccessor.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelHeightAccessor.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.WorldgenRandom.nextInt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.WorldgenRandom.nextDouble() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197356_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197355_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197354_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197360_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197353_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197358_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197357_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197359_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.f_192741_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readBlockState() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.CONFIGURED_STRUCTURE_FEATURE_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.TEMPLATE_POOL_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.LOOT_CONDITION_TYPE not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.PLACEMENT_MODIFIERS not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.RULE_TEST not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.POS_RULE_TEST not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.STRUCTURE_PROCESSOR not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.STRUCTURE_POOL_ELEMENT not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.STRUCTURE_PIECE not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ENCHANTMENT not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.PROCESSOR_LIST_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.STRUCTURE_SET_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_BASE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.FLAMING_ARROWS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.PUNCH_ARROWS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.POWER_ARROWS not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.core.WritableRegistry.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.<init> with 3 params not found in MC 26.1.2
+

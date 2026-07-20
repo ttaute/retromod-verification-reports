@@ -1,0 +1,208 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Kiwi-1.18.2-forge-6.1.4.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:38:41
+Result:  FAILED
+
+Found 191 issue(s):
+
+── Missing Classes ──
+  ✗ [Lsnownee.kiwi.block.def.SimpleBlockDefinition$Factory; not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.AtlasSet not found in MC 26.1.2
+  ✗ net.minecraft.commands.synchronization.ArgumentSerializer not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.config.KiwiConfig$ConfigType; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.contributor.ITierProvider$Empty; not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.Kiwi$LoadingStage; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.KiwiModule$RenderLayer$Layer; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.KiwiModule$Subscriber$Bus; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.network.KiwiPacket$Direction; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.recipe.AlternativesIngredientSerializer; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.recipe.ModuleLoadedCondition$Serializer; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.recipe.TryParseCondition$Serializer; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.schedule.impl.GlobalTicker; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.shadowed.com.typesafe.config.ConfigSyntax; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.shadowed.com.typesafe.config.ConfigValueType; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.shadowed.com.typesafe.config.impl.ConfigIncludeKind; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.shadowed.com.typesafe.config.impl.FromMapMode; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.shadowed.com.typesafe.config.impl.OriginType; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.shadowed.com.typesafe.config.impl.ResolveStatus; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.shadowed.com.typesafe.config.impl.SerializedConfigValue$SerializedField; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.shadowed.com.typesafe.config.impl.SerializedConfigValue$SerializedValueType; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.shadowed.com.typesafe.config.impl.SimpleConfig$MemoryUnit; not found in MC 26.1.2
+  ✗ [Lsnownee.kiwi.shadowed.com.typesafe.config.impl.TokenType; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.getDescriptionId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTags() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41726_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getOrCreateTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getCloneItemStack() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.m_6151_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.m_40783_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.putUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getUUID() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getOcclusionShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.m_129241_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.prettyPrint() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.writeBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.writeGameProfile() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readGameProfile() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getDeltaFrameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118413_() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getSprite() not found in MC 26.1.2
+  ✗ net.minecraft.client.color.block.BlockColors.getColor() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.onlyOpCanSetNbt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.saveWithFullMetadata() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.resolveParents() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelBakery.getSpriteMap() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entitySolid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityTranslucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getMissingModel() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.displayClientMessage() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.m_131328_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129971_() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.layers.RenderLayer.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseReleased() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseScrolled() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.copyFrom() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.BlockLootSubProvider.m_124165_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootPool$Builder.m_6509_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Builder.m_6509_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Builder.m_5577_() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate$Builder.hasEnchantment() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate$Builder.of() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate$Builder.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.predicates.LootItemCondition$Builder.m_7818_() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123916_() not found in MC 26.1.2
+  ✗ net.minecraft.data.HashCache.m_123938_() not found in MC 26.1.2
+  ✗ net.minecraft.data.HashCache.m_123940_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_126191_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_142409_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_126189_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_142700_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.toNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.SimpleCookingRecipeBuilder.m_126248_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.SimpleCookingRecipeBuilder.m_142409_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.SimpleCookingRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.SimpleCookingRecipeBuilder.m_126272_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_126118_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142409_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_126116_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142700_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.SingleItemRecipeBuilder.m_126316_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.SingleItemRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.InventoryChangeTrigger$TriggerInstance.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.SavedDataStorage.computeIfAbsent() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getGroup() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getRecipeWidth() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getRecipeHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapelessRecipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapelessRecipe.getGroup() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapelessRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapelessRecipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapelessRecipe.getRemainingItems() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.fromNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.toNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientPacketListener.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.getAllRecipesFor() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.BlockAndTintGetter.getShade() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.BlockAndTintGetter.getMinBuildHeight() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.f_122904_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122903_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122901_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122899_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122897_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122827_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_175412_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122832_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.RULE_TEST not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122862_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122864_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_175420_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122868_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122875_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122876_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122877_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_175421_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_175422_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_175413_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_175415_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_175417_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_175419_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_194566_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_205930_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122843_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_194570_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122859_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122888_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122889_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122890_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_194573_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_194574_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_211076_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122891_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122892_ not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.customData not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.renderDebug not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.BLOCK_FORTUNE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.SMELTING_RECIPE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.BLASTING_RECIPE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.SHAPELESS_RECIPE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.SHAPED_RECIPE not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.StatePropertiesPredicate.ANY not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40748_ not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.InventoryChangeTrigger$TriggerInstance.<init> with 5 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init> with 6 params not found in MC 26.1.2
+

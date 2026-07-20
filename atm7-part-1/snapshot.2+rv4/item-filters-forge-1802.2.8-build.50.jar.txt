@@ -1,0 +1,82 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     item-filters-forge-1802.2.8-build.50.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:58:46
+Result:  FAILED
+
+Found 65 issue(s):
+
+── Missing Classes ──
+  ✗ dev.architectury.registry.registries.Registries not found in MC 26.1.2
+  ✗ dev.architectury.registry.registries.Registrar not found in MC 26.1.2
+  ✗ dev.architectury.event.events.client.ClientLifecycleEvent not found in MC 26.1.2
+  ✗ dev.architectury.event.Event not found in MC 26.1.2
+  ✗ dev.architectury.registry.menu.MenuRegistry not found in MC 26.1.2
+  ✗ dev.architectury.platform.forge.EventBuses not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.toasts.ToastComponent not found in MC 26.1.2
+  ✗ dev.architectury.registry.menu.ExtendedMenuProvider not found in MC 26.1.2
+  ✗ dev.architectury.platform.Platform not found in MC 26.1.2
+  ✗ [Ldev.latvian.mods.itemfilters.item.NBTMatchingMode; not found in MC 26.1.2
+  ✗ dev.architectury.utils.GameInstance not found in MC 26.1.2
+  ✗ dev.architectury.networking.NetworkChannel not found in MC 26.1.2
+  ✗ dev.architectury.utils.EnvExecutor not found in MC 26.1.2
+  ✗ dev.architectury.registry.CreativeTabRegistry not found in MC 26.1.2
+  ✗ dev.architectury.registry.ReloadListenerRegistry not found in MC 26.1.2
+  ✗ dev.architectury.networking.NetworkManager$PacketContext not found in MC 26.1.2
+  ✗ dev.architectury.utils.Env not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.removeTagKey() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.addTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.fillItemCategory() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.inventoryTick() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getItemCategory() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getToasts() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.stream() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.charTyped() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.m_94178_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.charTyped() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_9146_() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.m_40783_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.ITEM not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.MENU_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_SEARCH not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TABS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_INVENTORY not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.toasts.SystemToast$SystemToastId.TUTORIAL_HINT not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.ChatType.GAME_INFO not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+

@@ -1,0 +1,152 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     bonsaitrees3-3.1.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:08:34
+Result:  FAILED
+
+Found 135 issue(s):
+
+── Missing Classes ──
+  ✗ com.davenonymous.libnonymous.base.BaseLanguageProvider not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.base.BaseBlock not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.compat.top.ITopInfoProvider not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.registration.CustomBlockStateProperties not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeHitData not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfo not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProgressStyle not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.base.BaseBlockEntity not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.helper.RedstoneMode not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.helper.EnchantmentHelper not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.helper.InventoryHelper not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.helper.SpawnHelper not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.gui.framework.WidgetContainer not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.render.QuadBaker not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.serialization.MultiblockBlockModel not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.render.MultiModelBlockRenderer not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.gui.framework.WidgetContainerScreen not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.gui.framework.GUI not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.gui.framework.widgets.WidgetItemStack not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.gui.framework.widgets.WidgetProgressBar not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.gui.framework.widgets.WidgetRedstoneMode not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.gui.framework.WidgetSlot not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.helper.Translatable not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.gui.framework.event.WidgetEventResult not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.serialization.MultiBlockModelSerializer not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.commands.SimpleCommandReply not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.utils.TeleporterTools not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.utils.ComponentUtils not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.reflections.SaplingBlockReflection not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.reflections.AbstractTreeGrowerReflection not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawableStatic not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawable not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ingredient.IGuiItemStackGroup not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.extensions.IRecipeCategoryExtension not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ingredient.ITooltipCallback not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ITickTimer not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.utils.TickTimeHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.IIngredients not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.base.BaseLootTableProvider not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.datagen.BaseDataProvider not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.datagen.BaseDataProvider$Type not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.reflections.BlockStateProviderReflection not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.base.BasePacket not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.json.MCJsonUtils not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.serialization.JsonHelpers not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.base.RecipeData not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.helper.BaseRecipeHelper not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.helper.FluidStateSerializationHelper not found in MC 26.1.2
+  ✗ com.davenonymous.libnonymous.helper.BlockStateSerializationHelper not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_46753_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.equals() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hurt() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getAttributes() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getTextureAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getVertices() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getSprite() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.isShade() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelBakery.bake() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.toJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.toNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.client.GraphicsPreset.m_90773_() not found in MC 26.1.2
+  ✗ net.minecraft.client.color.block.BlockColors.getColor() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_6540_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_142591_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_6679_() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.blocks.BlockStateArgument.m_116120_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_21187_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129894_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.SaplingBlock.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.ConfiguredFeature.f_65378_() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ChunkMap.debugReloadGenerator() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.status.ChunkStatus.getRange() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.status.ChunkStatus.m_187788_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_126116_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142409_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider.m_7112_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.stateproviders.SimpleStateProvider.m_7112_() not found in MC 26.1.2
+  ✗ net.minecraft.util.random.WeightedRandom.getTotalWeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.getAllRecipesFor() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItemStack() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.enchantment.Enchantments.BLOCK_FORTUNE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.BLOCK_EFFICIENCY not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.graphicsMode not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.status.ChunkStatus.f_62321_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.status.ChunkStatus.POST_FEATURES not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40750_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.<init> with 5 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+

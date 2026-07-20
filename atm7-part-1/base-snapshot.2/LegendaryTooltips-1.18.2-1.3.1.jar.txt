@@ -1,0 +1,39 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     LegendaryTooltips-1.18.2-1.3.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:05
+Result:  FAILED
+
+Found 26 issue(s):
+
+── Missing Classes ──
+  ✗ com.anthonyhilyard.prism.item.ItemColors not found in MC 26.1.2
+  ✗ com.anthonyhilyard.prism.text.DynamicColor not found in MC 26.1.2
+  ✗ com.anthonyhilyard.iceberg.events.GatherComponentsExtEvent not found in MC 26.1.2
+  ✗ com.anthonyhilyard.iceberg.events.RenderTooltipExtEvent$Color not found in MC 26.1.2
+  ✗ com.anthonyhilyard.iceberg.events.RenderTooltipExtEvent$Post not found in MC 26.1.2
+  ✗ [Lcom.anthonyhilyard.legendarytooltips.LegendaryTooltipsConfig$ColorType; not found in MC 26.1.2
+  ✗ [Lcom.anthonyhilyard.legendarytooltips.LegendaryTooltipsConfig$FrameSource; not found in MC 26.1.2
+  ✗ com.anthonyhilyard.iceberg.util.Selectors not found in MC 26.1.2
+  ✗ com.anthonyhilyard.iceberg.util.Selectors$SelectorDocumentation not found in MC 26.1.2
+  ✗ com.anthonyhilyard.prism.util.ConfigHelper not found in MC 26.1.2
+  ✗ com.anthonyhilyard.prism.util.ConfigHelper$ColorFormatDocumentation not found in MC 26.1.2
+  ✗ com.anthonyhilyard.prism.util.ImageAnalysis not found in MC 26.1.2
+  ✗ com.anthonyhilyard.prism.util.IColor not found in MC 26.1.2
+  ✗ com.anthonyhilyard.iceberg.util.Tooltips not found in MC 26.1.2
+  ✗ com.anthonyhilyard.iceberg.util.GuiHelper not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.resources.Identifier.isValidResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_7396_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_6679_() not found in MC 26.1.2
+  ✗ net.minecraft.util.GsonHelper.parse() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93133_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent.getHeight() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.AbstractTexture.bind() not found in MC 26.1.2
+

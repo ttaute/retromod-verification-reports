@@ -1,0 +1,32 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     appleskin-forge-mc1.18.2-2.5.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:25:05
+Result:  FAILED
+
+Found 17 issue(s):
+
+── Missing Classes ──
+  ✗ [Lsqueek.appleskin.client.HUDOverlayHandler$RenderOverlayType; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.food.FoodData.getExhaustionLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Gui.blit() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getGameRules() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getFoodProperties() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties.getEffects() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.getBoolean() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.Minecraft.ON_OSX not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.renderDebug not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.GUI_ICONS_LOCATION not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_NATURAL_REGENERATION not found in MC 26.1.2
+

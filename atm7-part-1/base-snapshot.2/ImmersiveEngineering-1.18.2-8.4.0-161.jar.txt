@@ -1,0 +1,8 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ImmersiveEngineering-1.18.2-8.4.0-161.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:36:40
+Result:  PASSED
+
+No issues found. All bytecode references resolve correctly.

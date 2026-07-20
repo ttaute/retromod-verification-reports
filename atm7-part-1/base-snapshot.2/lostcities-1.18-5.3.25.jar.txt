@@ -1,0 +1,98 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     lostcities-1.18-5.3.25.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:39:51
+Result:  FAILED
+
+Found 81 issue(s):
+
+── Missing Classes ──
+  ✗ [Lmcjty.lostcities.api.RailChunkType; not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.config.BiomeSelectionStrategy; not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.config.LandscapeType; not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.KeybindComponent not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.worldgen.lost.BuildingInfo$StreetType; not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.worldgen.lost.cityassets.Scattered$TerrainFix; not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.worldgen.lost.cityassets.Scattered$TerrainHeight; not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.worldgen.lost.Direction; not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.OceanMonumentFeature not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.worldgen.lost.Orientation; not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.worldgen.lost.Railway$RailDirection; not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.worldgen.lost.regassets.data.CitySphereSettings$CitySphereCenterType; not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.worldgen.lost.regassets.data.CitySphereSettings$CitySpherePartOrigin; not found in MC 26.1.2
+  ✗ [Lmcjty.lostcities.worldgen.lost.Transform; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.setRespawnPosition() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.SavedDataStorage.computeIfAbsent() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93236_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_93160_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_96602_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.tick() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.AbstractWidget.m_7428_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.CloseableResourceManager.m_6540_() not found in MC 26.1.2
+  ✗ net.minecraft.core.RegistryAccess.m_206197_() not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.m_206081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.changeDimension() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.ServerLevelData.setSpawn() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelAccessor.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.blocks.BlockStateParser.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.blocks.BlockStateParser.m_116806_() not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.blocks.BlockStateParser.m_116808_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.m_47548_() not found in MC 26.1.2
+  ✗ net.minecraft.core.DefaultedRegistry.m_206081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.WorldGenLevel.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.WorldGenLevel.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.m_183403_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.m_142647_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getStatus() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.m_7049_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.m_129241_() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.writeBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.CommonLevelAccessor.m_5962_() not found in MC 26.1.2
+  ✗ net.minecraft.util.StringRepresentable.m_14350_() not found in MC 26.1.2
+  ✗ net.minecraft.data.worldgen.placement.PlacementUtils.m_206513_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.BaseSpawner.m_45462_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.m_59620_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.SaplingBlock.m_55980_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122838_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.DIMENSION_TYPE_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122824_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122901_ not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.f_170146_ not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.f_131282_ not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.f_67028_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.blocks.BlockStateParser.<init> with 2 params not found in MC 26.1.2
+

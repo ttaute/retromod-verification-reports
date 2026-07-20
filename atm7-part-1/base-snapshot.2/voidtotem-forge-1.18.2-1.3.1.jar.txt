@@ -1,0 +1,50 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     voidtotem-forge-1.18.2-1.3.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:44
+Result:  FAILED
+
+Found 33 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.ChestLoot not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICurio not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.CuriosCapability not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.entries.LootTableReference not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypePreset not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypeMessage$Builder not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.data.advancements.AdvancementProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.Advancement$Builder.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootPool$Builder.m_6509_() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_126116_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_21187_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.m_142049_() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.damagesource.DamageSource.OUT_OF_WORLD not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122904_ not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40757_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.advancements.AdvancementProvider.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+

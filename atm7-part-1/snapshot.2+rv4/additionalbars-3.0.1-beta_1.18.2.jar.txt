@@ -1,0 +1,19 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     additionalbars-3.0.1-beta+1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:21:18
+Result:  FAILED
+
+Found 6 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.gamma1772.additionalbars.content.block.BlockTypeEnum; not found in MC 26.1.2
+  ✗ [Lcom.gamma1772.additionalbars.util.ModSupport; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+

@@ -1,0 +1,23 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     kubejs-thermal-1802.1.6-build.7.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:59:52
+Result:  FAILED
+
+Found 12 issue(s):
+
+── Missing Classes ──
+  ✗ dev.latvian.mods.kubejs.util.ListJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.fluid.FluidStackJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.recipe.RecipeExceptionJS not found in MC 26.1.2
+  ✗ cofh.lib.fluid.FluidIngredient not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ItemStackJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ingredient.IngredientJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.KubeJSPlugin not found in MC 26.1.2
+  ✗ cofh.thermal.core.init.TCoreRecipeTypes not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.recipe.RegisterRecipeHandlersEvent not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.recipe.RecipeJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ingredient.IngredientStackJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.fluid.EmptyFluidStackJS not found in MC 26.1.2
+

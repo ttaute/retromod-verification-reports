@@ -1,0 +1,31 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     MysticalCustomization-1.18.2-3.1.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:13
+Result:  FAILED
+
+Found 16 issue(s):
+
+── Missing Classes ──
+  ✗ com.blakebr0.mysticalagriculture.api.MysticalAgricultureAPI not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.registry.ICropRegistry not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.lib.LazyIngredient not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.crop.Crop not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.crop.CropTextures not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.crop.CropRecipes not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.crop.CropTier not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.crop.CropType not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.soul.MobSoulType not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.IMysticalAgriculturePlugin not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.registry.IAugmentRegistry not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.registry.IMobSoulTypeRegistry not found in MC 26.1.2
+  ✗ com.blakebr0.mysticalagriculture.api.tinkering.Augment not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

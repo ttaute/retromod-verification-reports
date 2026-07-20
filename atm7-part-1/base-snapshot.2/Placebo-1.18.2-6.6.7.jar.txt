@@ -1,0 +1,84 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Placebo-1.18.2-6.6.7.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:51:36
+Result:  FAILED
+
+Found 67 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfoProvider not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfoEntityProvider not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ITheOneProbe not found in MC 26.1.2
+  ✗ [Lshadows.placebo.config.ConfigFlags$Loadability; not found in MC 26.1.2
+  ✗ [Lshadows.placebo.config.ConfigFlags$Type; not found in MC 26.1.2
+  ✗ [Lshadows.placebo.config.ConfigGuiType; not found in MC 26.1.2
+  ✗ [Lshadows.placebo.config.Property$Type; not found in MC 26.1.2
+  ✗ [Lshadows.placebo.patreon.PatreonUtils$PatreonParticleType; not found in MC 26.1.2
+  ✗ [Lshadows.placebo.patreon.PatreonUtils$WingType; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129898_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.m_183216_() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getOrCreateTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.util.random.WeightedRandom.m_146317_() not found in MC 26.1.2
+  ✗ net.minecraft.util.random.WeightedRandom.getTotalWeight() not found in MC 26.1.2
+  ✗ net.minecraft.util.random.WeightedRandom.m_146320_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.m_41471_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.Attribute.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction.randomApplicableEnchantment() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.m_78933_() not found in MC 26.1.2
+  ✗ net.minecraft.util.Mth.m_14068_() not found in MC 26.1.2
+  ✗ net.minecraft.util.Mth.m_14064_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getDeltaFrameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityTranslucent() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.network.ServerGamePacketListenerImpl.m_141995_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.m_59620_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Items.createForEnchantment() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.server.commands.LootCommand.SUGGEST_LOOT_TABLE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.ATTRIBUTE_MODIFIER_FORMAT not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122875_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122864_ not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.byName not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_BASE not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.MULTIPLY_TOTAL not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init> with 6 params not found in MC 26.1.2
+

@@ -1,0 +1,12 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     supermartijn642configlib-1.1.8-forge-mc1.18.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:20:03
+Result:  FAILED
+
+Found 1 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.supermartijn642.configlib.ModConfig$Type; not found in MC 26.1.2
+

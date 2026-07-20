@@ -1,0 +1,13 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     getittogetherdrops-forge-1.18.2-1.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:52
+Result:  FAILED
+
+Found 2 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.entity.item.ItemEntity.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.item.ItemEntity.m_146910_() not found in MC 26.1.2
+

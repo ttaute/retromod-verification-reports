@@ -1,0 +1,47 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     clienttweaks-forge-1.18.1-7.1.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:15
+Result:  FAILED
+
+Found 30 issue(s):
+
+── Missing Classes ──
+  ✗ net.blay09.mods.balm.api.Balm not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.config.BalmConfig not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.BalmClient not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.config.BalmConfigData not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.keymappings.KeyConflictContext not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.keymappings.KeyModifier not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.keymappings.BalmKeyMappings not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.BalmEvents not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.KeyInputEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.screen.ScreenInitEvent$Post not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.mixin.ScreenAccessor not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.screen.BalmScreens not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.TickType not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.TickPhase not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.UseItemInputEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.BalmRegistries not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.EventPriority not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.RenderHandEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.BalmHooks not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.Minecraft.m_91087_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_5661_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.displayClientMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getAttackDamage() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.isEdible() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.Minecraft.f_91074_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.maxUpStep not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

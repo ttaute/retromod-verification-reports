@@ -1,0 +1,28 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     mcw-windows-2.2.1-mc1.18.2forge.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:03:21
+Result:  FAILED
+
+Found 13 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.mcwwindows.kikoz.objects.Blinds$GaragePart; not found in MC 26.1.2
+  ✗ [Lcom.mcwwindows.kikoz.objects.ConnectedWindow$ExtendablePart; not found in MC 26.1.2
+  ✗ [Lcom.mcwwindows.kikoz.objects.Curtain$TiedEnum; not found in MC 26.1.2
+  ✗ [Lcom.mcwwindows.kikoz.objects.Parapet$Flower; not found in MC 26.1.2
+  ✗ [Lcom.mcwwindows.kikoz.objects.Window$ExtendablePart; not found in MC 26.1.2
+  ✗ [Lcom.mcwwindows.kikoz.util.WindowPart; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+

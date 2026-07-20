@@ -1,0 +1,8 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     flickerfix-2.0.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:53:21
+Result:  PASSED
+
+No issues found. All bytecode references resolve correctly.

@@ -1,0 +1,43 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     YungsBetterWitchHuts-1.18.2-Forge-1.0.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:26:35
+Result:  FAILED
+
+Found 26 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.level.StructureFeatureManager not found in MC 26.1.2
+  ✗ net.minecraft.commands.arguments.ResourceOrTagLocationArgument$Result not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.world.BlockStateRandomizer not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.api.YungJigsawConfig not found in MC 26.1.2
+  ✗ com.yungnickyoung.minecraft.yungsapi.api.YungJigsawManager not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.entity.TamableAnimal.finalizeSpawn() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.structureFeatureManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.StructureSet$StructureSelectionEntry.f_210026_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings.setKeepLiquids() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings.m_74399_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelReader.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelReader.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197358_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197354_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197355_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getNoiseBiome() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.CONFIGURED_STRUCTURE_FEATURE_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.STRUCTURE_PROCESSOR not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init> with 2 params not found in MC 26.1.2
+

@@ -1,0 +1,25 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     netherportalfix-forge-1.18.2-9.0.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:09:11
+Result:  FAILED
+
+Found 10 issue(s):
+
+── Missing Classes ──
+  ✗ net.blay09.mods.balm.api.Balm not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.BalmEvents not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.PlayerChangedDimensionEvent not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.BalmHooks not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.server.level.ServerPlayer.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.portal.PortalForcer.findPortalAround() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.hasUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.putUUID() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+

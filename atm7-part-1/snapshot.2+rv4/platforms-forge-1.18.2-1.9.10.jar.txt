@@ -1,0 +1,138 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     platforms-forge-1.18.2-1.9.10.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:12:26
+Result:  FAILED
+
+Found 121 issue(s):
+
+── Missing Classes ──
+  ✗ shetiphian.core.client.gui.GuiHelper not found in MC 26.1.2
+  ✗ shetiphian.core.client.gui.GuiSidedContainer not found in MC 26.1.2
+  ✗ shetiphian.core.common.StringUtil not found in MC 26.1.2
+  ✗ shetiphian.core.client.gui.EntityGuiItem not found in MC 26.1.2
+  ✗ shetiphian.core.client.gui.WidgetInfoBox not found in MC 26.1.2
+  ✗ shetiphian.core.common.ToolHelper not found in MC 26.1.2
+  ✗ shetiphian.core.client.gui.ButtonIcon not found in MC 26.1.2
+  ✗ shetiphian.core.client.gui.BasicUiElement not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.client.gui.Textures; not found in MC 26.1.2
+  ✗ shetiphian.core.common.BlockInfo not found in MC 26.1.2
+  ✗ shetiphian.core.common.TagHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.UseContext not found in MC 26.1.2
+  ✗ shetiphian.core.common.Function not found in MC 26.1.2
+  ✗ shetiphian.core.client.model.data.ModelProperties not found in MC 26.1.2
+  ✗ shetiphian.core.client.model.AbstractModelCacheBuilder not found in MC 26.1.2
+  ✗ shetiphian.core.client.model.IPartData not found in MC 26.1.2
+  ✗ shetiphian.core.client.model.CompositeBakedModel not found in MC 26.1.2
+  ✗ shetiphian.core.client.model.AssembledBakedModel not found in MC 26.1.2
+  ✗ shetiphian.core.client.ColorHandler$BlockColor not found in MC 26.1.2
+  ✗ shetiphian.core.client.ColorHandler$ItemColor not found in MC 26.1.2
+  ✗ shetiphian.core.common.IColored not found in MC 26.1.2
+  ✗ shetiphian.core.common.BlockLightingHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.BlockLightingHelper$PackedData not found in MC 26.1.2
+  ✗ shetiphian.core.common.HitBoxData not found in MC 26.1.2
+  ✗ shetiphian.core.common.ParticleHelper not found in MC 26.1.2
+  ✗ shetiphian.core.common.IColored$Data not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.common.block.BlockPlatformRoof$ParticleToggle; not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.SidedContainer not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.IGhostSlots$SlotGhost not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.IOutputSlot$SlotOutput not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.InventoryInternal not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.IGhostSlots not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.InventoryShiftedNamed not found in MC 26.1.2
+  ✗ shetiphian.core.common.UseContext$Item not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.common.misc.EnumCovering; not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.common.misc.EnumPlatformType; not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.common.misc.EnumSubType$EnumBase; not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.common.misc.EnumSubType$EnumStyle; not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.common.misc.EnumSubType; not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.common.misc.EnumTorchType; not found in MC 26.1.2
+  ✗ shetiphian.core.common.PlayerConfigs not found in MC 26.1.2
+  ✗ shetiphian.core.common.network.PacketPipeline not found in MC 26.1.2
+  ✗ shetiphian.core.common.network.PacketBase not found in MC 26.1.2
+  ✗ shetiphian.core.common.tileentity.TileEntityBase not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.ISidedWrapper not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.IOutputSlot not found in MC 26.1.2
+  ✗ shetiphian.core.common.inventory.ISidedWrapper$SidedWrapper not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.Configuration$Menu_General$ClimbMode; not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.Configuration$Menu_General$PlatformSelect; not found in MC 26.1.2
+  ✗ [Lshetiphian.platforms.Configuration$Menu_GUI$STYLE; not found in MC 26.1.2
+  ✗ shetiphian.core.internal.network.NetworkHandler not found in MC 26.1.2
+  ✗ shetiphian.core.common.network.PacketPlayerConfig not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IComponentProvider not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.BlockAccessor not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.ITooltip not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.TooltipPosition not found in MC 26.1.2
+  ✗ mcp.mobius.waila.api.IWailaClientRegistration not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfoProvider not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeHitData not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ITheOneProbe not found in MC 26.1.2
+  ✗ shetiphian.core.common.item.ItemWrench not found in MC 26.1.2
+  ✗ shetiphian.core.common.MyCreativeTab not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.getDescriptionId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getOrCreateTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.onDestroyedByPlayer() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemColors() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseScrolled() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getDigSpeed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.getResult() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.getObject() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.pass() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.success() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.fail() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.translucentCullBlockSheet() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.renderModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelBakery.getModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutoutMipped() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.cuboid.ItemTransforms.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.color.block.BlockColors.getColor() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.getOptionalParameter() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.LevelReader.m_46852_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.m_47530_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.warmEnoughToRain() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getBiomeCategory() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.coldEnoughToSnow() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118413_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Inventory.findSlotMatchingUnusedItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.LINES not found in MC 26.1.2
+  ✗ net.minecraft.core.particles.ParticleTypes.AMBIENT_ENTITY_EFFECT not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ClickAction.QUICK_CRAFT not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.cuboid.ItemTransforms.<init> with 8 params not found in MC 26.1.2
+

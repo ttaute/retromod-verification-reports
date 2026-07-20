@@ -1,0 +1,141 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     rftoolspower-1.18-4.0.9.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:17:15
+Result:  FAILED
+
+Found 128 issue(s):
+
+── Missing Classes ──
+  ✗ mcjty.lib.compat.theoneprobe.TOPDriver not found in MC 26.1.2
+  ✗ mcjty.lib.compat.theoneprobe.McJtyLibTOPDriver not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeHitData not found in MC 26.1.2
+  ✗ mcjty.lib.varia.Tools not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.CompoundText not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IProbeInfo not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ProbeMode not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.TextStyleClass not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.IItemStyle not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ElementAlignment not found in MC 26.1.2
+  ✗ mcjty.theoneprobe.api.ILayoutStyle not found in MC 26.1.2
+  ✗ mcjty.lib.datagen.BaseBlockStateProvider not found in MC 26.1.2
+  ✗ mcjty.lib.blocks.LogicSlabBlock not found in MC 26.1.2
+  ✗ mcjty.lib.varia.OrientationTools not found in MC 26.1.2
+  ✗ mcjty.lib.varia.LogicFacing not found in MC 26.1.2
+  ✗ mcjty.lib.datagen.BaseBlockTagsProvider not found in MC 26.1.2
+  ✗ mcjty.lib.datagen.BaseLootTableProvider not found in MC 26.1.2
+  ✗ mcjty.lib.datagen.BaseRecipeProvider not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.modules.various.VariousModule not found in MC 26.1.2
+  ✗ mcjty.lib.crafting.CopyNBTRecipeBuilder not found in MC 26.1.2
+  ✗ mcjty.lib.modules.IModule not found in MC 26.1.2
+  ✗ mcjty.lib.blocks.BaseBlock not found in MC 26.1.2
+  ✗ mcjty.lib.blocks.RotationType not found in MC 26.1.2
+  ✗ mcjty.lib.tileentity.TickingTileEntity not found in MC 26.1.2
+  ✗ mcjty.lib.container.GenericItemHandler not found in MC 26.1.2
+  ✗ mcjty.lib.container.GenericItemHandler$Builder not found in MC 26.1.2
+  ✗ mcjty.lib.tileentity.GenericEnergyStorage not found in MC 26.1.2
+  ✗ mcjty.lib.api.infusable.DefaultInfusable not found in MC 26.1.2
+  ✗ mcjty.lib.builder.BlockBuilder not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.tools.ManualHelper not found in MC 26.1.2
+  ✗ mcjty.lib.builder.InfoLine not found in MC 26.1.2
+  ✗ mcjty.lib.builder.TooltipBuilder not found in MC 26.1.2
+  ✗ mcjty.lib.api.infusable.IInfusable not found in MC 26.1.2
+  ✗ mcjty.lib.api.container.DefaultContainerProvider not found in MC 26.1.2
+  ✗ mcjty.lib.container.ContainerFactory not found in MC 26.1.2
+  ✗ mcjty.lib.container.SlotDefinition not found in MC 26.1.2
+  ✗ mcjty.lib.typed.Type not found in MC 26.1.2
+  ✗ mcjty.lib.bindings.Value not found in MC 26.1.2
+  ✗ mcjty.lib.varia.EnergyTools not found in MC 26.1.2
+  ✗ mcjty.lib.varia.Sync not found in MC 26.1.2
+  ✗ mcjty.lib.gui.GenericGuiContainer not found in MC 26.1.2
+  ✗ mcjty.lib.gui.Window not found in MC 26.1.2
+  ✗ mcjty.lib.gui.widgets.ImageChoiceLabel not found in MC 26.1.2
+  ✗ mcjty.lib.varia.RedstoneMode not found in MC 26.1.2
+  ✗ mcjty.lib.gui.widgets.EnergyBar not found in MC 26.1.2
+  ✗ mcjty.lib.gui.widgets.Label not found in MC 26.1.2
+  ✗ mcjty.lib.varia.NBTTools not found in MC 26.1.2
+  ✗ mcjty.lib.crafting.INBTPreservingIngredient not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.modules.various.items.SmartWrenchItem not found in MC 26.1.2
+  ✗ mcjty.lib.api.smartwrench.SmartWrenchMode not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.infoscreen.IInformationScreenInfo not found in MC 26.1.2
+  ✗ mcjty.lib.typed.TypedMap not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.modules.informationscreen.blocks.DefaultPowerInformationScreenInfo not found in MC 26.1.2
+  ✗ mcjty.lib.typed.TypedMap$Builder not found in MC 26.1.2
+  ✗ mcjty.lib.api.module.DefaultModuleSupport not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.machineinfo.IMachineInformation not found in MC 26.1.2
+  ✗ [Lmcjty.rftoolspower.modules.dimensionalcell.blocks.DimensionalCellTileEntity$Mode; not found in MC 26.1.2
+  ✗ mcjty.lib.api.smartwrench.ISmartWrenchSelector not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.machineinfo.CapabilityMachineInformation not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.infoscreen.CapabilityInformationScreenInfo not found in MC 26.1.2
+  ✗ mcjty.lib.varia.LevelTools not found in MC 26.1.2
+  ✗ mcjty.lib.varia.BlockPosTools not found in MC 26.1.2
+  ✗ mcjty.lib.varia.Logging not found in MC 26.1.2
+  ✗ mcjty.lib.blockcommands.Command not found in MC 26.1.2
+  ✗ mcjty.lib.typed.Key not found in MC 26.1.2
+  ✗ mcjty.lib.blockcommands.ResultCommand not found in MC 26.1.2
+  ✗ [Lmcjty.rftoolspower.modules.dimensionalcell.blocks.DimensionalCellType; not found in MC 26.1.2
+  ✗ mcjty.lib.gui.widgets.Widgets not found in MC 26.1.2
+  ✗ mcjty.lib.gui.widgets.Button not found in MC 26.1.2
+  ✗ mcjty.lib.gui.widgets.Panel not found in MC 26.1.2
+  ✗ mcjty.lib.gui.widgets.Widget not found in MC 26.1.2
+  ✗ mcjty.lib.worlddata.AbstractWorldData not found in MC 26.1.2
+  ✗ mcjty.lib.tooltips.ITooltipSettings not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.client.IHudSupport not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.tools.TickOrderHandler$IOrderTicker not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.tools.TickOrderHandler$Rank not found in MC 26.1.2
+  ✗ mcjty.lib.tileentity.LogicSupport not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.RFToolsBase not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.client.ClientInfo not found in MC 26.1.2
+  ✗ mcjty.lib.network.PacketServerCommandTyped not found in MC 26.1.2
+  ✗ mcjty.lib.network.PacketSendClientCommand not found in MC 26.1.2
+  ✗ mcjty.lib.blockcommands.ListCommand not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.tools.TickOrderHandler not found in MC 26.1.2
+  ✗ mcjty.lib.client.RenderGlowEffect not found in MC 26.1.2
+  ✗ mcjty.lib.client.RenderHelper not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.modules.hud.client.HudRenderer not found in MC 26.1.2
+  ✗ mcjty.lib.client.RenderSettings not found in MC 26.1.2
+  ✗ mcjty.lib.client.RenderSettings$Builder not found in MC 26.1.2
+  ✗ mcjty.lib.client.CustomRenderTypes not found in MC 26.1.2
+  ✗ mcjty.lib.gui.widgets.TextField not found in MC 26.1.2
+  ✗ mcjty.lib.McJtyLib not found in MC 26.1.2
+  ✗ mcjty.lib.varia.SafeClientTools not found in MC 26.1.2
+  ✗ mcjty.lib.varia.NamedEnum not found in MC 26.1.2
+  ✗ [Lmcjty.rftoolspower.modules.endergenic.data.EnderMonitorMode; not found in MC 26.1.2
+  ✗ mcjty.lib.api.information.IPowerInformation not found in MC 26.1.2
+  ✗ mcjty.lib.varia.EnergyTools$EnergyLevel not found in MC 26.1.2
+  ✗ mcjty.lib.gui.widgets.ScrollableLabel not found in MC 26.1.2
+  ✗ mcjty.lib.gui.widgets.Slider not found in MC 26.1.2
+  ✗ mcjty.lib.api.power.IBigPower not found in MC 26.1.2
+  ✗ mcjty.lib.client.AbstractDynamicBakedModel not found in MC 26.1.2
+  ✗ mcjty.lib.client.HudRenderHelper$HudPlacement not found in MC 26.1.2
+  ✗ mcjty.lib.client.HudRenderHelper$HudOrientation not found in MC 26.1.2
+  ✗ mcjty.lib.client.HudRenderHelper not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.modules.informationscreen.client.DefaultPowerInformationRenderer not found in MC 26.1.2
+  ✗ [Lmcjty.rftoolspower.modules.powercell.data.SideType; not found in MC 26.1.2
+  ✗ [Lmcjty.rftoolspower.modules.powercell.data.Tier; not found in MC 26.1.2
+  ✗ mcjty.lib.modules.Modules not found in MC 26.1.2
+  ✗ mcjty.lib.setup.DefaultModSetup not found in MC 26.1.2
+  ✗ mcjty.lib.compat.MainCompatHandler not found in MC 26.1.2
+  ✗ mcjty.lib.network.ChannelBoundHandler not found in MC 26.1.2
+  ✗ mcjty.lib.network.PacketHandler not found in MC 26.1.2
+  ✗ mcjty.lib.network.PacketSendServerCommand not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getTextureAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.getOptionalParameter() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+

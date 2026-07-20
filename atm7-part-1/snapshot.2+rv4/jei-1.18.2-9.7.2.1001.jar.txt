@@ -1,0 +1,162 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     jei-1.18.2-9.7.2.1001.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:58:54
+Result:  FAILED
+
+Found 145 issue(s):
+
+── Missing Classes ──
+  ✗ [Lmezz.jei.api.gui.drawable.IDrawableAnimated$StartDirection; not found in MC 26.1.2
+  ✗ [Lmezz.jei.api.ingredients.subtypes.UidContext; not found in MC 26.1.2
+  ✗ [Lmezz.jei.api.recipe.IFocus$Mode; not found in MC 26.1.2
+  ✗ [Lmezz.jei.api.recipe.RecipeIngredientRole; not found in MC 26.1.2
+  ✗ [Lmezz.jei.api.recipe.transfer.IRecipeTransferError$Type; not found in MC 26.1.2
+  ✗ [Lmezz.jei.common.network.PacketIdClient; not found in MC 26.1.2
+  ✗ [Lmezz.jei.common.network.PacketIdServer; not found in MC 26.1.2
+  ✗ [Lmezz.jei.common.util.GiveAmount; not found in MC 26.1.2
+  ✗ [Lmezz.jei.config.KeyBindings$JeiConflictContexts; not found in MC 26.1.2
+  ✗ [Lmezz.jei.core.config.GiveMode; not found in MC 26.1.2
+  ✗ [Lmezz.jei.core.config.IngredientBlacklistType; not found in MC 26.1.2
+  ✗ [Lmezz.jei.core.config.IngredientSortStage; not found in MC 26.1.2
+  ✗ [Lmezz.jei.core.search.SearchMode; not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.PotionUtils not found in MC 26.1.2
+  ✗ [Lmezz.jei.forge.plugins.forge.ingredients.fluid.FluidStackRenderer$TooltipMode; not found in MC 26.1.2
+  ✗ [Lmezz.jei.forge.startup.StartEventObserver$State; not found in MC 26.1.2
+  ✗ [Lmezz.jei.gui.overlay.HorizontalAlignment; not found in MC 26.1.2
+  ✗ [Lmezz.jei.gui.overlay.NavigationVisibility; not found in MC 26.1.2
+  ✗ [Lmezz.jei.gui.overlay.VerticalAlignment; not found in MC 26.1.2
+  ✗ [Lmezz.jei.input.mouse.InputType; not found in MC 26.1.2
+  ✗ [Lmezz.jei.input.TextHistory$Direction; not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getAttributeModifiers() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getDescriptionId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTags() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTooltipLines() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.areCapsCompatible() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromValues() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Recipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemColors() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getFrameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getTextureAtlas() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.color.block.BlockColors.getColor() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118405_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118408_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118415_() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.displayClientMessage() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.createCommandSourceStack() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.m_108739_() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.getStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.setStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientPacketListener.getId() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.language.LanguageManager.m_118983_() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.language.LanguageInfo.getCode() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.m_166854_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseScrolled() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.extractTooltip() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.material.Fluid.getAttributes() not found in MC 26.1.2
+  ✗ net.minecraft.core.DefaultedRegistry.getTag() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.stream() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getEquipmentSlot() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getDefense() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getToughness() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.isBookEnchantable() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getCreatorModId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getCreativeTabs() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EquipmentSlot.getFilterFlag() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.extractButton() not found in MC 26.1.2
+  ✗ net.minecraft.SharedConstants.isAllowedChatCharacter() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.getOperatorUserPermissionLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Inventory.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantment.getDescriptionId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.getEnchantments() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.equipment.ArmorMaterials.getRepairIngredient() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.Potion.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.Potion.getName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.AbstractCookingRecipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.AbstractCookingRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.AbstractCookingRecipe.isSpecial() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CampfireCookingRecipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CampfireCookingRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CraftingRecipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CraftingRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CraftingRecipe.getId() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.DyeItem.byColor() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.ShulkerBoxBlock.getBlockByColor() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.FlowerBlock.getSuspiciousEffect() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.FlowerBlock.getEffectDuration() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.getAllRecipesFor() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.m_6151_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.recipebook.RecipeUpdateListener.getRecipeBookComponent() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.StonecutterRecipe.getIngredients() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.StonecutterRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.StonecutterRecipe.isSpecial() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Items.getEnchantments() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.createCommandSourceStack() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.item.ItemEntity.m_32047_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.f_118342_ not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.item.TooltipFlag$Default.NORMAL not found in MC 26.1.2
+  ✗ net.minecraft.world.item.TooltipFlag$Default.ADVANCED not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.Potions.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.FLUID not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ENCHANTMENT_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.POTION_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.f_90868_ not found in MC 26.1.2
+  ✗ net.minecraft.world.item.equipment.ArmorMaterials.CHAIN not found in MC 26.1.2
+  ✗ net.minecraft.world.item.equipment.ArmorMaterials.TURTLE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TABS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_HOTBAR not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_INVENTORY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Inventory.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init> with 6 params not found in MC 26.1.2
+

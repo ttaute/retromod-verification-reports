@@ -1,0 +1,36 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     kotlinforforge-3.12.0-all.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:59:40
+Result:  FAILED
+
+Found 25 issue(s):
+
+── Missing Classes ──
+  ✗ [Lkotlin.reflect.jvm.internal.impl.descriptors.CallableMemberDescriptor$Kind; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.load.java.descriptors.JavaMethodDescriptor$ParameterNamesStatus; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.jvm.JvmProtoBuf$StringTableTypes$Record$Operation; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$Annotation$Argument$Value$Type; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$Class$Kind; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$Effect$EffectType; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$Effect$InvocationKind; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$Expression$ConstantValue; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$MemberKind; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$Modality; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$QualifiedNameTable$QualifiedName$Kind; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$Type$Argument$Projection; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$TypeParameter$Variance; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$VersionRequirement$Level; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$VersionRequirement$VersionKind; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.metadata.ProtoBuf$Visibility; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.protobuf.WireFormat$FieldType; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.protobuf.WireFormat$JavaType; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.resolve.ExternalOverridabilityCondition$Contract; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.resolve.ExternalOverridabilityCondition$Result; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.resolve.jvm.JvmPrimitiveType; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.resolve.OverridingUtil$OverrideCompatibilityInfo$Result; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.serialization.deserialization.AnnotatedCallableKind; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.storage.LockBasedStorageManager$NotValue; not found in MC 26.1.2
+  ✗ [Lkotlin.reflect.jvm.internal.impl.types.TypeSubstitutor$VarianceConflictType; not found in MC 26.1.2
+

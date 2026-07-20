@@ -1,0 +1,8 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     blockydoors-1.18-1.0.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:06:10
+Result:  PASSED
+
+No issues found. All bytecode references resolve correctly.

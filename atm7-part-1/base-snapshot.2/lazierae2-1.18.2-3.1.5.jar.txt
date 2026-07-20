@@ -1,0 +1,169 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     lazierae2-1.18.2-3.1.5.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:39:24
+Result:  FAILED
+
+Found 152 issue(s):
+
+── Missing Classes ──
+  ✗ com.blamejared.crafttweaker.api.recipe.manager.base.IRecipeManager not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.ingredient.IIngredientWithAmount not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.ingredient.IIngredient not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.item.IItemStack not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.action.recipe.ActionAddRecipe not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.CraftTweakerAPI not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeType not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawableBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawableAnimated$StartDirection not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.RecipeIngredientRole not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeSlotBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawable not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.drawable.IDrawableAnimated not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEItems not found in MC 26.1.2
+  ✗ appeng.core.definitions.ItemDefinition not found in MC 26.1.2
+  ✗ appeng.api.ids.AEItemIds not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ appeng.core.AEConfig not found in MC 26.1.2
+  ✗ appeng.integration.modules.jei.throwinginwater.ThrowingInWaterDisplay not found in MC 26.1.2
+  ✗ appeng.integration.modules.jei.throwinginwater.ThrowingInWaterCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeTransferRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGuiClickableArea not found in MC 26.1.2
+  ✗ mezz.jei.api.runtime.IRecipesGui not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGuiContainerHandler not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.transfer.IRecipeTransferInfo not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGhostIngredientHandler$Target not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.handlers.IGhostIngredientHandler not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.KubeJSPlugin not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.recipe.RegisterRecipeHandlersEvent not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.recipe.RecipeJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.util.ListJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ItemStackJS not found in MC 26.1.2
+  ✗ dev.latvian.mods.kubejs.item.ingredient.IngredientJS not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.content.processor.ProcessorType; not found in MC 26.1.2
+  ✗ appeng.api.networking.IInWorldGridNodeHost not found in MC 26.1.2
+  ✗ appeng.me.helpers.IGridConnectedBlockEntity not found in MC 26.1.2
+  ✗ appeng.api.networking.ticking.IGridTickable not found in MC 26.1.2
+  ✗ appeng.api.networking.crafting.ICraftingRequester not found in MC 26.1.2
+  ✗ appeng.api.networking.ticking.TickRateModulation not found in MC 26.1.2
+  ✗ appeng.me.helpers.MachineSource not found in MC 26.1.2
+  ✗ appeng.api.networking.IManagedGridNode not found in MC 26.1.2
+  ✗ appeng.api.networking.GridHelper not found in MC 26.1.2
+  ✗ appeng.api.networking.IGridNode not found in MC 26.1.2
+  ✗ appeng.api.util.AECableType not found in MC 26.1.2
+  ✗ appeng.api.networking.ticking.TickingRequest not found in MC 26.1.2
+  ✗ appeng.api.storage.StorageHelper not found in MC 26.1.2
+  ✗ appeng.api.networking.crafting.ICraftingLink not found in MC 26.1.2
+  ✗ appeng.me.helpers.BlockEntityNodeListener not found in MC 26.1.2
+  ✗ appeng.api.networking.GridFlags not found in MC 26.1.2
+  ✗ appeng.api.config.Actionable not found in MC 26.1.2
+  ✗ appeng.api.stacks.GenericStack not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEItemKey not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKey not found in MC 26.1.2
+  ✗ appeng.api.config.FuzzyMode not found in MC 26.1.2
+  ✗ appeng.api.networking.storage.IStorageWatcherNode not found in MC 26.1.2
+  ✗ appeng.api.networking.IStackWatcher not found in MC 26.1.2
+  ✗ appeng.api.networking.IGrid not found in MC 26.1.2
+  ✗ appeng.api.networking.storage.IStorageService not found in MC 26.1.2
+  ✗ appeng.api.storage.MEStorage not found in MC 26.1.2
+  ✗ appeng.api.stacks.KeyCounter not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.core.Constants$Blocks; not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.core.Constants$Items; not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.core.Constants$Nbt; not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.core.Constants$Recipe; not found in MC 26.1.2
+  ✗ appeng.items.misc.CrystalSeedItem not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.core.TypeEnums$BLOCK_SIDE; not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.core.TypeEnums$EXTRACT_SETTING; not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.core.TypeEnums$IO_SETTING; not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.core.TypeEnums$PROGRESSION_TYPE; not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.core.TypeEnums$TRANSLATE_TYPE; not found in MC 26.1.2
+  ✗ appeng.init.client.InitItemModelsProperties not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEBlocks not found in MC 26.1.2
+  ✗ appeng.datagen.providers.tags.ConventionTags not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEParts not found in MC 26.1.2
+  ✗ appeng.core.definitions.BlockDefinition not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ appeng.api.upgrades.Upgrades not found in MC 26.1.2
+  ✗ appeng.entity.AEBaseItemEntity not found in MC 26.1.2
+  ✗ appeng.core.AppEng not found in MC 26.1.2
+  ✗ appeng.client.EffectType not found in MC 26.1.2
+  ✗ appeng.util.InteractionUtil not found in MC 26.1.2
+  ✗ appeng.api.networking.crafting.ICraftingPlan not found in MC 26.1.2
+  ✗ appeng.api.networking.crafting.ICraftingService not found in MC 26.1.2
+  ✗ appeng.api.networking.crafting.CalculationStrategy not found in MC 26.1.2
+  ✗ [Lcom.almostreliable.lazierae2.util.GuiUtil$ANCHOR; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.serializeNBT() not found in MC 26.1.2
+  ✗ net.minecraft.core.NonNullList.forEach() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.toNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.toJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.getAllRecipesFor() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getUpdateTag() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItemStack() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.item.ItemEntity.m_146910_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_126116_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_126189_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.AbstractWidget.m_7428_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.m_7025_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.events.GuiEventListener.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.itemStackFromJson() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129894_() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.getSiblings() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.m_131328_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.getStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.f_122864_ not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122827_ not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ClickAction.PICKUP not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ClickAction.QUICK_MOVE not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.f_131282_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

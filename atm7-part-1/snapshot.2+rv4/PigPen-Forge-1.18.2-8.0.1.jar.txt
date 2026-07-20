@@ -1,0 +1,23 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     PigPen-Forge-1.18.2-8.0.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:12:11
+Result:  FAILED
+
+Found 8 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.players.PlayerList.broadcastMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BaseContainerBlockEntity.setCustomName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.SignBlockEntity.getMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.SignBlockEntity.setMessage() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.network.chat.ChatType.SYSTEM not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

@@ -1,0 +1,75 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     fusion-1.1.1-forge-mc1.18.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:54:57
+Result:  FAILED
+
+Found 58 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.supermartijn642.fusion.api.predicate.ConnectionDirection; not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.fusion.api.texture.data.ConnectingTextureData$RenderType; not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.fusion.api.texture.data.ConnectingTextureLayout; not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.fusion.api.texture.data.ScrollingTextureData$LoopType; not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.fusion.api.texture.data.ScrollingTextureData$Position; not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.FolderPackResources not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.fusion.model.types.connecting.TextureRotation; not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.fusion.texture.types.connecting.ConnectingTextureLayoutHelper$LayoutProperties; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.resources.model.sprite.Material.atlasLocation() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.sprite.Material.texture() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getFaceOcclusionShape() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.getOutputFolder() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataProvider.save() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118413_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118405_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118408_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.m_118414_() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_5507_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.close() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.AbstractPackResources.getMetadataFromStream() not found in MC 26.1.2
+  ✗ net.minecraft.util.random.WeightedRandom.getWeightedItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.getDependencies() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.resolveParents() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.bake() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelBakery.getModel() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.m_122384_() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getSprite() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getVertices() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getTintIndex() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.isShade() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.dispatch.ModelState.getRotation() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.UnbakedModel.getDependencies() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.UnbakedModel.resolveParents() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.UnbakedModel.bake() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.server.packs.FilePackResources.SPLITTER not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.FilePackResources.file not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.LOGGER not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.parentLocation not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.textureMap not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.hasAmbientOcclusion not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.guiLight not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.parent not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelBakery.MISSING_MODEL_LOCATION not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.f_118342_ not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.f_174725_ not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.metadata.animation.AnimationMetadataSection.EMPTY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.renderer.block.model.BlockModel.<init> with 7 params not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.<init> with 5 params not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureAtlasSprite.<init> with 8 params not found in MC 26.1.2
+

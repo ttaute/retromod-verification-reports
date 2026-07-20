@@ -1,0 +1,63 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     XNetGases-1.18.2-3.0.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 05:06:59
+Result:  FAILED
+
+Found 50 issue(s):
+
+── Missing Classes ──
+  ✗ mcjty.rftoolsbase.api.xnet.channels.IChannelType not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.xnet.helper.DefaultChannelSettings not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.xnet.channels.IChannelSettings not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.xnet.helper.AbstractConnectorSettings not found in MC 26.1.2
+  ✗ [Lterrails.xnetgases.helper.ModuleEnums$ChannelMode; not found in MC 26.1.2
+  ✗ [Lterrails.xnetgases.helper.ModuleEnums$ConnectorMode; not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.xnet.keys.SidedConsumer not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.xnet.channels.IControllerContext not found in MC 26.1.2
+  ✗ mcjty.lib.varia.LevelTools not found in MC 26.1.2
+  ✗ mekanism.api.chemical.IChemicalHandler not found in MC 26.1.2
+  ✗ mekanism.api.Action not found in MC 26.1.2
+  ✗ mekanism.api.chemical.ChemicalStack not found in MC 26.1.2
+  ✗ mcjty.xnet.setup.Config not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.xnet.gui.IndicatorIcon not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.xnet.gui.IEditorGui not found in MC 26.1.2
+  ✗ mekanism.common.capabilities.MekanismCapabilities not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.IGasHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.infuse.IInfusionHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.pigment.IPigmentHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.ISlurryHandler not found in MC 26.1.2
+  ✗ mcjty.lib.varia.JSonTools not found in MC 26.1.2
+  ✗ [Lterrails.xnetgases.module.chemical.ChemicalEnums$Type; not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.GasStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.infuse.InfusionStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.pigment.PigmentStack not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.SlurryStack not found in MC 26.1.2
+  ✗ mekanism.common.registries.MekanismBlocks not found in MC 26.1.2
+  ✗ mekanism.common.registration.impl.BlockRegistryObject not found in MC 26.1.2
+  ✗ mekanism.common.tier.ChemicalTankTier not found in MC 26.1.2
+  ✗ mekanism.common.util.ChemicalUtil not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.IGasHandler$ISidedGasHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.gas.Gas not found in MC 26.1.2
+  ✗ mekanism.api.chemical.infuse.IInfusionHandler$ISidedInfusionHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.infuse.InfuseType not found in MC 26.1.2
+  ✗ mekanism.api.chemical.pigment.IPigmentHandler$ISidedPigmentHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.pigment.Pigment not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.ISlurryHandler$ISidedSlurryHandler not found in MC 26.1.2
+  ✗ mekanism.api.chemical.slurry.Slurry not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.xnet.channels.Color not found in MC 26.1.2
+  ✗ mcjty.xnet.modules.cables.blocks.ConnectorTileEntity not found in MC 26.1.2
+  ✗ [Lterrails.xnetgases.module.logic.ChemicalLogicEnums$ConnectorMode; not found in MC 26.1.2
+  ✗ [Lterrails.xnetgases.module.logic.ChemicalLogicEnums$SensorMode; not found in MC 26.1.2
+  ✗ [Lterrails.xnetgases.module.logic.ChemicalLogicEnums$SensorOperator; not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.xnet.helper.BaseStringTranslators not found in MC 26.1.2
+  ✗ mcjty.xnet.XNet not found in MC 26.1.2
+  ✗ mcjty.xnet.apiimpl.XNetApi not found in MC 26.1.2
+  ✗ mcjty.rftoolsbase.api.xnet.channels.IConnectable$ConnectResult not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+

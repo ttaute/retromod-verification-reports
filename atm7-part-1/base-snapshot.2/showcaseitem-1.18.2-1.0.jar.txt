@@ -1,0 +1,30 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     showcaseitem-1.18.2-1.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:30
+Result:  FAILED
+
+Found 17 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.isTinted() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.geometry.BakedQuad.getTintIndex() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.server.players.PlayerList.m_11264_() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.chat.GuiMessage.m_90793_() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.chat.GuiMessage.m_90794_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.HoverEvent.getValue() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

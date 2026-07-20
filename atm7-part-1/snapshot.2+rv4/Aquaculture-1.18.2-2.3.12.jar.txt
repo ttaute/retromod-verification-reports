@@ -1,0 +1,156 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Aquaculture-1.18.2-2.3.12.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:26:07
+Result:  FAILED
+
+Found 139 issue(s):
+
+── Missing Classes ──
+  ✗ cpw.mods.modlauncher.Launcher not found in MC 26.1.2
+  ✗ cpw.mods.modlauncher.api.IEnvironment$Keys not found in MC 26.1.2
+  ✗ cpw.mods.modlauncher.api.TypesafeMap$Key not found in MC 26.1.2
+  ✗ cpw.mods.modlauncher.Environment not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ [Lcom.teammetallurgy.aquaculture.entity.FishType; not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.entries.LootTableReference not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.PotionUtils not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.action.base.IUndoableAction not found in MC 26.1.2
+  ✗ com.blamejared.crafttweaker.api.CraftTweakerAPI not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaRecipeCategoryUid not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.SimpleRecipeSerializer not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.getTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hasCustomHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getUseDuration() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hurt() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.save() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.areCapsCompatible() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.canApplyAtEnchantingTable() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.setNoRepair() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromValues() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.ChestBlock.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getGameRules() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.m_151545_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.onDestroyedByPlayer() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.getCloneItemStack() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.BaseEntityBlock.onBlockExploded() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.saveToItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.invalidateCaps() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.reviveCaps() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.ContainerOpenersCounter.incrementOpeners() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.item.ItemEntity.isInvulnerableTo() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemColors() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.create() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher.renderItem() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderer.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderer.renderNameTag() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.cameraOrientation() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderDispatcher.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityCutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.lineStrip() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityTranslucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.Camera.getNearPlane() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.MobRenderer.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.MobRenderer.setupRotations() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.Sheets.solidBlockSheet() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.renderModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.QuadrupedModel.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.animal.fish.AbstractSchoolingFish.createRenamer() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.mobAttack() not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.isExplosion() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.withParameter() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.withRandom() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext$Builder.withLuck() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.getLootTables() not found in MC 26.1.2
+  ✗ net.minecraft.network.syncher.SynchedEntityData.define() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.decoration.HangingEntity.kill() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.decoration.HangingEntity.interact() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.getBoolean() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType$Builder.setCustomClientFactory() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties$Builder.fast() not found in MC 26.1.2
+  ✗ net.minecraft.world.food.FoodProperties$Builder.meat() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.EntityPredicate$Builder.m_36648_() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.predicates.LootItemConditions.register() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.FishingRodItem.isValidRepairItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.FishingRodItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.getFishingSpeedBonus() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.getFishingLuckBonus() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BowItem.customArrow() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.getParamOrNull() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.MinMaxBounds$Doubles.serializeToJson() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.MinMaxBounds$Doubles.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.level.block.RenderShape.ENTITYBLOCK_ANIMATED not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.parameters.LootContextParams.KILLER_ENTITY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_DOENTITYDROPS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_MISC not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.animal.feline.Cat.TEMPT_INGREDIENT not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.animal.feline.Ocelot.TEMPT_INGREDIENT not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ClickAction.PICKUP not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gameevent.GameEvent.FISHING_ROD_REEL_IN not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gameevent.GameEvent.FISHING_ROD_CAST not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.MOB_LOOTING not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.model.QuadrupedModel.<init> with 7 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.MobSpawnSettings$SpawnerData.<init> with 4 params not found in MC 26.1.2
+

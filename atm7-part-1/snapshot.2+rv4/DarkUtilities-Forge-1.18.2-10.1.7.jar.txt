@@ -1,0 +1,58 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     DarkUtilities-Forge-1.18.2-10.1.7.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:47:50
+Result:  FAILED
+
+Found 43 issue(s):
+
+── Missing Classes ──
+  ✗ top.theillusivec4.curios.api.SlotTypePreset not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.registry.RegistryDataProvider not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.registry.IOwnedRegistryEntries not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.entity.merchant.trade.VillagerSells not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.registry.VillagerTradeEntries not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.Services not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.util.IPlatformHelper not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.registry.IRegistryObject not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.util.TextHelper not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.registry.IGameRegistries not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.event.IEventHelper not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.serialization.Serializers not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.serialization.ISerializer not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.util.MathsHelper not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.mixin.effect.AccessorMobEffectInstance not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.block.IBindRenderLayer not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.block.ILightningConductive not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.damagesource.FakePlayerDamageSource not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.mixin.block.entity.AccessorSignBlockEntity not found in MC 26.1.2
+  ✗ net.darkhax.bookshelf.api.util.ExperienceHelper not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.getTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hasCustomHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.use() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.getMobType() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.setSecondsOnFire() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getArmorSlots() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getHandSlots() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.is() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BaseContainerBlockEntity.setCustomName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.SignBlockEntity.getMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.SignBlockEntity.setMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.success() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.effect.MobEffects.MOVEMENT_SLOWDOWN not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffects.DIG_SLOWDOWN not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.IN_FIRE not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_146701_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.GENERIC not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.EMPTY not found in MC 26.1.2
+

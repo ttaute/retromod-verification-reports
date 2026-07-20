@@ -1,0 +1,8 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     toofast-1.18-0.0.1.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:37
+Result:  PASSED
+
+No issues found. All bytecode references resolve correctly.

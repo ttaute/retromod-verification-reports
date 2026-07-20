@@ -1,0 +1,70 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Iceberg-1.18.2-forge-1.0.49.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:55:55
+Result:  FAILED
+
+Found 53 issue(s):
+
+── Missing Classes ──
+  ✗ com.mrcrayfish.configured.api.IModConfig not found in MC 26.1.2
+  ✗ com.mrcrayfish.configured.util.ConfigHelper not found in MC 26.1.2
+  ✗ com.mrcrayfish.configured.api.ConfigType not found in MC 26.1.2
+  ✗ com.mrcrayfish.configured.Configured not found in MC 26.1.2
+  ✗ com.mrcrayfish.configured.impl.forge.ForgeValue not found in MC 26.1.2
+  ✗ com.mrcrayfish.configured.impl.forge.ForgeListValue not found in MC 26.1.2
+  ✗ com.mrcrayfish.configured.api.IConfigValue not found in MC 26.1.2
+  ✗ com.mrcrayfish.configured.api.IConfigProvider not found in MC 26.1.2
+  ✗ com.mrcrayfish.configured.api.IConfigEntry not found in MC 26.1.2
+  ✗ com.mrcrayfish.configured.api.ValueEntry not found in MC 26.1.2
+  ✗ com.mrcrayfish.configured.impl.forge.ForgeEnumValue not found in MC 26.1.2
+  ✗ fuzs.configmenusforge.client.gui.screens.ConfigScreen not found in MC 26.1.2
+  ✗ fuzs.configmenusforge.client.gui.data.IEntryData not found in MC 26.1.2
+  ✗ fuzs.configmenusforge.client.util.ServerConfigUploader not found in MC 26.1.2
+  ✗ fuzs.configmenusforge.client.util.ModConfigSync not found in MC 26.1.2
+  ✗ fuzs.configmenusforge.ConfigMenusForge not found in MC 26.1.2
+  ✗ fuzs.configmenusforge.network.client.message.C2SSendConfigMessage not found in MC 26.1.2
+  ✗ fuzs.configmenusforge.lib.network.NetworkHandler not found in MC 26.1.2
+  ✗ fuzs.configmenusforge.client.gui.data.EntryData$CategoryEntryData not found in MC 26.1.2
+  ✗ fuzs.configmenusforge.client.gui.data.EntryData$ConfigEntryData not found in MC 26.1.2
+  ✗ [Lcom.anthonyhilyard.iceberg.util.Easing$EasingDirection; not found in MC 26.1.2
+  ✗ [Lcom.anthonyhilyard.iceberg.util.Easing$EasingType; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getPlayerByUUID() not found in MC 26.1.2
+  ✗ net.minecraft.resources.Identifier.isValidResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.AbstractTexture.setFilter() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.setIdentity() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTooltipLines() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NumericTag.getAsDouble() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.Tag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.core.DefaultedRegistry.getTagNames() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getTagType() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent.extractText() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent.getHeight() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.Minecraft.ON_OSX not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.world.item.TooltipFlag$Default.ADVANCED not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

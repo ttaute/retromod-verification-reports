@@ -1,0 +1,85 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     YungsApi-1.18.2-Forge-2.2.9.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:26:23
+Result:  FAILED
+
+Found 68 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.level.StructureFeatureManager not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.PotionUtils not found in MC 26.1.2
+  ✗ [Lcom.yungnickyoung.minecraft.yungsapi.noise.FastNoise$CellularDistanceFunction; not found in MC 26.1.2
+  ✗ [Lcom.yungnickyoung.minecraft.yungsapi.noise.FastNoise$CellularReturnType; not found in MC 26.1.2
+  ✗ [Lcom.yungnickyoung.minecraft.yungsapi.noise.FastNoise$FractalType; not found in MC 26.1.2
+  ✗ [Lcom.yungnickyoung.minecraft.yungsapi.noise.FastNoise$Interp; not found in MC 26.1.2
+  ✗ [Lcom.yungnickyoung.minecraft.yungsapi.noise.FastNoise$NoiseType; not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.templatesystem.StructureManager not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.Block.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.core.Holder.m_205706_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructurePoolElement.m_207245_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.ConfiguredFeature.f_65377_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.placement.PlacedFeature.f_191775_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.structureFeatureManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.StructureStart.m_210081_() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.SimpleCriterionTrigger.createInstance() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getLevel() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Rotation.m_55958_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.feature.Feature.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffect.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.alchemy.Potion.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.m_67096_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool.m_210573_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool.m_210580_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkGenerator.getNoiseBiome() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.WorldgenRandom.nextInt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197354_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197355_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197359_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197357_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197358_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197360_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pieces.PieceGeneratorSupplier$Context.f_197356_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.LegacySinglePoolElement.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.chunk.ChunkAccess.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.util.random.WeightedList.empty() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.STRUCTURE_SET_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.CONFIGURED_STRUCTURE_FEATURE_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BIOME_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.STRUCTURE_POOL_ELEMENT not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.STRUCTURE_PROCESSOR not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.TEMPLATE_POOL_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.FEATURE not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ENTITY_TYPE not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.entity.EntityType.<init> with 10 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.<init> with 4 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.LegacySinglePoolElement.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.ChunkPos.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init> with 6 params not found in MC 26.1.2
+

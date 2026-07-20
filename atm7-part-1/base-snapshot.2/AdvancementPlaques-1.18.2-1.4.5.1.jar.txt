@@ -1,0 +1,35 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     AdvancementPlaques-1.18.2-1.4.5.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:01:41
+Result:  FAILED
+
+Found 18 issue(s):
+
+── Missing Classes ──
+  ✗ com.anthonyhilyard.iceberg.renderer.CustomItemRenderer not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.toasts.ToastComponent not found in MC 26.1.2
+  ✗ shadows.toaster.BetterToastComponent not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.advancements.Advancement.getDisplay() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.Advancement.getId() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.DisplayInfo.getFrame() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92877_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemColors() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.resources.Identifier.isValidResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.Minecraft.toast not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+

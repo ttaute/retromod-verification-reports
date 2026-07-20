@@ -1,0 +1,98 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     valhelsia_core-1.18.2-0.3.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:26:05
+Result:  FAILED
+
+Found 81 issue(s):
+
+── Missing Classes ──
+  ✗ [Lnet.valhelsia.valhelsia_core.client.cosmetics.CosmeticsBundle; not found in MC 26.1.2
+  ✗ [Lnet.valhelsia.valhelsia_core.client.cosmetics.CosmeticsCategory; not found in MC 26.1.2
+  ✗ [Lnet.valhelsia.valhelsia_core.client.cosmetics.CosmeticsModels; not found in MC 26.1.2
+  ✗ [Lnet.valhelsia.valhelsia_core.client.util.ValhelsiaRenderType; not found in MC 26.1.2
+  ✗ [Lnet.valhelsia.valhelsia_core.common.helper.VoxelShapeHelper$RotationAmount; not found in MC 26.1.2
+  ✗ [Lnet.valhelsia.valhelsia_core.core.config.AbstractConfigValidator$Type; not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.removeTagKey() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.setRepairCost() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hasCustomHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.setHoverName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getBaseRepairCost() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.m_41389_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.lootFrom() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.m_60947_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ImageButton.extractButton() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.centeredText() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_7333_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.append() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ContainerObjectSelectionList.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ContainerObjectSelectionList.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.User.getGameProfile() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityCutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.player.PlayerModel.translateToHand() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.MissingTextureAtlasSprite.getTexture() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureManager.getTexture() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootContext.m_78940_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.is() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.StatePropertiesPredicate.serializeToJson() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.StatePropertiesPredicate.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.getEnchantments() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.findNearestMapFeature() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantment.isCurse() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.functions.FunctionUserBuilder.m_5476_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.predicates.ConditionUserBuilder.m_5476_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.FlowerPotBlock.getContent() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate$Builder.hasEnchantment() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate$Builder.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.predicates.LootItemCondition$Builder.m_7818_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.player.AbstractClientPlayer.xCloakO not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.xCloak not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.yCloakO not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.yCloak not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.zCloakO not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.zCloak not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.oBob not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.bob not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.walkDistO not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.walkDist not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ENTITY_TYPE_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.LOOT_CONDITION_TYPE not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.BuiltInLootTables.EMPTY not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.gui.components.ImageButton.<init> with 12 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.levelgen.structure.Structure.<init> with 2 params not found in MC 26.1.2
+

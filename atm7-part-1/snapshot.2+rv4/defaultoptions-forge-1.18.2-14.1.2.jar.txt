@@ -1,0 +1,29 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     defaultoptions-forge-1.18.2-14.1.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:47:58
+Result:  FAILED
+
+Found 14 issue(s):
+
+── Missing Classes ──
+  ✗ [Lnet.blay09.mods.defaultoptions.api.DefaultOptionsCategory; not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.defaultoptions.api.DefaultOptionsLoadStage; not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.Balm not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.config.BalmConfig not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.config.BalmConfigData not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.command.BalmCommands not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.BalmEvents not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.screen.ScreenInitEvent$Post not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.event.client.screen.ScreenDrawEvent$Pre not found in MC 26.1.2
+  ✗ [Lnet.blay09.mods.defaultoptions.difficulty.UnobfuscatedDifficulty; not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.keymappings.KeyModifier not found in MC 26.1.2
+  ✗ net.blay09.mods.balm.api.client.BalmClient not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

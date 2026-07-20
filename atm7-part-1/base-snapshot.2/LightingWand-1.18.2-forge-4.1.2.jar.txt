@@ -1,0 +1,64 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     LightingWand-1.18.2-forge-4.1.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:05
+Result:  FAILED
+
+Found 47 issue(s):
+
+── Missing Classes ──
+  ✗ snownee.kiwi.KiwiGO not found in MC 26.1.2
+  ✗ snownee.kiwi.block.entity.BaseBlockEntity not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.extensions.vanilla.crafting.ICraftingCategoryExtension not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ingredient.ICraftingGridHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IVanillaCategoryExtensionRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.extensions.IExtendableRecipeCategory not found in MC 26.1.2
+  ✗ com.lowdragmc.shimmer.client.light.LightManager not found in MC 26.1.2
+  ✗ com.lowdragmc.shimmer.client.light.ColorPointLight not found in MC 26.1.2
+  ✗ com.lowdragmc.shimmer.client.light.ColorPointLight$Template not found in MC 26.1.2
+  ✗ snownee.kiwi.AbstractModule not found in MC 26.1.2
+  ✗ snownee.kiwi.loader.event.InitEvent not found in MC 26.1.2
+  ✗ snownee.kiwi.loader.event.ClientInitEvent not found in MC 26.1.2
+  ✗ snownee.kiwi.loader.Platform not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.hurt() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.removeTagKey() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getMaxDamage() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_21187_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.projectile.ThrowableProjectile.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.projectile.ThrowableProjectile.onAddedToWorld() not found in MC 26.1.2
+  ✗ net.minecraft.network.syncher.SynchedEntityData.define() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.toNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.fail() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.sidedSuccess() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.setNoRepair() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType$Builder.setCustomClientFactory() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.inventory.InventoryMenu.BLOCK_ATLAS not found in MC 26.1.2
+  ✗ net.minecraft.core.cauldron.CauldronInteraction.WATER not found in MC 26.1.2
+  ✗ net.minecraft.core.cauldron.CauldronInteraction.DYED_ITEM not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.f_40756_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.entity.projectile.ThrowableProjectile.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.CustomRecipe.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

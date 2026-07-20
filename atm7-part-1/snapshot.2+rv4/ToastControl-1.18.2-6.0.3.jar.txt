@@ -1,0 +1,25 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     ToastControl-1.18.2-6.0.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:24:10
+Result:  FAILED
+
+Found 10 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.client.gui.components.toasts.ToastComponent$ToastInstance not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.toasts.ToastComponent not found in MC 26.1.2
+  ✗ shadows.placebo.collections.BlockedDeque not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.Minecraft.getToasts() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.toasts.Toast.render() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.Minecraft.toast not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.toasts.Toast.TEXTURE not found in MC 26.1.2
+

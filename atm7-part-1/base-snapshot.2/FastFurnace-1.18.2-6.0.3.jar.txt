@@ -1,0 +1,14 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     FastFurnace-1.18.2-6.0.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:45
+Result:  FAILED
+
+Found 3 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.m_41746_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.m_41658_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+

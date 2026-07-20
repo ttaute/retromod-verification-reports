@@ -1,0 +1,46 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     allthetweaks-1.9.9.6-1.18.2-40.1.60.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:03:26
+Result:  FAILED
+
+Found 29 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ [Lcom.thevortex.allthetweaks.DRP$EnumState; not found in MC 26.1.2
+  ✗ [Lcom.thevortex.repack.com.jagrosh.discordipc.entities.DiscordBuild; not found in MC 26.1.2
+  ✗ [Lcom.thevortex.repack.com.jagrosh.discordipc.entities.Packet$OpCode; not found in MC 26.1.2
+  ✗ [Lcom.thevortex.repack.com.jagrosh.discordipc.entities.User$DefaultAvatar; not found in MC 26.1.2
+  ✗ [Lcom.thevortex.repack.com.jagrosh.discordipc.IPCClient$Event; not found in MC 26.1.2
+  ✗ [Lcom.thevortex.repack.com.jagrosh.discordipc.IPCClient$Status; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_126116_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142409_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.advancements.criterion.ItemPredicate$Builder.of() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_126191_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_142700_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getEntityWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.animal.chicken.Chicken.spawnAtLocation() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.LoadingOverlay.m_93160_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_142591_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_6679_() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.m_142081_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.gui.Gui.f_93096_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+

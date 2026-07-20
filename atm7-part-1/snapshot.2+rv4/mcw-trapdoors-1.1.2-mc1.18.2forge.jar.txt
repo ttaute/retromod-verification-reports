@@ -1,0 +1,14 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     mcw-trapdoors-1.1.2-mc1.18.2forge.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:02:56
+Result:  FAILED
+
+Found 3 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+

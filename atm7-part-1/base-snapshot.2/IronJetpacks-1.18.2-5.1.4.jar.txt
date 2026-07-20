@@ -1,0 +1,85 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     IronJetpacks-1.18.2-5.1.4.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:57
+Result:  FAILED
+
+Found 68 issue(s):
+
+── Missing Classes ──
+  ✗ com.blakebr0.cucumber.util.Tooltip not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICurio not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotContext not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.CuriosCapability not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypePreset not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypeMessage$Builder not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.ISubtypeRegistration not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.event.RegisterRecipesEvent not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.ironjetpacks.crafting.ingredient.JetpackComponentIngredient$ComponentType; not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.helper.NBTHelper not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.iface.IColored not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.Utils not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.helper.VecHelper not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.network.BaseNetworkHandler not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.Localizable$LocalizableBuilder not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.BaseItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.util.Localizable not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.item.BaseArmorItem not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.lib.Tooltips not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.energy.EnergyCapabilityProvider not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.energy.ItemEnergyStorage not found in MC 26.1.2
+  ✗ [Lcom.blakebr0.ironjetpacks.lib.ModArmorMaterial; not found in MC 26.1.2
+  ✗ com.blakebr0.cucumber.network.message.Message not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.onArmorTick() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.areShareTagsEqual() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.armorCutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.Model.renderToBuffer() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.copyPropertiesTo() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.copyFrom() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.sounds.AbstractTickableSoundInstance.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_142049_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.fromNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.toNetwork() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getGroup() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getRecipeWidth() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getRecipeHeight() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.getResultItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeItem() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.StackedContents.getStackingIndex() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.fromJson() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.m_93133_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.m_92750_() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.m_142049_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.crafting.Ingredient.EMPTY not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeSerializer.SHAPED_RECIPE not found in MC 26.1.2
+  ✗ net.minecraft.client.Options.renderDebug not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.resources.sounds.AbstractTickableSoundInstance.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.ShapedRecipe.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init> with 4 params not found in MC 26.1.2
+

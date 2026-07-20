@@ -1,0 +1,22 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     mcw-doors-1.0.9forge-mc1.18.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:40:57
+Result:  FAILED
+
+Found 7 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.mcwdoors.kikoz.objects.GarageDoor$GaragePart; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.of() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+

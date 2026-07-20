@@ -1,0 +1,49 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     NaturesCompass-1.18.2-1.9.7-forge.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:09:10
+Result:  FAILED
+
+Found 32 issue(s):
+
+── Missing Classes ──
+  ✗ [Lcom.chaosthedude.naturescompass.client.OverlaySide; not found in MC 26.1.2
+  ✗ [Lcom.chaosthedude.naturescompass.util.CompassState; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.isFramed() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getFrame() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.Screen.charTyped() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.m_47530_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getDownfall() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.m_47533_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.getBiomeCategory() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.drawShadow() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.ObjectSelectionList.getScrollbarPosition() not found in MC 26.1.2
+  ✗ net.minecraft.client.KeyboardHandler.setSendRepeatsToGui() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.tick() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getGameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.m_104822_() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.readResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.network.FriendlyByteBuf.writeResourceLocation() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.core.RegistryAccess.registry() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129792_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.Options.renderDebug not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.TAB_TOOLS not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.Button.<init> with 6 params not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+

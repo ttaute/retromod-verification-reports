@@ -1,0 +1,39 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     torchmaster-18.2.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:24:31
+Result:  FAILED
+
+Found 24 issue(s):
+
+── Missing Classes ──
+  ✗ [Lnet.xalcon.torchmaster.common.commands.CommandTorchmaster$SubCommands; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.block.state.BlockBehaviour$Properties.noDrops() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.DirectionalBlock.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getProfiler() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getTagType() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.writeBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readBlockPos() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.AirBlock.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.InteractionResult.<init> with 2 params not found in MC 26.1.2
+

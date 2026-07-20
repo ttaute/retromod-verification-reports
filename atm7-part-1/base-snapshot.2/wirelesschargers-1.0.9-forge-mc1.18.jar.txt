@@ -1,0 +1,71 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     wirelesschargers-1.0.9-forge-mc1.18.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 05:06:54
+Result:  FAILED
+
+Found 58 issue(s):
+
+── Missing Classes ──
+  ✗ com.supermartijn642.core.block.BaseBlock not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.EntityHoldingBlock not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BlockProperties not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BlockShape not found in MC 26.1.2
+  ✗ com.supermartijn642.core.TextComponents not found in MC 26.1.2
+  ✗ com.supermartijn642.core.TextComponents$TextComponentBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BaseBlock$InteractionFeedback not found in MC 26.1.2
+  ✗ com.supermartijn642.core.EnergyFormat not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.wirelesschargers.ChargerBlockEntity$RedstoneMode; not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BaseBlockEntity not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.TickableBlockEntity not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.CustomBlockEntityRenderer not found in MC 26.1.2
+  ✗ com.supermartijn642.core.ClientUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.RenderUtils not found in MC 26.1.2
+  ✗ [Lcom.supermartijn642.wirelesschargers.ChargerType; not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.RegistrationHandler$Helper not found in MC 26.1.2
+  ✗ com.supermartijn642.core.block.BaseBlockEntityType not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.BaseBlockItem not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.ItemProperties not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.AdvancementGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.AdvancementGenerator$AdvancementBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$BlockStateBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.BlockStateGenerator$VariantBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LanguageGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.LootTableGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.ModelGenerator$ModelBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.RecipeGenerator$ShapedRecipeBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator not found in MC 26.1.2
+  ✗ com.supermartijn642.core.generator.TagGenerator$TagBuilder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.network.BlockEntityBasePacket not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.widget.BlockEntityBaseWidget not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.ScreenUtils not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.widget.premade.AbstractButtonWidget not found in MC 26.1.2
+  ✗ com.supermartijn642.core.util.Holder not found in MC 26.1.2
+  ✗ com.supermartijn642.core.network.PacketChannel not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.RegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.GeneratorRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.item.CreativeItemGroup not found in MC 26.1.2
+  ✗ com.supermartijn642.core.registry.ClientRegistrationHandler not found in MC 26.1.2
+  ✗ com.supermartijn642.core.gui.WidgetScreen not found in MC 26.1.2
+  ✗ com.supermartijn642.core.render.BlockEntityCustomItemRenderer not found in MC 26.1.2
+  ✗ com.supermartijn642.configlib.api.ConfigBuilders not found in MC 26.1.2
+  ✗ com.supermartijn642.configlib.api.IConfigBuilder not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.level.Level.m_46753_() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_141952_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.model.ModelManager.getModel() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.block.ModelBlockRenderer.renderModel() not found in MC 26.1.2
+

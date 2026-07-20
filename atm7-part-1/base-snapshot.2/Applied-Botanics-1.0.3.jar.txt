@@ -1,0 +1,122 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     Applied-Botanics-1.0.3.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:03:44
+Result:  FAILED
+
+Found 107 issue(s):
+
+── Missing Classes ──
+  ✗ vazkii.botania.common.block.mana.BlockPool$Variant not found in MC 26.1.2
+  ✗ vazkii.botania.common.block.ModBlocks not found in MC 26.1.2
+  ✗ [Lappbot.ABItems$Tier; not found in MC 26.1.2
+  ✗ appeng.items.parts.PartModelsHelper not found in MC 26.1.2
+  ✗ appeng.api.parts.PartModels not found in MC 26.1.2
+  ✗ appeng.items.parts.PartItem not found in MC 26.1.2
+  ✗ appeng.items.tools.powered.PortableCellItem not found in MC 26.1.2
+  ✗ appeng.items.storage.BasicStorageCell not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEItems not found in MC 26.1.2
+  ✗ appeng.items.storage.CreativeCellItem not found in MC 26.1.2
+  ✗ vazkii.botania.common.item.ModItems not found in MC 26.1.2
+  ✗ appeng.init.client.InitScreens not found in MC 26.1.2
+  ✗ appeng.menu.implementations.MenuTypeBuilder not found in MC 26.1.2
+  ✗ appeng.api.integrations.igtooltip.TooltipProvider not found in MC 26.1.2
+  ✗ appeng.api.integrations.igtooltip.BaseClassRegistration not found in MC 26.1.2
+  ✗ appeng.api.behaviors.ContainerItemStrategy not found in MC 26.1.2
+  ✗ vazkii.botania.xplat.IXplatAbstractions not found in MC 26.1.2
+  ✗ appeng.api.stacks.GenericStack not found in MC 26.1.2
+  ✗ vazkii.botania.api.mana.ManaItem not found in MC 26.1.2
+  ✗ appeng.api.config.Actionable not found in MC 26.1.2
+  ✗ vazkii.botania.common.item.ItemManaTablet not found in MC 26.1.2
+  ✗ appeng.me.storage.ExternalStorageFacade not found in MC 26.1.2
+  ✗ vazkii.botania.api.mana.ManaReceiver not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKey not found in MC 26.1.2
+  ✗ appeng.api.stacks.KeyCounter not found in MC 26.1.2
+  ✗ appeng.parts.automation.HandlerStrategy not found in MC 26.1.2
+  ✗ vazkii.botania.common.block.tile.mana.TilePool not found in MC 26.1.2
+  ✗ vazkii.botania.api.mana.spark.ISparkAttachable not found in MC 26.1.2
+  ✗ vazkii.botania.api.mana.ManaCollector not found in MC 26.1.2
+  ✗ vazkii.botania.client.fx.WispParticleData not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKeyType not found in MC 26.1.2
+  ✗ appeng.parts.p2p.CapabilityP2PTunnelPart$CapabilityGuard not found in MC 26.1.2
+  ✗ appeng.api.parts.IPartHost not found in MC 26.1.2
+  ✗ appeng.api.util.DimensionalBlockPos not found in MC 26.1.2
+  ✗ vazkii.botania.api.mana.spark.IManaSpark not found in MC 26.1.2
+  ✗ vazkii.botania.api.mana.ManaPool not found in MC 26.1.2
+  ✗ appeng.api.config.PowerUnits not found in MC 26.1.2
+  ✗ appeng.parts.p2p.CapabilityP2PTunnelPart not found in MC 26.1.2
+  ✗ vazkii.botania.api.BotaniaForgeCapabilities not found in MC 26.1.2
+  ✗ appeng.parts.p2p.P2PModels not found in MC 26.1.2
+  ✗ appeng.api.behaviors.GenericInternalInventory not found in MC 26.1.2
+  ✗ appeng.parts.automation.StorageExportStrategy not found in MC 26.1.2
+  ✗ appeng.capabilities.Capabilities not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.ICellGuiHandler not found in MC 26.1.2
+  ✗ appeng.api.storage.cells.IBasicCellItem not found in MC 26.1.2
+  ✗ appeng.api.implementations.blockentities.IChestOrDrive not found in MC 26.1.2
+  ✗ appeng.menu.me.common.MEStorageMenu not found in MC 26.1.2
+  ✗ appeng.menu.locator.MenuLocators not found in MC 26.1.2
+  ✗ appeng.menu.MenuOpener not found in MC 26.1.2
+  ✗ appeng.parts.automation.StackWorldBehaviors not found in MC 26.1.2
+  ✗ appeng.api.behaviors.GenericSlotCapacities not found in MC 26.1.2
+  ✗ appeng.api.storage.StorageCells not found in MC 26.1.2
+  ✗ appeng.core.AppEng not found in MC 26.1.2
+  ✗ appeng.api.client.StorageCellModels not found in MC 26.1.2
+  ✗ appeng.core.localization.GuiText not found in MC 26.1.2
+  ✗ appeng.api.upgrades.Upgrades not found in MC 26.1.2
+  ✗ appeng.api.features.P2PTunnelAttunement not found in MC 26.1.2
+  ✗ appeng.parts.automation.ForgeExternalStorageStrategy not found in MC 26.1.2
+  ✗ appeng.parts.automation.StorageImportStrategy not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEKeyTypes not found in MC 26.1.2
+  ✗ vazkii.botania.common.block.mana.BlockPool not found in MC 26.1.2
+  ✗ appeng.api.networking.IManagedGridNode not found in MC 26.1.2
+  ✗ appeng.api.networking.IInWorldGridNodeHost not found in MC 26.1.2
+  ✗ appeng.me.helpers.IGridConnectedBlockEntity not found in MC 26.1.2
+  ✗ appeng.me.helpers.BlockEntityNodeListener not found in MC 26.1.2
+  ✗ appeng.api.networking.GridHelper not found in MC 26.1.2
+  ✗ appeng.api.networking.GridFlags not found in MC 26.1.2
+  ✗ appeng.api.networking.security.IActionSource not found in MC 26.1.2
+  ✗ appeng.api.networking.IGrid not found in MC 26.1.2
+  ✗ appeng.api.networking.storage.IStorageService not found in MC 26.1.2
+  ✗ appeng.api.storage.MEStorage not found in MC 26.1.2
+  ✗ appeng.api.storage.StorageHelper not found in MC 26.1.2
+  ✗ appeng.api.networking.IGridNode not found in MC 26.1.2
+  ✗ appeng.api.util.AECableType not found in MC 26.1.2
+  ✗ appeng.hooks.ticking.TickHandler not found in MC 26.1.2
+  ✗ vazkii.botania.common.impl.corporea.AbstractCorporeaNode not found in MC 26.1.2
+  ✗ vazkii.botania.api.corporea.CorporeaSpark not found in MC 26.1.2
+  ✗ appeng.api.storage.IStorageMonitorableAccessor not found in MC 26.1.2
+  ✗ appeng.api.stacks.AEItemKey not found in MC 26.1.2
+  ✗ vazkii.botania.api.corporea.ICorporeaRequest not found in MC 26.1.2
+  ✗ vazkii.botania.api.corporea.CorporeaRequestMatcher not found in MC 26.1.2
+  ✗ appeng.api.client.IAEStackRenderHandler not found in MC 26.1.2
+  ✗ vazkii.botania.client.core.handler.MiscellaneousModels not found in MC 26.1.2
+  ✗ appeng.client.gui.style.Blitter not found in MC 26.1.2
+  ✗ appeng.api.client.AEStackRendering not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ vazkii.botania.common.lib.ModTags$Items not found in MC 26.1.2
+  ✗ appeng.core.definitions.AEBlocks not found in MC 26.1.2
+  ✗ vazkii.botania.common.helper.ItemNBTHelper not found in MC 26.1.2
+  ✗ vazkii.botania.common.lib.ResourceLocationHelper not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.solid() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.m_123914_() not found in MC 26.1.2
+  ✗ net.minecraft.tags.TagKey.f_203868_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_126189_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.m_142700_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_126116_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142284_() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.m_142700_() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+

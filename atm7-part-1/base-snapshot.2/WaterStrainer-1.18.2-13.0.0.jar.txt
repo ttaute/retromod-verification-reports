@@ -1,0 +1,67 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     WaterStrainer-1.18.2-13.0.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 05:06:49
+Result:  FAILED
+
+Found 50 issue(s):
+
+── Missing Classes ──
+  ✗ [Lmods.waterstrainer.block.BlockStrainerBase$Model; not found in MC 26.1.2
+  ✗ [Lmods.waterstrainer.file.FileLootTable$Tags; not found in MC 26.1.2
+  ✗ [Lmods.waterstrainer.gui.GuiStrainer$EnumBaitStatus; not found in MC 26.1.2
+  ✗ [Lmods.waterstrainer.gui.GuiStrainer$EnumStatus; not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.IIngredients not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ingredient.IGuiItemStackGroup not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IGuiHandlerRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ [Lmods.waterstrainer.item.ItemMesh$EnumSubtype; not found in MC 26.1.2
+  ✗ [Lmods.waterstrainer.item.ItemStrainer$EnumSubtype; not found in MC 26.1.2
+  ✗ [Lmods.waterstrainer.item.ItemStrainer$StrainerCategory; not found in MC 26.1.2
+  ✗ [Lmods.waterstrainer.item.ItemStrainer$StrainerTier; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.isEdible() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.updateShape() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getFoodProperties() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.isEdible() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSourceStack.m_81354_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.MinecraftServer.m_129792_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.getEnchantments() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.EnchantmentHelper.m_44877_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.equipment.ArmorMaterials.getEnchantmentValue() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Items.getEnchantments() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.biome.Biome.m_204183_() not found in MC 26.1.2
+  ✗ net.minecraft.commands.CommandSource.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.item.enchantment.Enchantments.BLOCK_FORTUNE not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.BLOCK_EFFICIENCY not found in MC 26.1.2
+  ✗ net.minecraft.world.item.enchantment.Enchantments.FISHING_LUCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.f_122827_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init> with 4 params not found in MC 26.1.2
+

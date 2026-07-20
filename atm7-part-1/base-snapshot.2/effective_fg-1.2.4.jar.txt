@@ -1,0 +1,30 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     effective_fg-1.2.4.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:30:11
+Result:  FAILED
+
+Found 15 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.client.Camera.m_90591_() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getGameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.clear() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.SpriteSet.m_7102_() not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.sounds.AbstractSoundInstance.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.m_122432_() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.client.particle.ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT not found in MC 26.1.2
+  ✗ net.minecraft.client.particle.ParticleRenderType.PARTICLE_SHEET_OPAQUE not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.client.resources.sounds.AbstractSoundInstance.<init> with 2 params not found in MC 26.1.2
+

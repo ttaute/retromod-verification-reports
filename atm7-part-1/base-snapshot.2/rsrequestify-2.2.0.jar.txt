@@ -1,0 +1,64 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     rsrequestify-2.2.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:55:29
+Result:  FAILED
+
+Found 49 issue(s):
+
+── Missing Classes ──
+  ✗ com.refinedmods.refinedstorage.block.NetworkNodeBlock not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.BlockUtils not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.API not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.IRSAPI not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.node.INetworkNodeRegistry not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.security.Permission not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.NetworkUtils not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.apiimpl.network.node.NetworkNode not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.factory.BlockEntityMenuProvider not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.config.IType not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.item.BaseItemHandler not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.listener.NetworkNodeInventoryListener not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.fluid.FluidInventory not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.inventory.listener.NetworkNodeFluidInventoryListener not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.network.INetwork not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.autocrafting.ICraftingManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.autocrafting.task.ICraftingTask not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.autocrafting.task.ICraftingRequestInfo not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.data.BlockEntitySynchronizationParameter not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.util.StackUtils not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.api.util.Action not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.NetworkNodeBlockEntity not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.data.BlockEntitySynchronizationManager not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.BaseScreen not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.widget.sidebutton.TypeSideButton not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.screen.widget.sidebutton.RedstoneModeSideButton not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.blockentity.DetectorBlockEntity not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.render.RenderSettings not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.factory.BlockEntityContainerFactory not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.BaseContainerMenu not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.slot.filter.FilterSlot not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.slot.filter.FluidFilterSlot not found in MC 26.1.2
+  ✗ com.refinedmods.refinedstorage.container.transfer.TransferManager not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.isSameItem() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.updateNeighborsAtExceptFromFacing() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.getNormal() not found in MC 26.1.2
+  ✗ net.minecraft.core.BlockPos.m_141952_() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.tell() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.keyPressed() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.m_94178_() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.components.EditBox.tick() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.BlockItem.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntityType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.setRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+

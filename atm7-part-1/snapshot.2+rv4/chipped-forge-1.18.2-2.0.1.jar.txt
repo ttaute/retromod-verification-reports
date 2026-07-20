@@ -1,0 +1,79 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     chipped-forge-1.18.2-2.0.1.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:41:15
+Result:  FAILED
+
+Found 62 issue(s):
+
+── Missing Classes ──
+  ✗ [Learth.terrarium.chipped.block.ChippedWorkbench$WorkbenchModelType; not found in MC 26.1.2
+  ✗ mezz.jei.api.recipe.category.IRecipeCategory not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IGuiHelper not found in MC 26.1.2
+  ✗ mezz.jei.api.constants.VanillaTypes not found in MC 26.1.2
+  ✗ mezz.jei.api.ingredients.IIngredients not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.builder.IRecipeLayoutBuilder not found in MC 26.1.2
+  ✗ mezz.jei.api.gui.ingredient.IGuiItemStackGroup not found in MC 26.1.2
+  ✗ mezz.jei.api.IModPlugin not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCategoryRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.helpers.IJeiHelpers not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeRegistration not found in MC 26.1.2
+  ✗ mezz.jei.api.registration.IRecipeCatalystRegistration not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.common.display.Display not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.common.entry.EntryIngredient not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.common.entry.type.VanillaEntryTypes not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.common.entry.EntryStack not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.client.registry.display.DisplayCategory not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.common.category.CategoryIdentifier not found in MC 26.1.2
+  ✗ me.shedaniel.math.Point not found in MC 26.1.2
+  ✗ me.shedaniel.math.Rectangle not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.client.gui.widgets.Widgets not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.client.gui.widgets.Slot not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.client.plugins.REIClientPlugin not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.client.registry.category.CategoryRegistry not found in MC 26.1.2
+  ✗ me.shedaniel.rei.api.client.registry.display.DisplayRegistry not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.SimpleRecipeSerializer not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.onCraftedBy() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.onCraftedBy() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.getOffset() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.state.BlockState.isSolidRender() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.blockUpdated() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.Level.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.core.DefaultedRegistry.getOrCreateTag() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.dimension.DimensionType.ultraWarm() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.translucent() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.multiplayer.ClientLevel.getRecipeManager() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.RecipeManager.getAllRecipesFor() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.crafting.Ingredient.getItems() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.ResultContainer.awardUsedRecipes() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseClicked() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.mouseDragged() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.NetherFungusBlock.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.StandingAndWallBlockItem.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.BLOCK not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.MENU not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.RECIPE_SERIALIZER not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.RECIPE_TYPE not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_146703_ not found in MC 26.1.2
+  ✗ net.minecraft.world.damagesource.DamageSource.f_146702_ not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.NetherFungusBlock.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.StandingAndWallBlockItem.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.world.inventory.MenuType.<init> with 1 params not found in MC 26.1.2
+

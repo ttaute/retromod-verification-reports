@@ -1,0 +1,146 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     geckolib-forge-1.18-3.0.57.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 04:34:24
+Result:  FAILED
+
+Found 129 issue(s):
+
+── Missing Classes ──
+  ✗ software.bernie.geckolib.animatable.GeoAnimatable not found in MC 26.1.2
+  ✗ software.bernie.geckolib.core.animation.AnimationState not found in MC 26.1.2
+  ✗ software.bernie.geckolib.core.animation.AnimationController not found in MC 26.1.2
+  ✗ software.bernie.geckolib.core.animation.RawAnimation not found in MC 26.1.2
+  ✗ software.bernie.geckolib.core.animation.PlayState not found in MC 26.1.2
+  ✗ software.bernie.geckolib.core.animatable.manager.AnimatableManager not found in MC 26.1.2
+  ✗ software.bernie.geckolib.model.GeoModel not found in MC 26.1.2
+  ✗ software.bernie.geckolib.renderer.GeoArmorRenderer not found in MC 26.1.2
+  ✗ software.bernie.geckolib.renderer.GeoEntityRenderer not found in MC 26.1.2
+  ✗ software.bernie.geckolib.renderer.DynamicGeoEntityRenderer not found in MC 26.1.2
+  ✗ software.bernie.geckolib.renderer.layer.GeoRenderLayer not found in MC 26.1.2
+  ✗ software.bernie.geckolib.renderer.GeoRenderer not found in MC 26.1.2
+  ✗ software.bernie.geckolib.renderer.GeoItemRenderer not found in MC 26.1.2
+  ✗ software.bernie.geckolib.renderer.GeoBlockRenderer not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.geckolib3.core.AnimationState; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.geckolib3.core.builder.ILoopType$EDefaultLoopTypes; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.geckolib3.core.easing.EasingType; not found in MC 26.1.2
+  ✗ software.bernie.geckolib.util.GeckoLibUtil not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.geckolib.core.animation.PlayState; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.geckolib3.core.util.Axis; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.geckolib3.geo.raw.pojo.FormatVersion; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.geckolib3.geo.raw.pojo.PolysEnum; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.geckolib3.util.EModelRenderCycle; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.geckolib3.world.storage.GeckoLibIdTracker$Type; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.eliotlash.mclib.math.Operation; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.eliotlash.mclib.utils.Interpolation; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.JsonAutoDetect$Visibility; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.JsonCreator$Mode; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.JsonFormat$Feature; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.JsonFormat$Shape; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.JsonInclude$Include; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.JsonProperty$Access; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.JsonTypeInfo$As; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.JsonTypeInfo$Id; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.Nulls; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.OptBoolean; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.annotation.PropertyAccessor; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.core.format.MatchStrength; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.core.JsonEncoding; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.core.JsonFactory$Feature; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.core.JsonGenerator$Feature; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.core.JsonParser$Feature; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.core.JsonParser$NumberType; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.core.JsonToken; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.core.type.WritableTypeId$Inclusion; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.annotation.JsonSerialize$Inclusion; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.annotation.JsonSerialize$Typing; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.AnnotationIntrospector$ReferenceProperty$Type; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.DeserializationFeature; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatTypes; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.jsonFormatVisitors.JsonValueFormat; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.MapperFeature; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.node.JsonNodeType; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.ObjectMapper$DefaultTyping; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.SerializationFeature; not found in MC 26.1.2
+  ✗ [Lsoftware.bernie.shadowed.fasterxml.jackson.databind.util.AccessPattern; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.DirectionalBlock.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.core.Direction.m_122432_() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityTranslucent() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityCutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.armorCutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.cutout() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityGlintDirect() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.entityTranslucentCull() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.leash() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.mulPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.scale() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.last() not found in MC 26.1.2
+  ✗ net.minecraft.util.Mth.m_14195_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.PathfinderMob.interactAt() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.m_6352_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.broadcastBreakEvent() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_142049_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.getLeashOffset() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.Entity.m_142081_() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getEquipmentSlot() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.initializeClient() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.getMaterial() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getFrameTime() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getItemRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.Minecraft.getBlockRenderer() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.LocalPlayer.displayClientMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.getGroupCountSafe() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.consume() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_142591_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.ResourceManager.m_6540_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_6679_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.m_5507_() not found in MC 26.1.2
+  ✗ net.minecraft.server.packs.resources.Resource.close() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getAllKeys() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.readGameProfile() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.NbtUtils.writeGameProfile() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.StringTag.getAsString() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.SkullBlockEntity.updateGameprofile() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.SkullBlockRenderer.createSkullRenderers() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.SkullBlockRenderer.getRenderType() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.blockentity.SkullBlockRenderer.renderSkull() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.geom.ModelPart.render() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.equipment.ArmorMaterial.getName() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.entity.EntityRenderer.render() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.AbstractTexture.getId() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.MissingTextureAtlasSprite.getTexture() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.texture.TextureManager.getTexture() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.storage.SavedDataStorage.computeIfAbsent() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.level.block.RenderShape.ENTITYBLOCK_ANIMATED not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.young not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.crouching not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.riding not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.rightArmPose not found in MC 26.1.2
+  ✗ net.minecraft.client.model.HumanoidModel.leftArmPose not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.f_20923_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.f_20924_ not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.LivingEntity.f_20925_ not found in MC 26.1.2
+  ✗ net.minecraft.client.resources.metadata.texture.TextureMetadataSection.SERIALIZER not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.CreativeModeTab.<init> with 2 params not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.<init> with 3 params not found in MC 26.1.2
+  ✗ net.minecraft.sounds.SoundEvent.<init> with 1 params not found in MC 26.1.2
+

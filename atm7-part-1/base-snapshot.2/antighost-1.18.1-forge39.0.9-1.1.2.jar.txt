@@ -1,0 +1,12 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     antighost-1.18.1-forge39.0.9-1.1.2.jar
+Target:  MC 26.1.2
+Time:    2026-07-17 03:54:01
+Result:  FAILED
+
+Found 1 issue(s):
+
+── Missing Methods ──
+  ✗ net.minecraft.client.player.LocalPlayer.displayClientMessage() not found in MC 26.1.2
+

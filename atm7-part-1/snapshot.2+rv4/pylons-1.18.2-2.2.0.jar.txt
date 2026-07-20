@@ -1,0 +1,75 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     pylons-1.18.2-2.2.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-19 00:14:29
+Result:  FAILED
+
+Found 58 issue(s):
+
+── Missing Classes ──
+  ✗ net.minecraft.world.level.storage.loot.LootTables not found in MC 26.1.2
+  ✗ net.minecraft.data.tags.BlockTagsProvider not found in MC 26.1.2
+  ✗ [Lnet.permutated.pylons.network.PacketButtonClicked$ButtonType; not found in MC 26.1.2
+  ✗ [Lnet.permutated.pylons.tile.HarvesterPylonTile$Status; not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.world.item.ItemStack.getOrCreateTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.getTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.addTagElement() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.removeTagKey() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.hurt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.onRemove() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.Block.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item.appendHoverText() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.tab() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.Item$Properties.setNoRepair() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getDigSpeed() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getCommandSenderWorld() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.hasPermissions() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.findRespawnPositionAndUseSpawnBlock() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.player.Player.getServer() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.contents.TranslatableContents.withStyle() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.Font.draw() not found in MC 26.1.2
+  ✗ net.minecraft.data.DataGenerator.addProvider() not found in MC 26.1.2
+  ✗ net.minecraft.data.loot.LootTableProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapedRecipeBuilder.shaped() not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.ShapelessRecipeBuilder.shapeless() not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.EntityType.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.putUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.hasUUID() not found in MC 26.1.2
+  ✗ net.minecraft.nbt.CompoundTag.getUUID() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.success() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.consume() not found in MC 26.1.2
+  ✗ net.minecraft.world.InteractionResult.pass() not found in MC 26.1.2
+  ✗ net.minecraft.world.effect.MobEffect.getRegistryName() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getMinBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getMaxBuildHeight() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerLevel.getSharedSpawnPos() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getCapability() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.entity.BlockEntity.getUpdateTag() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getRespawnPosition() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getRespawnAngle() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.isRespawnForced() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.getRespawnDimension() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.<init>() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.moveTo() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.teleportTo() not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.sendMessage() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.getInt() not found in MC 26.1.2
+  ✗ net.minecraft.world.level.block.CropBlock.getCloneItemStack() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.core.Registry.DIMENSION_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.ITEM_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.core.Registry.BLOCK_REGISTRY not found in MC 26.1.2
+  ✗ net.minecraft.world.level.gamerules.GameRules.RULE_SPAWN_RADIUS not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.data.loot.LootTableProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.data.recipes.RecipeProvider.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.network.chat.Component.<init> with 1 params not found in MC 26.1.2
+  ✗ net.minecraft.server.level.ServerPlayer.<init> with 3 params not found in MC 26.1.2
+

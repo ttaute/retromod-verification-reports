@@ -1,0 +1,50 @@
+Retromod Transform Verification Report
+═══════════════════════════════════════
+Mod:     curiouselytra-forge-1.18.1-5.0.1.0.jar
+Target:  MC 26.1.2
+Time:    2026-07-18 23:47:31
+Result:  FAILED
+
+Found 33 issue(s):
+
+── Missing Classes ──
+  ✗ top.theillusivec4.caelus.api.RenderCapeEvent not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICurio not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotContext not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.util.ICuriosHelper not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICurio$SoundInfo not found in MC 26.1.2
+  ✗ vazkii.quark.content.tools.module.ColorRunesModule not found in MC 26.1.2
+  ✗ net.silentchaos512.gear.SilentGear not found in MC 26.1.2
+  ✗ net.silentchaos512.gear.item.gear.GearElytraItem not found in MC 26.1.2
+  ✗ net.silentchaos512.gear.api.part.PartType not found in MC 26.1.2
+  ✗ net.silentchaos512.gear.client.util.GearClientHelper not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.CuriosCapability not found in MC 26.1.2
+  ✗ top.theillusivec4.caelus.api.CaelusApi not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.capability.ICuriosItemHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.inventory.ICurioStacksHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.type.inventory.IDynamicStackHandler not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypePreset not found in MC 26.1.2
+  ✗ top.theillusivec4.curios.api.SlotTypeMessage$Builder not found in MC 26.1.2
+
+── Missing Methods ──
+  ✗ net.minecraft.client.model.object.equipment.ElytraModel.setupAnim() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.object.equipment.ElytraModel.renderToBuffer() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.isElytraLoaded() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.getElytraTextureLocation() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.isCapeLoaded() not found in MC 26.1.2
+  ✗ net.minecraft.client.player.AbstractClientPlayer.getCloakTextureLocation() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.pushPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.translate() not found in MC 26.1.2
+  ✗ net.minecraft.client.gui.GuiGraphicsExtractor.popPose() not found in MC 26.1.2
+  ✗ net.minecraft.client.model.EntityModel.copyPropertiesTo() not found in MC 26.1.2
+  ✗ net.minecraft.client.renderer.rendertype.RenderType.armorCutout() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.elytraFlightTick() not found in MC 26.1.2
+  ✗ net.minecraft.world.item.ItemStack.canElytraFly() not found in MC 26.1.2
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init>() not found in MC 26.1.2
+
+── Missing Fields ──
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation.ADDITION not found in MC 26.1.2
+
+── Missing Constructors ──
+  ✗ net.minecraft.world.entity.ai.attributes.AttributeModifier.<init> with 4 params not found in MC 26.1.2
+
